@@ -1,0 +1,95 @@
+{
+  "g_only_edit": {
+    "candidate": "g_only_edit",
+    "expected_pairs": 8,
+    "valid_pairs": 8,
+    "totals": {
+      "parent": {
+        "correct": 5,
+        "answered": 8,
+        "planned": 8
+      },
+      "g_only_edit": {
+        "correct": 5,
+        "answered": 8,
+        "planned": 8
+      }
+    },
+    "completed": {
+      "parent": 0,
+      "g_only_edit": 0
+    },
+    "correct_gain": 0,
+    "persistent_regressions": [],
+    "logical_calls": {
+      "parent": 80,
+      "g_only_edit": 77
+    },
+    "cost_ok": true,
+    "passed": false,
+    "stage": "training",
+    "scope": "Controlled full-history memory replay, not new physical task performance."
+  },
+  "u_only_edit": {
+    "candidate": "u_only_edit",
+    "expected_pairs": 8,
+    "valid_pairs": 8,
+    "totals": {
+      "parent": {
+        "correct": 5,
+        "answered": 8,
+        "planned": 8
+      },
+      "u_only_edit": {
+        "correct": 6,
+        "answered": 8,
+        "planned": 8
+      }
+    },
+    "completed": {
+      "parent": 0,
+      "u_only_edit": 0
+    },
+    "correct_gain": 1,
+    "persistent_regressions": [],
+    "logical_calls": {
+      "parent": 80,
+      "u_only_edit": 82
+    },
+    "cost_ok": true,
+    "passed": true,
+    "stage": "training",
+    "scope": "Controlled full-history memory replay, not new physical task performance."
+  },
+  "joint": {
+    "candidate": "joint",
+    "expected_pairs": 8,
+    "valid_pairs": 8,
+    "totals": {
+      "parent": {
+        "correct": 5,
+        "answered": 8,
+        "planned": 8
+      },
+      "joint": {
+        "correct": 6,
+        "answered": 7,
+        "planned": 8
+      }
+    },
+    "completed": {
+      "parent": 0,
+      "joint": 0
+    },
+    "correct_gain": 1,
+    "persistent_regressions": [],
+    "logical_calls": {
+      "parent": 80,
+      "joint": 78
+    },
+    "cost_ok": true,
+    "passed": true,
+    "stage": "training",
+    "scope": "Controlled full-history memory replay, not new physical task performance."
+  }
+}

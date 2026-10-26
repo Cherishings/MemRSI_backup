@@ -1,0 +1,26 @@
+{
+  "guidance": {
+    "structurally_and_semantically_valid": true,
+    "candidate_sha256": "7da0429987098f6c5d94c88fd5d163b6b3e7c1d6832a805a86184acdfe9196a8",
+    "rejection": null,
+    "critic": {
+      "generic": true,
+      "no_task_answers": true,
+      "preserves_user_authority": true,
+      "preserves_advisor_interface": true,
+      "rationale": "Accept. The edit is a generic, evidence-grounded refinement of advisor guidance and archival request tracking. It preserves nonbinding recommendations, actor verification and authority, abstention under ambiguity, receipt correlation, public evidence citations, and native memory updating. It does not introduce concrete task answers or identities, evaluator access, mandatory action overrides, fabricated facts, new tools, or authority changes. The added continuation and scoped-supersession rules are semantically consistent with the parent guidance and update, while the duplicated original guidance is redundant but not materially conflicting."
+    }
+  },
+  "update": {
+    "structurally_and_semantically_valid": true,
+    "candidate_sha256": "bc30579822f6da92862cafb86468ce2c0ae077f41d0154fbe8c47827635de3da",
+    "rejection": null,
+    "critic": {
+      "generic": true,
+      "no_task_answers": true,
+      "preserves_user_authority": true,
+      "preserves_advisor_interface": true,
+      "rationale": "Acceptable generic memory-rule edit. It preserves the nonbinding advisor role, public-evidence grounding, uncertainty, abstention, actor authority, and native archival boundary. It does not add a concrete task answer or identity, evaluator access, mandatory action override, fabricated fact, or runtime tool change. The update appropriately improves lossless request/revision/receipt linkage and status reconciliation, while retaining the parent’s constraints against inventing dependencies, actions, completion, or facts. The added handling of explicit current work orders and “continue” is framed as record interpretation, not an instruction to force execution."
+    }
+  }
+}

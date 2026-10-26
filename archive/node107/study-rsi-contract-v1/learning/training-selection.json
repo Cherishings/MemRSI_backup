@@ -1,0 +1,95 @@
+{
+  "g_only_edit": {
+    "candidate": "g_only_edit",
+    "expected_pairs": 8,
+    "valid_pairs": 8,
+    "totals": {
+      "parent": {
+        "correct": 12,
+        "answered": 15,
+        "planned": 22
+      },
+      "g_only_edit": {
+        "correct": 7,
+        "answered": 8,
+        "planned": 22
+      }
+    },
+    "completed": {
+      "parent": 0,
+      "g_only_edit": 0
+    },
+    "correct_gain": -5,
+    "persistent_regressions": [],
+    "logical_calls": {
+      "parent": 187,
+      "g_only_edit": 133
+    },
+    "cost_ok": true,
+    "passed": false,
+    "stage": "training",
+    "scope": "Controlled full-history memory replay, not new physical task performance."
+  },
+  "u_only_edit": {
+    "candidate": "u_only_edit",
+    "expected_pairs": 8,
+    "valid_pairs": 8,
+    "totals": {
+      "parent": {
+        "correct": 12,
+        "answered": 15,
+        "planned": 22
+      },
+      "u_only_edit": {
+        "correct": 8,
+        "answered": 10,
+        "planned": 22
+      }
+    },
+    "completed": {
+      "parent": 0,
+      "u_only_edit": 0
+    },
+    "correct_gain": -4,
+    "persistent_regressions": [],
+    "logical_calls": {
+      "parent": 187,
+      "u_only_edit": 161
+    },
+    "cost_ok": true,
+    "passed": false,
+    "stage": "training",
+    "scope": "Controlled full-history memory replay, not new physical task performance."
+  },
+  "joint": {
+    "candidate": "joint",
+    "expected_pairs": 8,
+    "valid_pairs": 8,
+    "totals": {
+      "parent": {
+        "correct": 12,
+        "answered": 15,
+        "planned": 22
+      },
+      "joint": {
+        "correct": 15,
+        "answered": 17,
+        "planned": 22
+      }
+    },
+    "completed": {
+      "parent": 0,
+      "joint": 1
+    },
+    "correct_gain": 3,
+    "persistent_regressions": [],
+    "logical_calls": {
+      "parent": 187,
+      "joint": 194
+    },
+    "cost_ok": true,
+    "passed": true,
+    "stage": "training",
+    "scope": "Controlled full-history memory replay, not new physical task performance."
+  }
+}

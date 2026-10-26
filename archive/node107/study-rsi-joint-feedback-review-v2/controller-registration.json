@@ -1,0 +1,25 @@
+{
+  "version": "critic-explicit-verdict-v2",
+  "time": 1792865052.0792634,
+  "previous_root": "/data/songziying/paos-libero-20261023/study-rsi-joint-feedback-v1",
+  "previous_rejection_sha256": "98f0be2a73075c3e29f9da462ec315ad1ae4c3e562fa89513d83bc119c31e6e5",
+  "proposal_file_sha256": "000ed9f9a1fa33bacc19373378ce04eedb658976476f1b1048c070e07240fe93",
+  "proposal_canonical_sha256": "2f6cbda5690c13a129eb80b9db79f14564d204100946e3a55030c0f320614a77",
+  "candidate_hashes": {
+    "parent": "3b661320727cca4d5321b5e8ce19398c4384214fae5422fd30b02c40907a060e",
+    "g_only_edit": "e21bcd75c1b4f0f33c85bccf2558b9c23983062ea882bbe566301a730aa4feee",
+    "u_only_edit": "79966dffa81e868ffafdfee40f68dde324270a5d5729612f9145f88b482fafc9",
+    "joint": "d9dffa69b486b08d5b975546034c6e22927c3cbe14a22616190840d15a0583f1"
+  },
+  "change": "Replace underspecified Boolean criteria with explicit pass/fail enum plus reason per criterion; program derives acceptance",
+  "rereview_limit": 1,
+  "proposal_generation_calls": 0,
+  "max_training_replays": 32,
+  "old_rejection_retained": true,
+  "old_critic_not_sent_to_new_critic": true,
+  "failure_behavior": "Stop on fail, malformed output or unavailable result; no same-review retry",
+  "validation_read": false,
+  "test_read": false,
+  "tests_passed": 3,
+  "review_sha256": "d9cc5c441a9ea385333fe4e91d59a213e78a716c9143fbce4720b0e374e62f65"
+}

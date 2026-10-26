@@ -1,0 +1,95 @@
+{
+  "g_only_edit": {
+    "candidate": "g_only_edit",
+    "expected_pairs": 8,
+    "valid_pairs": 8,
+    "totals": {
+      "parent": {
+        "correct": 8,
+        "answered": 11,
+        "planned": 22
+      },
+      "g_only_edit": {
+        "correct": 19,
+        "answered": 21,
+        "planned": 22
+      }
+    },
+    "completed": {
+      "parent": 0,
+      "g_only_edit": 2
+    },
+    "correct_gain": 11,
+    "persistent_regressions": [],
+    "logical_calls": {
+      "parent": 161,
+      "g_only_edit": 213
+    },
+    "cost_ok": true,
+    "passed": true,
+    "stage": "training",
+    "scope": "Controlled full-history memory replay, not new physical task performance."
+  },
+  "u_only_edit": {
+    "candidate": "u_only_edit",
+    "expected_pairs": 8,
+    "valid_pairs": 8,
+    "totals": {
+      "parent": {
+        "correct": 8,
+        "answered": 11,
+        "planned": 22
+      },
+      "u_only_edit": {
+        "correct": 6,
+        "answered": 10,
+        "planned": 22
+      }
+    },
+    "completed": {
+      "parent": 0,
+      "u_only_edit": 0
+    },
+    "correct_gain": -2,
+    "persistent_regressions": [],
+    "logical_calls": {
+      "parent": 161,
+      "u_only_edit": 156
+    },
+    "cost_ok": true,
+    "passed": false,
+    "stage": "training",
+    "scope": "Controlled full-history memory replay, not new physical task performance."
+  },
+  "joint": {
+    "candidate": "joint",
+    "expected_pairs": 8,
+    "valid_pairs": 8,
+    "totals": {
+      "parent": {
+        "correct": 8,
+        "answered": 11,
+        "planned": 22
+      },
+      "joint": {
+        "correct": 12,
+        "answered": 14,
+        "planned": 22
+      }
+    },
+    "completed": {
+      "parent": 0,
+      "joint": 0
+    },
+    "correct_gain": 4,
+    "persistent_regressions": [],
+    "logical_calls": {
+      "parent": 161,
+      "joint": 182
+    },
+    "cost_ok": true,
+    "passed": true,
+    "stage": "training",
+    "scope": "Controlled full-history memory replay, not new physical task performance."
+  }
+}

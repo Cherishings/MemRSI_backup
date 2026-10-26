@@ -1,0 +1,34 @@
+[
+  {
+    "id": "hABDEC-v0-i1",
+    "output": "/data/songziying/paos-libero-20261023/study-rsi-v4-learning/import108/cases/hABDEC-v0-i1"
+  },
+  {
+    "id": "hABDEC-v1-i0",
+    "output": "/data/songziying/paos-libero-20261023/study-rsi-v4-sources/development/hABDEC-v1-i0/gu_parent"
+  },
+  {
+    "id": "hDBACE-v0-i0",
+    "output": "/data/songziying/paos-libero-20261023/study-rsi-v4-sources/development/hDBACE-v0-i0/gu_parent"
+  },
+  {
+    "id": "hDBACE-v1-i1",
+    "output": "/data/songziying/paos-libero-20261023/study-rsi-v4-learning/import108/cases/hDBACE-v1-i1"
+  },
+  {
+    "id": "hEADCB-v0-i0",
+    "output": "/data/songziying/paos-libero-20261023/study-rsi-v4-sources/development/hEADCB-v0-i0/gu_parent"
+  },
+  {
+    "id": "hEADCB-v1-i1",
+    "output": "/data/songziying/paos-libero-20261023/study-rsi-v4-learning/import108/cases/hEADCB-v1-i1"
+  },
+  {
+    "id": "hEDABC-v0-i1",
+    "output": "/data/songziying/paos-libero-20261023/study-rsi-v4-learning/import108/cases/hEDABC-v0-i1"
+  },
+  {
+    "id": "hEDABC-v1-i0",
+    "output": "/data/songziying/paos-libero-20261023/study-scope-v4/development/hEDABC-v1-i0/gu_parent"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "status": "joint_proposal_rejected",
+  "accepted": false,
+  "selected_combination": "parent",
+  "selected_sha256": "3b661320727cca4d5321b5e8ce19398c4384214fae5422fd30b02c40907a060e",
+  "primary_candidate": "joint",
+  "training": {},
+  "validation": {},
+  "ledger": {
+    "calls": 3304,
+    "limit": 24000
+  },
+  "proposal_decisions": {
+    "joint": {
+      "structurally_and_semantically_valid": false,
+      "rejection": {
+        "code": "anchor_not_unique",
+        "new_proposals_allowed": 0
+      },
+      "critic": null
+    }
+  },
+  "physical_evaluation_runs": 0,
+  "test_feedback_used": false,
+  "claim": "Joint candidate and exact component ablations evaluated on training only; no RSI success claimed."
+}

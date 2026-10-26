@@ -1,0 +1,39 @@
+{
+  "status": "joint_proposal_rejected",
+  "accepted": false,
+  "selected_combination": "parent",
+  "selected_sha256": "3b661320727cca4d5321b5e8ce19398c4384214fae5422fd30b02c40907a060e",
+  "primary_candidate": "joint",
+  "training": {},
+  "validation": {},
+  "ledger": {
+    "calls": 3316,
+    "limit": 24000
+  },
+  "proposal_decisions": {
+    "joint": {
+      "structurally_and_semantically_valid": false,
+      "rejection": {
+        "code": "critic_rejected",
+        "new_proposals_allowed": 0
+      },
+      "critic": {
+        "generic": "pass",
+        "generic_reason": "The candidate contains generic procedural refinements only; no concrete task identity or benchmark answer is embedded.",
+        "generic_quote": "",
+        "no_task_answers": "pass",
+        "no_task_answers_reason": "It does not reveal hidden evaluator information or provide executable benchmark-specific answers.",
+        "no_task_answers_quote": "",
+        "preserves_user_authority": "pass",
+        "preserves_user_authority_reason": "It repeatedly states that recommendations are nonbinding, the actor decides, and the advisor must not execute or veto.",
+        "preserves_user_authority_quote": "",
+        "preserves_advisor_interface": "fail",
+        "preserves_advisor_interface_reason": "The candidate imposes a citation restriction requiring only top-level source keys and forbidding event labels or receipt names, which changes the runtime evidence/citation interface rather than merely describing reasoning.",
+        "preserves_advisor_interface_quote": "use only the top-level source keys allowed for citations, and cite those keys rather than event labels or receipt names"
+      }
+    }
+  },
+  "physical_evaluation_runs": 0,
+  "test_feedback_used": false,
+  "claim": "Joint candidate and exact component ablations evaluated on training only; no RSI success claimed."
+}

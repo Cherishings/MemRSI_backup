@@ -1,0 +1,69 @@
+{
+  "source": "/data/songziying/paos-libero-20261023/study-scope-v4/development/hEDABC-v1-i0/gu_parent",
+  "status": "agent_failure",
+  "correct": 6,
+  "answered": 6,
+  "planned": 7,
+  "decisions": [
+    {
+      "event": 26,
+      "skill": "serve_D",
+      "correct": true
+    },
+    {
+      "event": 28,
+      "skill": "execute_order",
+      "correct": true
+    },
+    {
+      "event": 30,
+      "skill": "serve_E",
+      "correct": true
+    },
+    {
+      "event": 32,
+      "skill": "execute_order",
+      "correct": true
+    },
+    {
+      "event": 34,
+      "skill": "serve_B",
+      "correct": true
+    },
+    {
+      "event": 36,
+      "skill": "execute_order",
+      "correct": true
+    },
+    {
+      "event": 38,
+      "skill": "serve_C",
+      "correct": true
+    },
+    {
+      "event": 40,
+      "skill": "execute_order",
+      "correct": true
+    },
+    {
+      "event": 42,
+      "skill": "serve_A",
+      "correct": true
+    },
+    {
+      "event": 44,
+      "skill": "serve_F",
+      "correct": true
+    }
+  ],
+  "error_type": "RuntimeError",
+  "error_code": "generation_output_limit",
+  "failure_phase": "decision",
+  "model_input_tokens": 210584,
+  "model_output_tokens": 24281,
+  "model_cost_complete": false,
+  "model_cost_unknown_requests": 1,
+  "logical_calls": 55,
+  "automatic_retry": false,
+  "policy_sha256": "3b661320727cca4d5321b5e8ce19398c4384214fae5422fd30b02c40907a060e"
+}

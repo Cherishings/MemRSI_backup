@@ -1,0 +1,71 @@
+{
+  "source": "/data/songziying/paos-libero-20261023/study-scope-v4/development/hEDABC-v1-i0/gu_parent",
+  "status": "completed",
+  "correct": 7,
+  "answered": 7,
+  "planned": 7,
+  "decisions": [
+    {
+      "event": 26,
+      "skill": "serve_D",
+      "correct": true
+    },
+    {
+      "event": 28,
+      "skill": "execute_order",
+      "correct": true
+    },
+    {
+      "event": 30,
+      "skill": "serve_E",
+      "correct": true
+    },
+    {
+      "event": 32,
+      "skill": "execute_order",
+      "correct": true
+    },
+    {
+      "event": 34,
+      "skill": "serve_B",
+      "correct": true
+    },
+    {
+      "event": 36,
+      "skill": "execute_order",
+      "correct": true
+    },
+    {
+      "event": 38,
+      "skill": "serve_C",
+      "correct": true
+    },
+    {
+      "event": 40,
+      "skill": "execute_order",
+      "correct": true
+    },
+    {
+      "event": 42,
+      "skill": "serve_A",
+      "correct": true
+    },
+    {
+      "event": 44,
+      "skill": "serve_F",
+      "correct": true
+    },
+    {
+      "event": 46,
+      "skill": "finish",
+      "correct": true
+    }
+  ],
+  "model_input_tokens": 234363,
+  "model_output_tokens": 17454,
+  "model_cost_complete": true,
+  "model_cost_unknown_requests": 0,
+  "logical_calls": 58,
+  "automatic_retry": false,
+  "policy_sha256": "105170c88e8787a091a63df7d2f26946f9dec0b0ed8298c665d0569f91d5c79e"
+}

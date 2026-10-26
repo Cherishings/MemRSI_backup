@@ -1,0 +1,13 @@
+{
+  "joint": {
+    "structurally_and_semantically_valid": true,
+    "rejection": null,
+    "critic": {
+      "generic": true,
+      "no_task_answers": true,
+      "preserves_user_authority": true,
+      "preserves_advisor_interface": true,
+      "rationale": "Acceptable coordinated edits. They remain generic memory guidance rather than concrete task answers or identities; preserve actor decision authority, prohibit execution/veto and fabricated evidence, and retain public-evidence citations with abstention/uncertainty. The guidance improves exact target/operation and catalog-scope matching, receipt correlation, continuation handling, and live-obligation reconciliation without creating mandatory action overrides or evaluator access. The update remains native archival through save_memory and preserves authorization, triggers, revisions, pending extent, conditional work, conflicts, and evidence IDs while removing only on explicit cancellation or exact native completion."
+    }
+  }
+}

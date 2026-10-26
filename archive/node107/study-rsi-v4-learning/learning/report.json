@@ -1,0 +1,40 @@
+{
+  "status": "no_qualified_update",
+  "accepted": false,
+  "selected_combination": "parent",
+  "parent_sha256": "3b661320727cca4d5321b5e8ce19398c4384214fae5422fd30b02c40907a060e",
+  "selected_sha256": "3b661320727cca4d5321b5e8ce19398c4384214fae5422fd30b02c40907a060e",
+  "changed_operators": [],
+  "training": {},
+  "validation": {},
+  "ledger": {
+    "calls": 2,
+    "limit": 24000
+  },
+  "frozen_unix": 1792835810.7320375,
+  "proposal_decisions": {
+    "guidance": {
+      "structurally_and_semantically_valid": false,
+      "candidate_sha256": null,
+      "rejection": {
+        "code": "generation_output_limit",
+        "format_resubmissions": 0,
+        "new_proposals_allowed": 0
+      },
+      "critic": null
+    },
+    "update": {
+      "structurally_and_semantically_valid": false,
+      "candidate_sha256": null,
+      "rejection": {
+        "code": "optimizer_field_length_failure",
+        "format_resubmissions": 0,
+        "new_proposals_allowed": 0
+      },
+      "critic": null
+    }
+  },
+  "physical_evaluation_runs": 0,
+  "test_feedback_used": false,
+  "claim": "No accepted automatic improvement. Parent retained explicitly; no RSI gain claimed."
+}

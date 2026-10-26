@@ -1,0 +1,21 @@
+{
+  "source": "/data/songziying/paos-libero-20261023/study-rsi-v4-sources/development/hABDEC-v1-i0/gu_parent",
+  "status": "decision_failure",
+  "correct": 0,
+  "answered": 1,
+  "planned": 2,
+  "decisions": [
+    {
+      "event": 26,
+      "skill": "finish",
+      "correct": false
+    }
+  ],
+  "model_input_tokens": 49861,
+  "model_output_tokens": 9744,
+  "model_cost_complete": false,
+  "model_cost_unknown_requests": 8,
+  "logical_calls": 17,
+  "automatic_retry": false,
+  "policy_sha256": "26c50a98e5e621824af80ee46215a80e1b9f79dc161fd20d06ee6b8c9508bcb3"
+}

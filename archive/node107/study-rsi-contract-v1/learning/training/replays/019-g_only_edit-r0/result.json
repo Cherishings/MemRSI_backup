@@ -1,0 +1,18 @@
+{
+  "source": "/data/songziying/paos-libero-20261023/study-scope-v4/development/hEDABC-v1-i0/gu_parent",
+  "status": "agent_failure",
+  "correct": 0,
+  "answered": 0,
+  "planned": 7,
+  "decisions": [],
+  "error_type": "RuntimeError",
+  "error_code": "native_session_archival_failed",
+  "failure_phase": "archive",
+  "model_input_tokens": 28218,
+  "model_output_tokens": 15052,
+  "model_cost_complete": false,
+  "model_cost_unknown_requests": 1,
+  "logical_calls": 12,
+  "automatic_retry": false,
+  "policy_sha256": "ac2cb004b808021cc701e450103092eccd0da0006ba7b52f129d4afd332acded"
+}

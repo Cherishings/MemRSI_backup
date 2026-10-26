@@ -1,0 +1,41 @@
+{
+  "source": "/data/songziying/paos-libero-20261023/study-scope-v4/development/hEDABC-v1-i0/gu_parent",
+  "status": "decision_failure",
+  "correct": 2,
+  "answered": 3,
+  "planned": 7,
+  "decisions": [
+    {
+      "event": 26,
+      "skill": "serve_D",
+      "correct": true
+    },
+    {
+      "event": 28,
+      "skill": "execute_order",
+      "correct": true
+    },
+    {
+      "event": 30,
+      "skill": "serve_E",
+      "correct": true
+    },
+    {
+      "event": 32,
+      "skill": "execute_order",
+      "correct": true
+    },
+    {
+      "event": 34,
+      "skill": "finish",
+      "correct": false
+    }
+  ],
+  "model_input_tokens": 111299,
+  "model_output_tokens": 9574,
+  "model_cost_complete": false,
+  "model_cost_unknown_requests": 2,
+  "logical_calls": 31,
+  "automatic_retry": false,
+  "policy_sha256": "f3a95f06bd3b542da500bfe023825479a1270029e415dd1c7f680386e7be7df7"
+}

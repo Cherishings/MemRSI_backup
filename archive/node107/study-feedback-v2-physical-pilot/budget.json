@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "persistent_tokens": 1024,
+  "active_input_tokens": 12288,
+  "output_tokens_per_call": 2048,
+  "tokenizer": "o200k_base",
+  "active_accounting": "serialized input messages plus tool schemas, including long memory and guidance",
+  "persistent_accounting": "sum of MEMORY.md and HISTORY.md token counts",
+  "entry_limit": null,
+  "selected_before_main_results": true,
+  "calibration_path": "/data/stormlab/xi/paos/results/memrsi-budget-calibration-v3-20261011T034152Z",
+  "output_tokens": 8192
+}

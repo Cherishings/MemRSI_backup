@@ -1,0 +1,10 @@
+{
+  "joint": {
+    "structurally_and_semantically_valid": false,
+    "rejection": {
+      "code": "anchor_not_unique",
+      "new_proposals_allowed": 0
+    },
+    "critic": null
+  }
+}

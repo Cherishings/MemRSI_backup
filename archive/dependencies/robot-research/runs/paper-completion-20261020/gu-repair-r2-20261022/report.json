@@ -1,0 +1,906 @@
+{
+  "phase": "completed",
+  "arms": {
+    "g0_u0": {
+      "terminal": 48,
+      "success": 36
+    },
+    "g1_u0": {
+      "terminal": 48,
+      "success": 34
+    },
+    "g0_u1": {
+      "terminal": 48,
+      "success": 46
+    },
+    "g1_u1": {
+      "terminal": 48,
+      "success": 47
+    }
+  },
+  "rows": {
+    "g0_u0": [
+      {
+        "condition": "casa-resume-gap4-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-resume-gap4-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-resume-gap4-order0-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-resume-gap4-order1-r1",
+        "status": "decision_failure"
+      },
+      {
+        "condition": "casa-delayed-gap4-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap4-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap4-order0-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap4-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap4-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap4-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap4-order0-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap4-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-cancellation-gap4-order0-r0",
+        "status": "decision_failure"
+      },
+      {
+        "condition": "casa-cancellation-gap4-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-cancellation-gap4-order0-r1",
+        "status": "decision_failure"
+      },
+      {
+        "condition": "casa-cancellation-gap4-order1-r1",
+        "status": "decision_failure"
+      },
+      {
+        "condition": "casa-resume-gap8-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-resume-gap8-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-resume-gap8-order0-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-resume-gap8-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap8-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap8-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap8-order0-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap8-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap8-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap8-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap8-order0-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap8-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-cancellation-gap8-order0-r0",
+        "status": "decision_failure"
+      },
+      {
+        "condition": "casa-cancellation-gap8-order1-r0",
+        "status": "decision_failure"
+      },
+      {
+        "condition": "casa-cancellation-gap8-order0-r1",
+        "status": "decision_failure"
+      },
+      {
+        "condition": "casa-cancellation-gap8-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-resume-gap16-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-resume-gap16-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-resume-gap16-order0-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-resume-gap16-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap16-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap16-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap16-order0-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap16-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap16-order0-r0",
+        "status": "decision_failure"
+      },
+      {
+        "condition": "casa-revision-gap16-order1-r0",
+        "status": "decision_failure"
+      },
+      {
+        "condition": "casa-revision-gap16-order0-r1",
+        "status": "decision_failure"
+      },
+      {
+        "condition": "casa-revision-gap16-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-cancellation-gap16-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-cancellation-gap16-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-cancellation-gap16-order0-r1",
+        "status": "decision_failure"
+      },
+      {
+        "condition": "casa-cancellation-gap16-order1-r1",
+        "status": "decision_failure"
+      }
+    ],
+    "g1_u0": [
+      {
+        "condition": "casa-resume-gap4-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-resume-gap4-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-resume-gap4-order0-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-resume-gap4-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap4-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap4-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap4-order0-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap4-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap4-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap4-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap4-order0-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap4-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-cancellation-gap4-order0-r0",
+        "status": "decision_failure"
+      },
+      {
+        "condition": "casa-cancellation-gap4-order1-r0",
+        "status": "decision_failure"
+      },
+      {
+        "condition": "casa-cancellation-gap4-order0-r1",
+        "status": "decision_failure"
+      },
+      {
+        "condition": "casa-cancellation-gap4-order1-r1",
+        "status": "decision_failure"
+      },
+      {
+        "condition": "casa-resume-gap8-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-resume-gap8-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-resume-gap8-order0-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-resume-gap8-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap8-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap8-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap8-order0-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap8-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap8-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap8-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap8-order0-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap8-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-cancellation-gap8-order0-r0",
+        "status": "decision_failure"
+      },
+      {
+        "condition": "casa-cancellation-gap8-order1-r0",
+        "status": "decision_failure"
+      },
+      {
+        "condition": "casa-cancellation-gap8-order0-r1",
+        "status": "decision_failure"
+      },
+      {
+        "condition": "casa-cancellation-gap8-order1-r1",
+        "status": "decision_failure"
+      },
+      {
+        "condition": "casa-resume-gap16-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-resume-gap16-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-resume-gap16-order0-r1",
+        "status": "decision_failure"
+      },
+      {
+        "condition": "casa-resume-gap16-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap16-order0-r0",
+        "status": "decision_failure"
+      },
+      {
+        "condition": "casa-delayed-gap16-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap16-order0-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap16-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap16-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap16-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap16-order0-r1",
+        "status": "decision_failure"
+      },
+      {
+        "condition": "casa-revision-gap16-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-cancellation-gap16-order0-r0",
+        "status": "decision_failure"
+      },
+      {
+        "condition": "casa-cancellation-gap16-order1-r0",
+        "status": "decision_failure"
+      },
+      {
+        "condition": "casa-cancellation-gap16-order0-r1",
+        "status": "decision_failure"
+      },
+      {
+        "condition": "casa-cancellation-gap16-order1-r1",
+        "status": "success"
+      }
+    ],
+    "g0_u1": [
+      {
+        "condition": "casa-resume-gap4-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-resume-gap4-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-resume-gap4-order0-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-resume-gap4-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap4-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap4-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap4-order0-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap4-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap4-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap4-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap4-order0-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap4-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-cancellation-gap4-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-cancellation-gap4-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-cancellation-gap4-order0-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-cancellation-gap4-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-resume-gap8-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-resume-gap8-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-resume-gap8-order0-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-resume-gap8-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap8-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap8-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap8-order0-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap8-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap8-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap8-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap8-order0-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap8-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-cancellation-gap8-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-cancellation-gap8-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-cancellation-gap8-order0-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-cancellation-gap8-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-resume-gap16-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-resume-gap16-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-resume-gap16-order0-r1",
+        "status": "decision_failure"
+      },
+      {
+        "condition": "casa-resume-gap16-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap16-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap16-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap16-order0-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap16-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap16-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap16-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap16-order0-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap16-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-cancellation-gap16-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-cancellation-gap16-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-cancellation-gap16-order0-r1",
+        "status": "decision_failure"
+      },
+      {
+        "condition": "casa-cancellation-gap16-order1-r1",
+        "status": "success"
+      }
+    ],
+    "g1_u1": [
+      {
+        "condition": "casa-resume-gap4-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-resume-gap4-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-resume-gap4-order0-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-resume-gap4-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap4-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap4-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap4-order0-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap4-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap4-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap4-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap4-order0-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap4-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-cancellation-gap4-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-cancellation-gap4-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-cancellation-gap4-order0-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-cancellation-gap4-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-resume-gap8-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-resume-gap8-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-resume-gap8-order0-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-resume-gap8-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap8-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap8-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap8-order0-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap8-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap8-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap8-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap8-order0-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap8-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-cancellation-gap8-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-cancellation-gap8-order1-r0",
+        "status": "decision_failure"
+      },
+      {
+        "condition": "casa-cancellation-gap8-order0-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-cancellation-gap8-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-resume-gap16-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-resume-gap16-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-resume-gap16-order0-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-resume-gap16-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap16-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap16-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap16-order0-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-delayed-gap16-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap16-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap16-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap16-order0-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-revision-gap16-order1-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-cancellation-gap16-order0-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-cancellation-gap16-order1-r0",
+        "status": "success"
+      },
+      {
+        "condition": "casa-cancellation-gap16-order0-r1",
+        "status": "success"
+      },
+      {
+        "condition": "casa-cancellation-gap16-order1-r1",
+        "status": "success"
+      }
+    ]
+  },
+  "contract_gate": {
+    "state": "passed",
+    "issues": [],
+    "rows": [
+      {
+        "correlated_receipts": 7,
+        "arm": "g0_u0",
+        "guidance_requests": 0,
+        "guidance_injections": 0,
+        "native_archive_requests": 3,
+        "custom_update_requests": 0,
+        "nonempty_guidance_S_events": 0,
+        "contract": {
+          "arm": "g0_u0",
+          "effective_policy_sha256": "db579dc78b3d48bc11bba6d73a5ee506178ee5c0e24e47fd3c412f3f0e9ac49f",
+          "guidance_enabled": false,
+          "update_enabled": false,
+          "native_archive_preserved": true,
+          "actor_full_memory_access": true,
+          "native_S_preserved": true,
+          "explicit_boundary_interval": 2,
+          "native_token_archive_unchanged": true,
+          "manual_design_not_RSI": true,
+          "score_unchanged": true,
+          "common_receipt_correlation": true,
+          "G_public_role_tool_projection": true
+        }
+      },
+      {
+        "correlated_receipts": 7,
+        "arm": "g1_u0",
+        "guidance_requests": 8,
+        "guidance_injections": 17,
+        "native_archive_requests": 3,
+        "custom_update_requests": 0,
+        "nonempty_guidance_S_events": 4,
+        "contract": {
+          "arm": "g1_u0",
+          "effective_policy_sha256": "1f2a0d77200ceaf340586b8a8278b2d2ca8b7b04d4536c9000cb350e3099194e",
+          "guidance_enabled": true,
+          "update_enabled": false,
+          "native_archive_preserved": true,
+          "actor_full_memory_access": true,
+          "native_S_preserved": true,
+          "explicit_boundary_interval": 2,
+          "native_token_archive_unchanged": true,
+          "manual_design_not_RSI": true,
+          "score_unchanged": true,
+          "common_receipt_correlation": true,
+          "G_public_role_tool_projection": true
+        }
+      },
+      {
+        "correlated_receipts": 7,
+        "arm": "g0_u1",
+        "guidance_requests": 0,
+        "guidance_injections": 0,
+        "native_archive_requests": 3,
+        "custom_update_requests": 3,
+        "nonempty_guidance_S_events": 0,
+        "contract": {
+          "arm": "g0_u1",
+          "effective_policy_sha256": "3210be14f8aeb57e6b269c83f0264da91efc83c97ca45fe097aec8f7b5caa883",
+          "guidance_enabled": false,
+          "update_enabled": true,
+          "native_archive_preserved": true,
+          "actor_full_memory_access": true,
+          "native_S_preserved": true,
+          "explicit_boundary_interval": 2,
+          "native_token_archive_unchanged": true,
+          "manual_design_not_RSI": true,
+          "score_unchanged": true,
+          "common_receipt_correlation": true,
+          "G_public_role_tool_projection": true
+        }
+      },
+      {
+        "correlated_receipts": 7,
+        "arm": "g1_u1",
+        "guidance_requests": 8,
+        "guidance_injections": 17,
+        "native_archive_requests": 3,
+        "custom_update_requests": 3,
+        "nonempty_guidance_S_events": 4,
+        "contract": {
+          "arm": "g1_u1",
+          "effective_policy_sha256": "17b9ba4689e1f3659d9d6034fb4184d0c62bf2a789565d0600b5b175fd22a64c",
+          "guidance_enabled": true,
+          "update_enabled": true,
+          "native_archive_preserved": true,
+          "actor_full_memory_access": true,
+          "native_S_preserved": true,
+          "explicit_boundary_interval": 2,
+          "native_token_archive_unchanged": true,
+          "manual_design_not_RSI": true,
+          "score_unchanged": true,
+          "common_receipt_correlation": true,
+          "G_public_role_tool_projection": true
+        }
+      }
+    ],
+    "performance_used_as_gate": false
+  },
+  "manual_not_RSI": true,
+  "scope": "Previously viewed48 conditions, complete fixed diagnostic replication, not unseen generalization or RSI learning.",
+  "next_stage": "After complete mechanism evidence and immutable report: freeze a justified method; register untouched condition coverage before evaluation. Only development feedback can train G/U; explicit existing budget/account allocation required before new learning dispatch; do not revive finished two-round studies.",
+  "time": 1792647523.5088973
+}

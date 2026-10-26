@@ -1,0 +1,34 @@
+[
+  {
+    "id": "hABDEC-v0-i1",
+    "output": "/media/disks/disk1/share/ext_songzhiying/PAOS-LIBERO-RSI-20261023-gpu67/development/train/hABDEC-v0-i1/gu_parent"
+  },
+  {
+    "id": "hABDEC-v1-i0",
+    "output": "/media/disks/disk1/share/ext_songzhiying/PAOS-LIBERO-RSI-20261023-gpu67/development/train/hABDEC-v1-i0/gu_parent"
+  },
+  {
+    "id": "hDBACE-v0-i0",
+    "output": "/media/disks/disk1/share/ext_songzhiying/PAOS-LIBERO-RSI-20261023-gpu67/development/train/hDBACE-v0-i0/gu_parent"
+  },
+  {
+    "id": "hDBACE-v1-i1",
+    "output": "/media/disks/disk1/share/ext_songzhiying/PAOS-LIBERO-RSI-20261023-gpu67/development/train/hDBACE-v1-i1/gu_parent"
+  },
+  {
+    "id": "hEADCB-v0-i0",
+    "output": "/media/disks/disk1/share/ext_songzhiying/PAOS-LIBERO-RSI-20261023-gpu67/development/train/hEADCB-v0-i0/gu_parent"
+  },
+  {
+    "id": "hEADCB-v1-i1",
+    "output": "/media/disks/disk1/share/ext_songzhiying/PAOS-LIBERO-RSI-20261023-gpu67/development/train/hEADCB-v1-i1/gu_parent"
+  },
+  {
+    "id": "hEDABC-v0-i1",
+    "output": "/media/disks/disk1/share/ext_songzhiying/PAOS-LIBERO-RSI-20261023-gpu67/development/train/hEDABC-v0-i1/gu_parent"
+  },
+  {
+    "id": "hEDABC-v1-i0",
+    "output": "/media/disks/disk1/share/ext_songzhiying/PAOS-LIBERO-RSI-20261023-gpu67/development/train/hEDABC-v1-i0/gu_parent"
+  }
+]

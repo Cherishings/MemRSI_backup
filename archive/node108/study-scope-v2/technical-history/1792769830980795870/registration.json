@@ -1,0 +1,893 @@
+{
+  "version": "libero-method-improvement-rsi-20261023-v1",
+  "registered_at": 1792769694.3881404,
+  "gpus": [
+    7
+  ],
+  "all_histories": [
+    "EADCB",
+    "EDABC",
+    "DBACE",
+    "ABDEC",
+    "DABCE",
+    "EBCAD",
+    "ABCED",
+    "BCADE",
+    "CDEAB",
+    "DEABC",
+    "EABCD",
+    "ABDCE",
+    "BDAEC",
+    "CEABD",
+    "DAEBC",
+    "EBACD",
+    "ACEBD",
+    "BECAD"
+  ],
+  "training_conditions": [
+    {
+      "condition_id": "hEADCB-v0-i0",
+      "history": "EADCB",
+      "variant": 0,
+      "init": 0
+    },
+    {
+      "condition_id": "hEADCB-v1-i1",
+      "history": "EADCB",
+      "variant": 1,
+      "init": 1
+    },
+    {
+      "condition_id": "hEDABC-v1-i0",
+      "history": "EDABC",
+      "variant": 1,
+      "init": 0
+    },
+    {
+      "condition_id": "hEDABC-v0-i1",
+      "history": "EDABC",
+      "variant": 0,
+      "init": 1
+    },
+    {
+      "condition_id": "hDBACE-v0-i0",
+      "history": "DBACE",
+      "variant": 0,
+      "init": 0
+    },
+    {
+      "condition_id": "hDBACE-v1-i1",
+      "history": "DBACE",
+      "variant": 1,
+      "init": 1
+    },
+    {
+      "condition_id": "hABDEC-v1-i0",
+      "history": "ABDEC",
+      "variant": 1,
+      "init": 0
+    },
+    {
+      "condition_id": "hABDEC-v0-i1",
+      "history": "ABDEC",
+      "variant": 0,
+      "init": 1
+    }
+  ],
+  "validation_conditions": [
+    {
+      "condition_id": "hDABCE-v0-i0",
+      "history": "DABCE",
+      "variant": 0,
+      "init": 0
+    },
+    {
+      "condition_id": "hDABCE-v1-i1",
+      "history": "DABCE",
+      "variant": 1,
+      "init": 1
+    },
+    {
+      "condition_id": "hEBCAD-v1-i0",
+      "history": "EBCAD",
+      "variant": 1,
+      "init": 0
+    },
+    {
+      "condition_id": "hEBCAD-v0-i1",
+      "history": "EBCAD",
+      "variant": 0,
+      "init": 1
+    }
+  ],
+  "test_conditions": [
+    {
+      "condition_id": "hABCED-v0-i20",
+      "history": "ABCED",
+      "variant": 0,
+      "init": 20
+    },
+    {
+      "condition_id": "hABCED-v0-i21",
+      "history": "ABCED",
+      "variant": 0,
+      "init": 21
+    },
+    {
+      "condition_id": "hABCED-v1-i20",
+      "history": "ABCED",
+      "variant": 1,
+      "init": 20
+    },
+    {
+      "condition_id": "hABCED-v1-i21",
+      "history": "ABCED",
+      "variant": 1,
+      "init": 21
+    },
+    {
+      "condition_id": "hBCADE-v0-i20",
+      "history": "BCADE",
+      "variant": 0,
+      "init": 20
+    },
+    {
+      "condition_id": "hBCADE-v0-i21",
+      "history": "BCADE",
+      "variant": 0,
+      "init": 21
+    },
+    {
+      "condition_id": "hBCADE-v1-i20",
+      "history": "BCADE",
+      "variant": 1,
+      "init": 20
+    },
+    {
+      "condition_id": "hBCADE-v1-i21",
+      "history": "BCADE",
+      "variant": 1,
+      "init": 21
+    },
+    {
+      "condition_id": "hCDEAB-v0-i20",
+      "history": "CDEAB",
+      "variant": 0,
+      "init": 20
+    },
+    {
+      "condition_id": "hCDEAB-v0-i21",
+      "history": "CDEAB",
+      "variant": 0,
+      "init": 21
+    },
+    {
+      "condition_id": "hCDEAB-v1-i20",
+      "history": "CDEAB",
+      "variant": 1,
+      "init": 20
+    },
+    {
+      "condition_id": "hCDEAB-v1-i21",
+      "history": "CDEAB",
+      "variant": 1,
+      "init": 21
+    },
+    {
+      "condition_id": "hDEABC-v0-i20",
+      "history": "DEABC",
+      "variant": 0,
+      "init": 20
+    },
+    {
+      "condition_id": "hDEABC-v0-i21",
+      "history": "DEABC",
+      "variant": 0,
+      "init": 21
+    },
+    {
+      "condition_id": "hDEABC-v1-i20",
+      "history": "DEABC",
+      "variant": 1,
+      "init": 20
+    },
+    {
+      "condition_id": "hDEABC-v1-i21",
+      "history": "DEABC",
+      "variant": 1,
+      "init": 21
+    },
+    {
+      "condition_id": "hEABCD-v0-i20",
+      "history": "EABCD",
+      "variant": 0,
+      "init": 20
+    },
+    {
+      "condition_id": "hEABCD-v0-i21",
+      "history": "EABCD",
+      "variant": 0,
+      "init": 21
+    },
+    {
+      "condition_id": "hEABCD-v1-i20",
+      "history": "EABCD",
+      "variant": 1,
+      "init": 20
+    },
+    {
+      "condition_id": "hEABCD-v1-i21",
+      "history": "EABCD",
+      "variant": 1,
+      "init": 21
+    },
+    {
+      "condition_id": "hABDCE-v0-i20",
+      "history": "ABDCE",
+      "variant": 0,
+      "init": 20
+    },
+    {
+      "condition_id": "hABDCE-v0-i21",
+      "history": "ABDCE",
+      "variant": 0,
+      "init": 21
+    },
+    {
+      "condition_id": "hABDCE-v1-i20",
+      "history": "ABDCE",
+      "variant": 1,
+      "init": 20
+    },
+    {
+      "condition_id": "hABDCE-v1-i21",
+      "history": "ABDCE",
+      "variant": 1,
+      "init": 21
+    },
+    {
+      "condition_id": "hBDAEC-v0-i20",
+      "history": "BDAEC",
+      "variant": 0,
+      "init": 20
+    },
+    {
+      "condition_id": "hBDAEC-v0-i21",
+      "history": "BDAEC",
+      "variant": 0,
+      "init": 21
+    },
+    {
+      "condition_id": "hBDAEC-v1-i20",
+      "history": "BDAEC",
+      "variant": 1,
+      "init": 20
+    },
+    {
+      "condition_id": "hBDAEC-v1-i21",
+      "history": "BDAEC",
+      "variant": 1,
+      "init": 21
+    },
+    {
+      "condition_id": "hCEABD-v0-i20",
+      "history": "CEABD",
+      "variant": 0,
+      "init": 20
+    },
+    {
+      "condition_id": "hCEABD-v0-i21",
+      "history": "CEABD",
+      "variant": 0,
+      "init": 21
+    },
+    {
+      "condition_id": "hCEABD-v1-i20",
+      "history": "CEABD",
+      "variant": 1,
+      "init": 20
+    },
+    {
+      "condition_id": "hCEABD-v1-i21",
+      "history": "CEABD",
+      "variant": 1,
+      "init": 21
+    },
+    {
+      "condition_id": "hDAEBC-v0-i20",
+      "history": "DAEBC",
+      "variant": 0,
+      "init": 20
+    },
+    {
+      "condition_id": "hDAEBC-v0-i21",
+      "history": "DAEBC",
+      "variant": 0,
+      "init": 21
+    },
+    {
+      "condition_id": "hDAEBC-v1-i20",
+      "history": "DAEBC",
+      "variant": 1,
+      "init": 20
+    },
+    {
+      "condition_id": "hDAEBC-v1-i21",
+      "history": "DAEBC",
+      "variant": 1,
+      "init": 21
+    },
+    {
+      "condition_id": "hEBACD-v0-i20",
+      "history": "EBACD",
+      "variant": 0,
+      "init": 20
+    },
+    {
+      "condition_id": "hEBACD-v0-i21",
+      "history": "EBACD",
+      "variant": 0,
+      "init": 21
+    },
+    {
+      "condition_id": "hEBACD-v1-i20",
+      "history": "EBACD",
+      "variant": 1,
+      "init": 20
+    },
+    {
+      "condition_id": "hEBACD-v1-i21",
+      "history": "EBACD",
+      "variant": 1,
+      "init": 21
+    },
+    {
+      "condition_id": "hACEBD-v0-i20",
+      "history": "ACEBD",
+      "variant": 0,
+      "init": 20
+    },
+    {
+      "condition_id": "hACEBD-v0-i21",
+      "history": "ACEBD",
+      "variant": 0,
+      "init": 21
+    },
+    {
+      "condition_id": "hACEBD-v1-i20",
+      "history": "ACEBD",
+      "variant": 1,
+      "init": 20
+    },
+    {
+      "condition_id": "hACEBD-v1-i21",
+      "history": "ACEBD",
+      "variant": 1,
+      "init": 21
+    },
+    {
+      "condition_id": "hBECAD-v0-i20",
+      "history": "BECAD",
+      "variant": 0,
+      "init": 20
+    },
+    {
+      "condition_id": "hBECAD-v0-i21",
+      "history": "BECAD",
+      "variant": 0,
+      "init": 21
+    },
+    {
+      "condition_id": "hBECAD-v1-i20",
+      "history": "BECAD",
+      "variant": 1,
+      "init": 20
+    },
+    {
+      "condition_id": "hBECAD-v1-i21",
+      "history": "BECAD",
+      "variant": 1,
+      "init": 21
+    }
+  ],
+  "frozen_files": {
+    "code/launch.py": "a33b0d43747c23073b47498d328b3dc284190d4e24110ec189c54db4832d7298",
+    "code/policy_supervisor.py": "a4923f3b7b3d06b45e622fb4ff81417bb80a67ee2695e4aef33e8dd81b1810f8",
+    "code/test_learn.py": "521eb5ea6c9aa990f3eaaa12ab8b16f04791208f716b6dfb71bdd44b36539e6c",
+    "code/method.py": "7c6fe19430d838a0a3660f724db66591853cbaeddf413c1f1964debd21cd5131",
+    "code/run_case.py": "4c41c2dd3b3e6afdf05b9057d6e65b16ddf66b71afc0ec40f03a1a14b03c8478",
+    "code/test_method.py": "e93b2eefacb3870c3b724b009eaf43d01da7254bedc2ab30aeb1d2c774df1e9a",
+    "code/analyze.py": "b7133c3e7356c8361fe2526bad8d228f674ba49755d5d8bb74731504aaf1baf6",
+    "code/learn.py": "82853729f50905aa86372c1b80ec414fbea2e77a0568c4cdb2098dded2760058",
+    "code/register.py": "d0851735cdb1114c802e0eca322ddee63a490573f3b1f3dfbdafbe6836dc1125",
+    "code/pipeline.py": "feb7b00fa452daba36c9905f3a6dabb29e79e36264cacd07bad960b92114bc03",
+    "code/runtime/policy-startup-audit.json": "0b9bd76436bb50280e2a528a9b73d96e50103fa14b93cd6a838895a0f6982100",
+    "code/runtime/agent_entry.py": "be97d7e030533449108642fc9063ed032526175a9cbd6200f9def0869514272c",
+    "code/runtime/import-checks.json": "5a1dd64c3c89468daf505b4936e5239f09c5876b51cff2159bcea8298e2f45b7",
+    "code/runtime/policy_entry.py": "1740315c5c95ce753c0ab36984788a6450794b0d0497e09d4d3c38ee0fa9ed4c",
+    "code/runtime/native_world_entry.py": "de60b71f0aa93aeea561f0b8fa23351c7dc4d2d8aeec12c87265dca83693d5cc",
+    "code/runtime/DEPLOY.txt": "eab9ce38d0c915975a6ce26d0e76ac41051262e07e2dadeb6f86ff07db78c300",
+    "code/runtime/libero_runtime.py": "bbe04176dbfa09d3f1a71ad6147896b4268ae5e1bc033452bf000e619829e626",
+    "code/runtime/runtime_adapter.py": "51475d7887399551dfadfd97935a84943fac63952aec988e2950d349a88fddf9",
+    "code/protocol/planning.py": "fb6c0028239bf862cac2cd092a0ecd53d096b297a01f2120559c5ab29e680b5e",
+    "source/test_unified.py": "ff4105b554959abc3dd1c36d24bcbbda960acb1073b8692ba3ea5802a139197a",
+    "source/queue012.py": "3566bcfce1d284f1104ecaba76ee27d7fb4d3d64367853ceaea79f95de785b2d",
+    "source/feedback_learning.py": "ec4df85029d2f901519d7637099c9b266b7119d475c74678ffcba4d7f56fce63",
+    "source/trajectory_pipeline.py": "fd931af567c4641e251f1dc39cbd7924bf962a440dc3d9b45cffe2bc8d2015c0",
+    "source/test_transition_diagnosis.py": "c2304c4d29d9bbead4c0b44a607a26a4f0dcea2e065b9b8851a53744a2b2783c",
+    "source/test_transport_resume.py": "b19572113ae381b8a400dd5da6ca4835e158e89135890c3c4f7987963de85732",
+    "source/targeted_pilot.py": "a8706ecdb77af67c64688291a531bf8700ad451e02d119f4ca1b1e9953d5f7bf",
+    "source/status_v14.py": "fba4561ca03f4c4551aac622925d4b81879b4eaf77ce381e16eab03313fc706d",
+    "source/README-v1_10.txt": "d357f984405db4b13da1be6166dd679cd3e76e38c27859a9eefbadced7f35af7",
+    "source/test_feedback_repair.py": "6421067c0f33705cb7b6e2d16e8965565d46a5590ec986862380ed65f91adcbd",
+    "source/stream_replay.py": "181977375b04a190209026ff52f5734f57929d9369b650e407225209d55b427e",
+    "source/test_physical_queue.py": "f691b22194490d0c05a474e648bb094c5ee6335255b0ca983f7d609b0d90b475",
+    "source/test_delta.py": "88495f2bf8a954570eefd83634b46fba7aff16e7d8ae77d6847b1d9c3ea2a0be",
+    "source/stream_learning.py": "28fc576c1e3a7caccdaa887a3cbeed3508d3c068d534a0735f35d77a8198a1e5",
+    "source/test_parallel.py": "0554bf802f050ad65d3a4e2c74fb72a8cc21fec62a4c5ece2684e8d21950de61",
+    "source/calibrate_budget_v3.py": "ea2b55883fa4154845f597e6240d2a9c3d263bbb1da60f70dc79019b3edd1430",
+    "source/FEEDBACK_DESIGN.md": "3368b4354903d3039511dc7895dca7ebcb25855cf1c93ff191100925fb6d50c6",
+    "source/calibrate_budget_v2.py": "bd093c75ca48f3db1ba69a001d1f4fc24ae10049f28864acebc40888151b3e4d",
+    "source/twenty_agent.py": "fcd4271a55162ec885742c141928d66cf19766d9198e992ee4638c1f47cf7dad",
+    "source/stress_protocol.py": "1c0b498e2be8fd4e53a7114df724339ead0991518028d01a8bbec47698250a89",
+    "source/test_recovery_v14.py": "078f874d3e76e4ee692882c8609dfecc729d6ee8064741bda6d1b693a1b15f66",
+    "source/repair_smoke.py": "8977719232491a5f93dfcddc6a1a248c70413c8f27cbfd1305e87d2c3519d379",
+    "source/evolution.py": "7dd91554909941e8ed9af2953bf46a88012e29c8c1cb8dde0e721bf66149df87",
+    "source/status_stream.py": "2b128a26966c99c84118f5ee4dd07224abf0248d928f9b752dc59f88d25c44a4",
+    "source/execution_contract.py": "80c7e65e844c4e970c801e474bb245e4bfe865f2b9261193e197584f9ad0cf27",
+    "source/test_guidance_boundary.py": "69ab0efe8b45532d041cffd2ad526db2acb8fc38111f3deba16268fc340973f9",
+    "source/test_feedback.py": "3fac0ffbb73f2dec964eb6c365eb0aa17b19093786c86558106f9da58d0a63ab",
+    "source/regression_evolution.py": "2635885d514c2c83f6dbfdd2b67cfebdba4ce0ee75d13d309a28ac20ef2a43e1",
+    "source/preflight_unified.py": "8dd301a403b888a5173b309ae91b91631ae9bddfb12f94abdf635b37b9244bba",
+    "source/launch.py": "13612cee9bd72495d4da1b6f9eeb3549351bd3022fd25e5a01a6989632c4236c",
+    "source/qualify_twenty.py": "a6092577a9af4480bf55f8d9ac9f9300e9e702553f2b1f7702788591450cd25d",
+    "source/migrate_parallel.py": "571d5ec8e61ae0fa57d47323eabc48624db1df9f8ef88099e3e9147b65c67f2a",
+    "source/feedback_workflow.py": "a6ec99eba914673a30a252530a24da975dbb5f32f4d6adbff85b31816d0466c7",
+    "source/experiment_v13.py": "f34f020b66173c220a046d4f4f54cab3ae9d57becf128620c13f7f325b65b16a",
+    "source/test_targeted_requests.py": "9a65c2cd62df25c6c6fa2f782dfd1aff521731246e06f66dcf70eee396eb6666",
+    "source/README-v1.4.txt": "4134dfeb5d8f773df3db764eff2211a9dcbcbbcf7adb722ee217fb728d3d599f",
+    "source/start_trajectory.py": "80048f3d2c1e4347dd363fc9dba6291963bc85760ef358933da808984328c493",
+    "source/delta_design.py": "b556c9a7c83c770eb467e81a36414cfa77809f8f011f806248b96895b5737ed8",
+    "source/test_compare.py": "df8142cd1ec7da37237e941f40df94cc1ec0bdc2ba28290ffc471d5e7750069f",
+    "source/agent_adapter.py": "b4d4ee3db05390cb904db8e42052ede33881db718c0559ce3e96db0a6732b26a",
+    "source/token_accounting.py": "be67ed28bf678c3be7157b7be58346bdcbe233227c64490c2c27f919a5366a72",
+    "source/information_audit.py": "56907eeb2b677b23fb529e389a5183d9f14c06a13c349c9a6987e9f8048a2d9c",
+    "source/targeted_pipeline.py": "67b49e812fcdfe81a3f538230f49adfbeb081a59db6a25209914d3d0a77d36f1",
+    "source/retry_recovery.py": "c8e80286a0037e76766eb924068a003a219e1ec0765a43036a1a749938134f5c",
+    "source/status_v13.py": "41fedf47edf61e18ef912ecf88cab7f26c54bdf048a03c7a9947f7c1fcf8b602",
+    "source/repair_snapshot.py": "d9e9ac6480f5090e2d3ef05a356025f424e8b4291e8c05b48def6f40f50d740f",
+    "source/test_network_wait.py": "f766ebe4b730127c6655afa422f585f68e2d5897ff8694bec1094531051ea2af",
+    "source/test_agent.py": "0bf169f7c4b7e0f48701a9ea7c420e0b70781a146f6cf5b66675f271e523db8d",
+    "source/delta_learning.py": "781d0d470762dfe203b5f189b36d31f0fcb04e0258ef1aa7a90a92ca29c69d56",
+    "source/replay.py": "a4df878270a5d9f54346a6fcbb7d923e464b7c3ac25117a0169d48733c935b06",
+    "source/bounded_pipeline.py": "f992c4e851fa67657842658ffcab305f0b1089e681a2ef622ca42466f22945e4",
+    "source/start_v14.py": "9f5ecde8f610e6859f7faad251a1792ff7399ba2814cfaa9cca170e95c871934",
+    "source/test_evidence.py": "7c5a8ad923387d2e48f2ff832087e5b5a11d90eccc4d2c4d2d1f9108c5cba1c7",
+    "source/targeted_requests.py": "39516e7e2ee246891afab5843dd2be0a616b293a8787ba6ad2df1937f9c0c6b4",
+    "source/native_world.py": "f74d36201dd128112dc31a1574ec4d2ea830ad34bba87c3f6af132aca9d8f05c",
+    "source/twenty_workflow.py": "d50401907030472ab1bcfad765cbb161f00837f8b8d9987c9e716a72b9d5d673",
+    "source/targeted_evidence.py": "1a3270b521f98b00c3ddf9a415e173ae7f13c6b710331f4ed842b0d877ff0612",
+    "source/test_admission.py": "ff94e3712961b15d18f143420d1111760aa6702662a6322ecdd16a6ef23016f6",
+    "source/model_provider.py": "6cd3b8c6c9c81f5b80c9e3bf0f4e86b37024e1dac480aa50c24b7b287d1f5000",
+    "source/test_optimizer_context.py": "145d26177535f8e78ebacc6c340a0631b905fe5d1f8ae705138cfdc4ddc41837",
+    "source/diagnosed_learning.py": "ba34f29d3a69232e76406a0a2961639ff45fdcbfe5aca4b770a89fe15739619b",
+    "source/pipeline_v13.py": "78937822d2a1c46694f1e038e3dead729cf6d14af20bd0e4f8ec58b819a394e6",
+    "source/qualify_reverse.py": "704671a04d4662233e6ffa98054fda5a6f9cb0d6a1b0aa7aaf1eea38c75ea8fe",
+    "source/optimizer_context.py": "fd7ebda47efcab67dfc7df380fffb2c7e6d8df8d956e54e84fa754f65932b568",
+    "source/test_v18.py": "21ae36265d4a401d073d2db925c03c3077d21ffe8f52b9c0b805270b82af268f",
+    "source/stream_design.py": "24fdf8dd162b6646dff89e306a936a9099c5fcb16d89da2138cde95ffd266ca3",
+    "source/test_twenty.py": "6d8c66dfa86cdbb50c3d64bb68e710f5817c499a90b051dc56fca785674ffcfa",
+    "source/test_guidance_format.py": "cc7bef0aeed93d27807c03fd4c71cf8868be91d8e6853ec7dfb6eb6fdf941ccc",
+    "source/bounded_learning.py": "09721986720b143ac0dd4c2b9ceb551bc105ce06c9dfd02b28ab3a4c2dabb9a4",
+    "source/memory_budget.py": "b08d1180070c56a14f81c670774191754289c28c309b4e799ab0cc09b1287959",
+    "source/test_replay.py": "d3b56a93c2f1e2c235a0342da9788ce02bcfda46abf033c0bda94fe3ddaf55d4",
+    "source/memory_ops.py": "73f3144b3c02c5c0b87401d5a6a27433a953c25c1c483d91b6fdf2b764ced2b8",
+    "source/resume_v15.py": "a731902b1dcdd7287e0e286267bccd68fb6a916625c9a49e5810784b1d62ac10",
+    "source/calibrate_budget.py": "d13aaff15d5e1e3dea9c5053144c91c29c265c541347353e070006e88248637e",
+    "source/diagnosed_pipeline.py": "ecf4ae58de4fc9091e6da46f74bc9c111d856b6f2f2bf45447fc3d4cd62f00a6",
+    "source/RELATED_WORK.md": "cbea0ab6479a2514629833cf8773af92c7ef4be3d2cfeb94edc71e83c61a269f",
+    "source/start_v15.py": "caa127e2a03d93c5f6e322be5b4a7c5d1da1deb502f08accb8c9d63bce087ce3",
+    "source/test_v14.py": "68a927cf66b65e4029237b2bb74f965033b905ec7edbcf7f8ba84ed5fd8d51b6",
+    "source/README-v1_9.txt": "2a797d7ca08429be5fd82f7fde87fd8c281859d5dc05a988c875fdf6d03e46ce",
+    "source/parallel_runtime.py": "29f4d3aaf508836844d972d0f3eab82619894015e04493eabeae589671aa1682",
+    "source/experiment_recovery.py": "a84a8f8ce9e362333d0723c9540aca66c3da61079ad5f3a644af00a95bcbff01",
+    "source/portable_metrics.py": "6f72dacd4975619803be475a07a0869681f6e58d0779f836a496cc0977ecc0eb",
+    "source/README-v1.6.txt": "bbd1fdc010ed0ccf3cdad806fb0197d08afe91bbd54ebf244cf52132444057f0",
+    "source/pipeline_v14r1.py": "036d728fe479c662410d83d1c89f22ae297c2ffe07eaa23ed374243d197dd966",
+    "source/pipeline_v14.py": "6c0080308679dc0a556d1798b2448a552403275f247631f3c91d26c127675643",
+    "source/unified_pipeline.py": "4f3be7ea2c7544a4cec2daed5ca6584b0e3154652c02d0f212832cd4cf06c7cf",
+    "source/README.md": "c6730a77d7f38893f8fda9bb7b1e6d5a276ae52e382d2b98c38a93a36a0d52f8",
+    "source/bounded_edits.py": "f910784876274d2978c1ea65b05eb024f840975826e3467cd48a2da7b34727f8",
+    "source/physical_queue.py": "d9a997b1c97e3df5e2663cb5128d0b9918592c7d5e99d5566c8c4c5408d16c27",
+    "source/regression_pipeline.py": "c88cbb98330bf3cee7452061bed0d2f1792d1c16d6caec07d190d62d79167ce7",
+    "source/test_v15.py": "f597530b2752e5c959dd0e247394bbaed0b9de98dde311d060d35b45270e7eaf",
+    "source/memory_policy.py": "ba6956fdc2edc70cd778bdbf0d143f1f6cbe0c924c12b4e3fa30f3d8e66c7d19",
+    "source/targeted_learning.py": "263432b32ac82493b38aba306fbd47c3eac818e0380a0206e9b389fa2f36a696",
+    "source/twenty_protocol.py": "ac6f46bca856971c83b71c749f33a53d1739ec51f291728dfa092e2af576321b",
+    "source/learning_v14.py": "868ad8315d022aac2883bd2bed6a5cffa112bc0b59a10acb00324d93f741082b",
+    "source/test_regression.py": "217296ad1fb9873eb51fa80b6e4b56f0305c18408bb3a4f570a8f6c8efd34279",
+    "source/start012.py": "6156b77baceca2ecadee7fdacf3cfe1b9024dc9f0645363651c8e53a7882321f",
+    "source/start_stream.py": "457acc3a3822561f58819eb32d2c942e02df703b98eb21f01e9aa3e242a083a2",
+    "source/README-targeted.txt": "cf40a1f4b5eee064054a6d7cfae6a977ea6221cb37fa67822e9e7f20f280e316",
+    "source/migrate_rsi_repair.py": "043730cdc0179f69275485133381d88223df1efae3ee88bfc8da2a4da89e6732",
+    "source/regress_runtime.py": "3a3a79a60c96b7ab3da1c1efce658bb836900f13c1418bf569af463f4837fd80",
+    "source/start_compare.py": "ca3e63d4b6bf343a8ecc316a1dc816dc5b6e40874b85e9a5bb9643b6f34369d5",
+    "source/evolve_v15.py": "6ea69536ce696ebbea27951ba14886a8b336edbfae806a518e6d987fc33ec34c",
+    "source/delta_pipeline.py": "851b6a68e3622a82d2285b397376337848a8da15b8b1348240db8a76e1ae025d",
+    "source/stress_workflow.py": "f1e53cebabd70d71a470e2908fbb2257b66767dd68be909e64d204258a8404fe",
+    "source/smoke.py": "e75cef0420d7022f21c6b557e067af1e742b6e02c408c77ba3629501cfaf249e",
+    "source/pair_protocol.py": "b15c9709d77c836e90085541042f9e90547c8d70d05a74b70be5205c3a4dd5e3",
+    "source/check_case.py": "03f25e5a3e84114ce9aa1de9ef0dd2fb3432e9cc072189c7fcf95cc63f777bce",
+    "source/memory_design.py": "17bfa82d9c2a95fcd776329e7cf8f10de6500272e31ec6ab50f38c7d6bd77957",
+    "source/test_bounded.py": "8541dc176433a39d33c5f5914b191d88c62f0ad482fab7b0f3a575f7715866e5",
+    "source/test_trajectory.py": "138476434104e34d51f2e4922557e647af561d80ec4eadc0d3616bc8aceb00d3",
+    "source/run_queue.py": "b148e898c6f35e2ed1cb18bdc3a708aec20a8f962a625b121ba0c58876f4fee9",
+    "source/delta_memory.py": "78b388cab8115814d8d33d2b50b2ce8cc82653d0ee390a7e6a4b4c193f5ff5c5",
+    "source/migrate_transport.py": "2f869079749102353b9575cebccaa3151dbd34e6bbd5bad262b213ca605da1bd",
+    "source/METRICS.md": "8b56e60e4011c94d8a154b0adad2b498bb18aacb8e34710b51a2e75535038804",
+    "source/feedback_continue.py": "5d77ce2311ed5e5a8e8f8073c849adcb3d842e60ab5d2f6c07db19cb198684cf",
+    "source/targeted_probe.py": "3ae7d8f2f976de4a15a6e15fde17e48a83608e1b4aa01d41abe1b4c83dc6610e",
+    "source/targeted_validation.py": "3a3b824c95b5a5d518ab297e712e78a2700a803771eda9bb3a25ef87d73bb252",
+    "source/serve_paired_policy.py": "5b14f3d9093cf83611003514f0b93d117ea3e8d7a87609fe7999620ebcf4b584",
+    "source/test012.py": "99541c109cb983600bf09b35820b39de1011cae87d0fe65bec1851869b6e2df8",
+    "source/admission_wait.py": "6cbe2c9d35747ea237413d44c64fa3301fc3ceb5e97e17a35eb56a6231c2e78c",
+    "source/start_v13.py": "d08c8a9cbced109de4fd2bff2f5a92331facd04a21519b8b157b64c303532524",
+    "source/feedback_queue.py": "122efd83d3e7cad70ce3098b3d240ace8c6fd08fc0521fabb7be595485eb343c",
+    "source/osc_handoff.py": "4347c7cb5817df0ed950378bf7d413bc165bde6fb915f0489ffe32b73e73eb87",
+    "source/compare_v14.py": "cb6b6b9accd146e54529a039d7292b02642dcb2c006b74345d6463565192d6d4",
+    "source/test_targeted.py": "94dc753178f8cfcbc58e3702d8b7c6e320f748d18734720267b2f05e6bade4bb",
+    "source/learning_v13.py": "153f8170ffd82aa1fca298539b4eea78e505263b7fd752d2186e86f42d3f5bcc",
+    "source/workflow.py": "ece14b51dbc17c57a6957fea8a90db43b0292848bec25fcc80f6da145641fb5c",
+    "source/structured_feedback.py": "6c85323b0177e0c70d630b8f0cb89a82d0b587613241854c077f3558d308ecfa",
+    "source/smoke_v14.py": "bb58a18290638aa9f930e274afa1a15862a73b52f750b897f852acd2b7ce4c5b",
+    "source/world_client.py": "b9d3401096b3fdabad2df04a172bf0953d0c2c067a2fa56ac01764fba5a1999e",
+    "source/trajectory_replay.py": "4de71d8eb86aee0e6dd6954452a5272de9578ba2b8498d668c92c78f33983eea",
+    "source/start_v14r1.py": "4fe178033b3c5917ffe78113c7a3a0427068353c03362444b9187166716d8c3c",
+    "source/launch_continue.py": "d4b31d6747d18fa1a4e85969d407257ef019b69ad0cc91883b4dc4d7839dfbb7",
+    "source/durable_queue.py": "1cbdf61d38e90fae29c1977940aad9324f0effa9bdc9298b2d9b8d4e4e5a7804",
+    "source/check_feedback.py": "12171f7b78c9736816a3d932cffa185c13155dd1948313cf8366514a38ec7797",
+    "source/preflight_stream.py": "24d556ec3a242c1a67aed8ecae413547bf17a904eb4058ed72ea1c91ca76afa0",
+    "source/status_v14r1.py": "8e92d21d1279133edfdf38a8901a4ed3f6df68388a93d599b51a4323c0c96a3e",
+    "source/runtime_config.py": "88dd4f0c827360a9830e61633cd7d4dec3d7b3060a3611e8b57a8c0a167d5609",
+    "source/pipeline_v15.py": "32320cd4b0c08ae1580f31ada90f448221d863547093c8bce69233f9320e3b67",
+    "source/test_v13.py": "c8daeba03264fc060004678f99760713d799f68d0d57142f07585ae5301ef7ee",
+    "source/test_resume_v15.py": "4c85cd5615873d31799a8427208e3502351b03e9aab80e8666defede31900f11",
+    "source/prefill_parallel.py": "1e7546c05d594c235ba9538b6d56742d3bd0b6efbcbc1dd1f13aaa4db96480d4",
+    "source/stream_pipeline.py": "17fbde048399120d78065bfe07c63a959d7f3a3d49e38c09dbefbae44b49d6de",
+    "source/launch_twenty.py": "29f764dad61a52e0ce3bff9ef3bdc6c0973c82480194a773b37a6eb17abf7ec2",
+    "source/network_wait.py": "65afad5b2fc9bc61d746e45df0e3e3d0cf84d4ec95279527e5076dc139cb0f0e",
+    "source/transition_diagnosis.py": "3c2a427d4fcda83fa37e13083d237d36d9a6d8fef3843ae94786391ace6d0a8c",
+    "source/resume_support.py": "df954605ebe83cb7b6d72f3cc7b8077aefc9448b8456387f91e3f98e414da6d4",
+    "source/preflight_feedback.py": "e3859b7a15dafa1d065256e53cb0e6ee1fbeb052d892b49d0b30012b8e7fca42",
+    "source/test_bounded_repair.py": "7bbf4b23c769dcd3cdd8bef11dff9a49ee5a05ea6b071ba7a97d61b0e699d138",
+    "source/test_stream.py": "aec60a189f5f10196c3bd310f50824976cd8bf0ccc5697b6faa5368f55475dda",
+    "source/launch_feedback.py": "4a79b580df718258b98672b07227cd5c617826f99d354ece86bfc206ac0f6198",
+    "source/start_targeted.py": "b14058c1d2efe71ac21b0a9d0f24a8b7fe1fb776fd93d19a417bc1734e09fa2c",
+    "source/action_catalog.py": "1687801eda272a93938d8cac8c887dfd1bcac043282a43bda7b30efc5905fafc",
+    "source/status_unified.py": "02dc75f922bda9fe28213e904f384ee739945a19d4316f4202ee8db62a25372b",
+    "source/physical_runner.py": "4205eef557ea91cb37e91156fac14c8a1b82035215c5b5118c15704a09a5028b",
+    "source/README-v1.3.txt": "7ba20ae2cf1ef27db98807f80f30152034df08d190c970dd664affb2fb3c3c45",
+    "source/RECOVERY.txt": "c65852632f29189cff8ad8d035b41af128a6795a4feedd02543c03ea56574a2c",
+    "source/repair_learning.py": "30b35ebd2061fe006a90563820a1ca229275f2cd58b291caaa28c2e7e55690f6",
+    "source/trajectory_evolution.py": "d782285c25d97e46ec5ecb5dc9e094da2791c455721a226a0cadc2bb1713f792",
+    "source/test_policy.py": "cf96ca5eabc36fb5c23a50ac8da9a6a0e9aca867f326ece5bf17841ef7187ce9",
+    "source/paired_sampling.py": "1b6773c5d88833f268fb6b82235073b57c68ea53aab70d84c0ad20bd3fe554e2",
+    "source/parallel_pipeline.py": "267a8203d65418792c35cd5f49b0c6e76c8b4d2ad86e779f2e5333cfb06f3c23",
+    "source/twenty_queue.py": "9aceeaf6f190e464c3bd16b8c3d5f98d5c717a39126b2ff5f603e07f6429e6a6",
+    "source/feedback_protocol.py": "bd8031e624dc63c8b5ee799f37eef9a6d8972742efb829abd17f276cb6304604",
+    "source/configs/base-policy.json": "b7b555c1070603121f202fe86911e9247d7fa2665914ccddf741339eb18b19e1",
+    "source/configs/selected-budget.json": "cdc4a43eeb7c88f19eced59873acb63f33e0ddf57668634ce6fdb4625b95b152",
+    "paos-core/README.md": "9cc53fe314323858077a1e31c5718ef4a0f87ce79af888d7d6135525d1128a23",
+    "paos-core/pyproject.toml": "e1b5f756bf8fbc4bb486f7cf122e8ca1cbc43153970588d3e89962422157ddeb",
+    "paos-core/bridge/package-lock.json": "9c84d547e1cd43e269ac325258642aadef08f2192c66de266b23c1738d57a24a",
+    "paos-core/bridge/package.json": "397b6b7b0960bcebd353b75384454416e0dcda101a19aff3dc496e86be7c1e9a",
+    "paos-core/bridge/tsconfig.json": "7bc430a9a5e633a6bad0c39b351c83f51831cba9f38a05649bdddd36eb0edd90",
+    "paos-core/PhyAgentOS/__main__.py": "6348a313cc6626f0ea2028919224986eee1b2bff4b5ff32098baafef568b00c9",
+    "paos-core/PhyAgentOS/embodiment_registry.py": "a5c4358d8b169b26e003848b956b6ca3149dd9f0bbde9cbd9ebbbefdcb658aed",
+    "paos-core/PhyAgentOS/__init__.py": "64ef5e2e382c199c41f14a9d5e4a02442df3a82576c75695a05325207c7a8af7",
+    "paos-core/PhyAgentOS/agent/loop.py": "21ee75652ab95c8ca12c0fbe00f5f07db61d052f5c87dfc43eed279d9be8b366",
+    "paos-core/PhyAgentOS/agent/subagent.py": "fe6a495034ff53f319c814dcbcf7aa87159243884d892651612b46cfbd46b4fd",
+    "paos-core/PhyAgentOS/agent/context.py": "56a079dc7fbd56b5f579ae48216716064a8cc8af489d18dfbb1a934835dfe957",
+    "paos-core/PhyAgentOS/agent/skills.py": "1ec5577f5d64e7ab517fdba432c07416e75e4c2f7ee134ac237849b3ee80c4a6",
+    "paos-core/PhyAgentOS/agent/memory.py": "b8baa3930dfd3808eb6b469d49d62f16a13186daddbd0fa3bc92e8bf9ce88769",
+    "paos-core/PhyAgentOS/agent/__init__.py": "5ff130234c5eeada303363fb1291cca8174b983db2192a93f47698465a0eb59a",
+    "paos-core/PhyAgentOS/agent/context_budget.py": "5557c5d8cf2cff2c06ec52f5c72948c43126188d9d221b6ab26eb6a8518ad5cb",
+    "paos-core/PhyAgentOS/agent/session_verifier.py": "aeba33ba162c3cfd0bb0806ca8a0cc0fc4d382e21b864c9cdd08e986924c0b32",
+    "paos-core/PhyAgentOS/agent/tools/skill_activation.py": "c7f8bdf732059f679264d7574f9542557bc687566f0219faf616f80ab0f2e2d1",
+    "paos-core/PhyAgentOS/agent/tools/base.py": "ec73e18cd1c818d1c6091d2ab93daa21648de92bf124af54b375bbb425989655",
+    "paos-core/PhyAgentOS/agent/tools/message.py": "cd43ddde216415e5ee97f897ce28897b667550afe38ebecf5b28a653f08b228b",
+    "paos-core/PhyAgentOS/agent/tools/shell.py": "83775ea86cb43b92d46009934faf3e0d9e0442c3ca2e7b6d6e2ce462047ac86f",
+    "paos-core/PhyAgentOS/agent/tools/spawn.py": "efc48ed28f967d1c5fe5e834ab8d0f322151e06f749b83e3a51446770007be2b",
+    "paos-core/PhyAgentOS/agent/tools/web.py": "894ede410b1040b39c3f32737e63339821d30a2d3bc6d22c622e58a798d8387d",
+    "paos-core/PhyAgentOS/agent/tools/scene_graph.py": "be3f6e057d8683a144e0d0d94c4d9555e4c28af11cf4c2cc8a2626d402205227",
+    "paos-core/PhyAgentOS/agent/tools/cron.py": "a132feb9ac0d9f1fd7daed89a9f1b3c01b4fa878831383f5a3dff3bcc85585ca",
+    "paos-core/PhyAgentOS/agent/tools/agent.py": "97cb2067f8b781fae4b8cae99983fbcee6de54d7bb4695043c13c55586bc3ddd",
+    "paos-core/PhyAgentOS/agent/tools/__init__.py": "a0c7e0e4ecea5cdce484c2da41144a2736e6fe040a262c3583011ce48377e587",
+    "paos-core/PhyAgentOS/agent/tools/forge_tool_api.py": "0c9a52ed67d6998f84fcd079e63d7223c5d78ae36a23c74ee553ad54c1582d2c",
+    "paos-core/PhyAgentOS/agent/tools/mcp.py": "3411199760b834b2d2a59e84d5367145aec1033baedd5e225cc046b3a9f62039",
+    "paos-core/PhyAgentOS/agent/tools/forge_task.py": "92f4809617dc7c63d9509d46161c6e81fe3cc9e98283017ef137416572186991",
+    "paos-core/PhyAgentOS/agent/tools/registry.py": "7d1498cc753aa1e001d5faf80f7ca7562bc3cea6170fd6e9c12a0a8082d291dd",
+    "paos-core/PhyAgentOS/agent/tools/image.py": "516dc413925f3b501c9f2eb46fa42632ba359f771b486c153c8a535d69b41917",
+    "paos-core/PhyAgentOS/agent/tools/filesystem.py": "bde3e25383ed1a198d36be0437abf4ebff9ad5ebdcd42ceb02d66756600a05ec",
+    "paos-core/PhyAgentOS/agent/experience/source.py": "e26c2d4a24e3b7faf5a4804bac42fb77942616e5fd6cacc910cf7ec9656e3d84",
+    "paos-core/PhyAgentOS/agent/experience/evolution.py": "c96f9cce52d43559fc47841a4940b982eb906347e55c9db5f14681d5230570c6",
+    "paos-core/PhyAgentOS/agent/experience/store.py": "f6e104af2104b5e39eb9c0a22ab391037e6e1f852227994a3be2455eb697692b",
+    "paos-core/PhyAgentOS/agent/experience/activation.py": "190608d28d86898caa518e4fbd9261b7b6e4b3209a50fa5c3a2c0b2891b4b3e3",
+    "paos-core/PhyAgentOS/agent/experience/analyzer.py": "1b6a21059a16b672f1b35f14669474ae4da071d34540bd403ee12e97cd40f4f9",
+    "paos-core/PhyAgentOS/agent/experience/coordinator.py": "86e30c68d8cd92e4db0611fee8ca97d25ecd5870c879d30c1148fdee13ee36b3",
+    "paos-core/PhyAgentOS/agent/experience/contracts.py": "17d80d1c7dd5563f406e5fd99ee25a27fda0e709b644b32e53539bb7ae5e32b3",
+    "paos-core/PhyAgentOS/agent/experience/redaction.py": "f057337dd5e3c9adbbeaaba3946eddaf7c5e92e6b080d87a9f4422cdbb666a28",
+    "paos-core/PhyAgentOS/agent/experience/__init__.py": "e419eca2fc66dfcc5f4f3a608310a2b6a7e6a653853b81f17f06f6b873eac7f8",
+    "paos-core/PhyAgentOS/skill_runtime/installer.py": "4406254d2fdf2a836c93eea18853c1d30ffc515b4d3652b505aabcc83b141795",
+    "paos-core/PhyAgentOS/skill_runtime/manager.py": "981de52c5126d71e79b04692687fee3ff1ec4a344d249c8c1ed7a397ab1b3a5b",
+    "paos-core/PhyAgentOS/skill_runtime/catalog.py": "496a936a3da915beb49f1f8dd594d72616a2b07d8bc76a06011c4637097e7254",
+    "paos-core/PhyAgentOS/skill_runtime/state.py": "208421b598656bda2c607582701c5f53ff311be2d1c7fb6609bc67612aa98f6d",
+    "paos-core/PhyAgentOS/skill_runtime/manifest.py": "492f7eac24b66cfbc4927aeb2eea92de82a47310980a9f673ce8eee58f09a953",
+    "paos-core/PhyAgentOS/skill_runtime/locking.py": "1e61044ea67790c5ec6c902ce043b79fc5a2911d40e0a8c237b33ccecbb56a32",
+    "paos-core/PhyAgentOS/skill_runtime/runtime_manifest.py": "e754f6654a17fcabdc0926521ff4d223eb173caa3f2eb262300c0228d1788aea",
+    "paos-core/PhyAgentOS/skill_runtime/__init__.py": "04e01649caf474ed3bc61d8cdd27fd17a1daa0226fe0ff97a331e448b92cb6ce",
+    "paos-core/PhyAgentOS/skill_runtime/node_manifest.py": "f6ae27bfc251acb735532bcc79e8d7add3a4779d7334f9470cbcc4b68a2a299e",
+    "paos-core/PhyAgentOS/skill_runtime/registry.py": "b4dacc88312be7809550d8a5d1264b212aa77a227726783dc0247d59ced984d5",
+    "paos-core/PhyAgentOS/skill_runtime/archive.py": "086f29b89011c6302731faacd5815f8543d45a27887b802ead13d75cda2cbd74",
+    "paos-core/PhyAgentOS/skill_runtime/integration.py": "b7297a8d654c31adb3c6003dcaf6ab77e0321a42b4136798dd19495b0c6047a1",
+    "paos-core/PhyAgentOS/bus/__init__.py": "be4472e53be527b08160e3138ae3740133474ad879ab243cb176a90a60ccd6bc",
+    "paos-core/PhyAgentOS/bus/events.py": "d20550e2d2ab6ae4f9dd1267bb408d626f7278a52ddd1ce86068bf574123cd5b",
+    "paos-core/PhyAgentOS/bus/queue.py": "1c4073d1b75a43b327200c6493290fe9eb7a79208ad5a7eb97bac5f3c7d5f6b1",
+    "paos-core/PhyAgentOS/providers/base.py": "bb0c89a303dbce6db1654777d6df4dbbae5e64cf9a3b8606754d35bbfbaa2bf2",
+    "paos-core/PhyAgentOS/providers/custom_provider.py": "caadbc0a516ef904e0c1a3678bdbb4887822613b20224c10a509467e0af86d6f",
+    "paos-core/PhyAgentOS/providers/litellm_provider.py": "cfae78dc5622df67f43de0f9819939fb9620ae5dbc8241b95d8d4e4407ddf03b",
+    "paos-core/PhyAgentOS/providers/providers_manager.py": "555305f23be2ef3aafa3bd444d4947a7e310ee77f964aefa5a9caa4499cb081d",
+    "paos-core/PhyAgentOS/providers/structured.py": "7351ecfc8889af013f458a02e257c0d6c5d394465179e68985c04432ea4c0eed",
+    "paos-core/PhyAgentOS/providers/azure_openai_provider.py": "0352e6e00d1033cd2a9ae3fbaa495033a88a3846a266802dea1b11e4e2eaf127",
+    "paos-core/PhyAgentOS/providers/openai_codex_provider.py": "ad88b2b4d7c3bec877f202ba2ee3c7b459aaff3b029527e40d09edb682890bc3",
+    "paos-core/PhyAgentOS/providers/__init__.py": "d1e6fff7afa9fb4b87b2fb4e1ae62999d19f75c4347e7b596b2d39a33fa1b065",
+    "paos-core/PhyAgentOS/providers/transcription.py": "3eb86483f1c94e2082b53856f22bea4b20b803ac1a677fda56bdc3b37cdb7dd2",
+    "paos-core/PhyAgentOS/providers/registry.py": "a5958a0043eb30dc17ec527a67ad9a62e9b5797844bc8a5ad006df5fd5ecc65a",
+    "paos-core/PhyAgentOS/channels/manager.py": "96717c454a519b669b66d3e33a6123ffb101f43403ae79c6fba11c62bcb9f6ab",
+    "paos-core/PhyAgentOS/channels/telegram.py": "9cbc9dda8ff82d44f469b63412755173f9cc7f5f685eb6408ef3b5162d9cae54",
+    "paos-core/PhyAgentOS/channels/whatsapp.py": "e22202af7c5c15d20a9fdde51b9f129b4fb6060d7b8ab1e51325c6750c2a47a6",
+    "paos-core/PhyAgentOS/channels/slack.py": "9581f0502193075707e343d2a97305f5a0e62fbdb22e0d7d52db8d3bf0a5d65e",
+    "paos-core/PhyAgentOS/channels/base.py": "e1976e7fbf42a53bfd5f9a39a5fe0301951f7e911d6c74d6a056b983ce639bcc",
+    "paos-core/PhyAgentOS/channels/matrix.py": "40d6df1eeea293067459519e661409b6633a92463e6708cce8c6563492c7336f",
+    "paos-core/PhyAgentOS/channels/dingtalk.py": "730e485afdd52d1a5ee5f74160431aa2a90a7deb8db3b4b7b5b542c6365be343",
+    "paos-core/PhyAgentOS/channels/qq.py": "870e65e17190cedfaeae0b69fcc827bb9b888dabad134649a06b5ebc8b88daff",
+    "paos-core/PhyAgentOS/channels/email.py": "8342f47c8b2d6dc9ba1136ba0b9fc4758a1ea38082d51b485f30ec4389c767dd",
+    "paos-core/PhyAgentOS/channels/discord.py": "0398942a5ace10829cd5fbac9dc57fac4bd24125bdde50a79cf80e69cb34952d",
+    "paos-core/PhyAgentOS/channels/__init__.py": "510ad4434e579c8d2572e94653673a359b96e4264c83c5456e89f2a5d2115951",
+    "paos-core/PhyAgentOS/channels/mochat.py": "8685b31002cb3165c66ac0da7822ddbf3db9647daf7060f462812c4c2e8211c4",
+    "paos-core/PhyAgentOS/channels/feishu.py": "399c47f5d9e585d195bcd915df53ed6bf3688a8f6f28ad3e9f7569a48ae719fc",
+    "paos-core/PhyAgentOS/channels/registry.py": "ffd44d1e6ffe40a899e1758f016749244e3288dc41028c0e50ef98a2261ed1a3",
+    "paos-core/PhyAgentOS/channels/wecom.py": "f37866bcfa892b8fedb60047b3eca25cc46dc139aebe9ecdaf6002b4ebf0d595",
+    "paos-core/PhyAgentOS/utils/helpers.py": "3e781a37676e41b423b5378644bb6c5f4c73ca01b669ce35d9626ba040208af3",
+    "paos-core/PhyAgentOS/utils/__init__.py": "43f41ccd31482d3991c2303cb6d5a81c28f657879fd730d217378e6e623b9eb2",
+    "paos-core/PhyAgentOS/utils/atomic_file.py": "fe34273abdfe2735baa82c41318706c432bd1e227458120c29ca672d0fce9cd1",
+    "paos-core/PhyAgentOS/heartbeat/__init__.py": "14e761917ad7b3c6a4523071f5e6df7eab23b31127d263518ced55ce7d797e4b",
+    "paos-core/PhyAgentOS/heartbeat/service.py": "271485ab7d8c590f13dac5b7a5b6c48bcf7ec7030a4b7876bfc69fe7a32fd904",
+    "paos-core/PhyAgentOS/session/manager.py": "184c42f2585351184b02aa8d9b2f0b2b9efddce7540da7707291ca5c327398e9",
+    "paos-core/PhyAgentOS/session/__init__.py": "d89ffee23e6117adb613c5088d67b58e709d0d7c4119b06801284516148b7c3f",
+    "paos-core/PhyAgentOS/cli/commands.py": "d2486ac83a803e3cee44e7640677aa3f6e94d6a9446214044eb53947bf83bc69",
+    "paos-core/PhyAgentOS/cli/__init__.py": "f48034ca0d5c1205faa8172d5225a71057384d03e8ae3f47211e92bda5ff598f",
+    "paos-core/PhyAgentOS/cron/types.py": "571e2a2ce0aed6f13dd21a880ac002c0ddc69568ff19539809a57b6c2a630af7",
+    "paos-core/PhyAgentOS/cron/__init__.py": "a17e51c5876130a4e50bd8ac48124bfb1320a8cae169b220e7d33d3a6f07e34f",
+    "paos-core/PhyAgentOS/cron/service.py": "c5b04c172379b60775714e7782d2275303aa178abb4ddcfd4c8fb066f1841a37",
+    "paos-core/PhyAgentOS/templates/AGENTS.md": "df3932f3e9d41efdae71150f48548982970d1b8b5fbfc41789c6927cf8467366",
+    "paos-core/PhyAgentOS/templates/HEARTBEAT.md": "630ccb1f901ea5979fcba59f933eb728b8ebd0e15cd1dbb48730a23874fe8a0a",
+    "paos-core/PhyAgentOS/templates/TOOLS.md": "f32c144155cb564e72c766f9acd1e27c4ee7a7dd8311dbe7cf23533047c41476",
+    "paos-core/PhyAgentOS/templates/SKILLS.md": "75424a959b3f75703c223a81ca51f5423b6e8bf6f3cc94b97e5697807ac6b39f",
+    "paos-core/PhyAgentOS/templates/TASK.md": "b4c5b741a347c64990360195273d3f0be7e46275ab674b95fbc7be6b8c934401",
+    "paos-core/PhyAgentOS/templates/LESSONS.md": "031576beed54c63944f20d4d62cdff9781c792dd1483a5aaa50e3045a04162ea",
+    "paos-core/PhyAgentOS/templates/SOUL.md": "53055a370ce7ee409a61c5f23382d2bd0b3207fc17de734f37ce86e1f8e7591c",
+    "paos-core/PhyAgentOS/templates/ENVIRONMENT.md": "b3259eb307ce3c86b414c42c14a5898fb962dfb76c96cb46a01f9246f9856a7f",
+    "paos-core/PhyAgentOS/templates/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "paos-core/PhyAgentOS/templates/EMBODIED.md": "55e1327eef71cef9e6ed95c6188368b8da96e1fa69366726a58a3d18ecdbb055",
+    "paos-core/PhyAgentOS/templates/ORCHESTRATOR.md": "d62c18c5b291f181dfd5ea1137b5cc71b3032b0a58005d29dcb729c6babbd434",
+    "paos-core/PhyAgentOS/templates/USER.md": "31afb46b738ecabb995ce3ec88cba46112c369a49bfaece74f6405acda6ad161",
+    "paos-core/PhyAgentOS/templates/memory/MEMORY.md": "890d87460fc585a6f44b3db7087cb13e888fcb2582d30cbc1aae2d2b60dbe0a1",
+    "paos-core/PhyAgentOS/templates/memory/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "paos-core/PhyAgentOS/skills/README.md": "7842ba75e5d47e66c2b9898c05e1350f9fcb81461b0acde6b337f1c07085975e",
+    "paos-core/PhyAgentOS/skills/skill-creator/SKILL.md": "bf9e7a2bbf425c543e263ed6d9382476160fc348e2dd6890f7eea7de672fa8e4",
+    "paos-core/PhyAgentOS/skills/skill-creator/scripts/init_skill.py": "bcd6b802c400a9e89319844c6c3d965855c8b0555e982eb72cd4accb7ee67e3e",
+    "paos-core/PhyAgentOS/skills/skill-creator/scripts/package_skill.py": "a9c0ff36852767c324a7df290e804d370b052707d9dbda5dace51ccb1dc38233",
+    "paos-core/PhyAgentOS/skills/skill-creator/scripts/quick_validate.py": "68ec08b795343c0432eda1e3ec8d5faef93870171db596ebd6ddbe3844e693d5",
+    "paos-core/PhyAgentOS/skills/weather/SKILL.md": "27eaa11b73ce98ffda3fd2de2d556a7fc9796758be5a8b5d989c72d9313aa86d",
+    "paos-core/PhyAgentOS/skills/image/SKILL.md": "e374b69396aecc4cd3f65a3c5b1cf9d6d6f7f5af793c8637baeea2b907271d32",
+    "paos-core/PhyAgentOS/skills/tmux/SKILL.md": "f7b75864ef9f09016b2df523fd73fd81a76d7ad60eb838580bc00228278497cf",
+    "paos-core/PhyAgentOS/skills/agent-mode/SKILL.md": "3f944fb02db8ed7eb9818509d1d3cff12e75f831fb1f4203620f676f5d662ea4",
+    "paos-core/PhyAgentOS/skills/memory/SKILL.md": "88d73a0d3a728bd3579132d6a5af7d33a50878d29a1c15efdcdf8cbdf4d471de",
+    "paos-core/PhyAgentOS/skills/clawhub/SKILL.md": "e9f708acc796cb3e3620631649b5e6e3c8f0a41a926b74d4059006ac2fe600b8",
+    "paos-core/PhyAgentOS/skills/cron/SKILL.md": "d0fb2533c47e70d330236223c947b727f3fae1c157af98e85dc8a4abb347aa1d",
+    "paos-core/PhyAgentOS/skills/summarize/SKILL.md": "209567ff3fcac12eaafc2ab9cb2c795725906f2fd37d72b18aaaca56828bcd97",
+    "paos-core/PhyAgentOS/skills/github/SKILL.md": "a0074d6610f3dde3cdaf0f8f373416358b4592dbb1f87fa083eb53b1872f39e3",
+    "paos-core/PhyAgentOS/verification/contracts.py": "0ce8e029c8c9d342871fce9d07f202e8e81cb2dc1ad06e2a58c9f3bc4f990b2b",
+    "paos-core/PhyAgentOS/verification/__init__.py": "27c40e75a38ec1cae28730ef861be2f079b6d16ac4cfa56c362be2eee80d4277",
+    "paos-core/PhyAgentOS/verification/request_builder.py": "c38f9de69c35ec4e09acef7f844ffcc3f6e3b3ec007818c4555901b446e256f8",
+    "paos-core/PhyAgentOS/verification/engine.py": "a65888a9ea437bb6b2d3a5dc62d71ccdd1c7fe4f6cca85051961ec13403d82a1",
+    "paos-core/PhyAgentOS/verification/service.py": "012948a341568b8f504c68948480b5b36f9798345c9a9fc0e7be8fca0f379e37",
+    "paos-core/PhyAgentOS/plugins/__init__.py": "4c0cfcf72d3998638fca9983eaeb6c0bb34c060d2dd7bd9ee0194a4f2f3381e5",
+    "paos-core/PhyAgentOS/forge/observation.py": "cf01f395b4e782d69f6b1e5a2ba5a6933d0eb0cbca3a5f2903dd70da7367c95f",
+    "paos-core/PhyAgentOS/forge/tool_client.py": "d479b0f19de93061cee262b4e1309a0fe843c76db898f844a2476db91b132e42",
+    "paos-core/PhyAgentOS/forge/task.py": "d16632642c40fad6142575b283ee45aa5556e300f1fbabf18420a549fbf592f8",
+    "paos-core/PhyAgentOS/forge/evidence.py": "b5a25bbff166468cb5e02bc69f2766bd97b77d5787e5d2c6f3c1ac79c46679cf",
+    "paos-core/PhyAgentOS/forge/__init__.py": "c948c81ff05a3bee1c63a96bebc1789d6f61ddde619cbf1a923d360f6317dcd8",
+    "paos-core/PhyAgentOS/forge/binding.py": "662d88799df0dca7d35ab46ec60377af5c675e6c4268dad81e854a63373cae80",
+    "paos-core/PhyAgentOS/forge/session_gate.py": "24b3435b79700051cf7d36c9e933d765c7a841d412eeb4de5125ef498e91107e",
+    "paos-core/PhyAgentOS/config/loader.py": "455fe653b4611e67ec174dd8a5a34eeab273ca35252c4d2fd4b1fcc992e31527",
+    "paos-core/PhyAgentOS/config/__init__.py": "00124e6e56d68b4235c1643f998a0394a99d99c43cd25593a79333d1104841b7",
+    "paos-core/PhyAgentOS/config/schema.py": "dfa12d29cfa450fa13f9d3929f088b801987210422d8d2e67440508bd85d7381",
+    "paos-core/PhyAgentOS/config/paths.py": "ba44a3f008999a5499b873f8088f41301e8a4e285ee720fc6973f36455d656a2",
+    "orders.json": "e27a0f273645c012225603bb18260b0dfbf1ef068a8b98b69ea0adc7ea1c58bd",
+    "budget.json": "cdc4a43eeb7c88f19eced59873acb63f33e0ddf57668634ce6fdb4625b95b152",
+    "parent-policy.json": "78257b8adb26f8ae510c7ea563b18da3a8caede79b50c3104e6bad048e10d157",
+    "code/case_v2.py": "96ade4df52580e37d5588cd8d1280653925f216741fb1aec89429aa05faed010",
+    "code/queue_v2.py": "66b4337989deed7ab8015bd580ad9ac788e6de1d2edab6a301f29076bf4708c5",
+    "development-schedule.json": "241ffb6fcc1ede97adb3e598031709042f49c3d6acf64abe6c6f94368864a37d",
+    "allocation.json": "a55d4eb70b501d9d856b0db12a40036aff3261a458d851bb40c7c7a0f5cd769e"
+  },
+  "call_limit_per_case": 480,
+  "episode_timeout_seconds": 10800,
+  "total_timeout_seconds": 345600,
+  "learning_call_limit": 12000,
+  "final_arms": [
+    "native",
+    "g_only",
+    "u_only",
+    "gu_parent",
+    "gu_learned",
+    "rsi_g_only",
+    "rsi_u_only",
+    "think_u"
+  ],
+  "max_final_episodes": 384,
+  "development_physical_episodes": 12,
+  "stages": [
+    "12 fixed parent development episodes; preserve all results",
+    "At most four training source trajectories and two validation source trajectories; two replay repetitions",
+    "Exactly one bounded model proposal for G and one for U, each independently checked; no human candidate rewriting",
+    "Compare parent, G-edit, U-edit, joint on training and validation; reject regressions and excess cost",
+    "Freeze selected policy, runtime and aliases before reading any final result",
+    "48 paired physical conditions per distinct final policy, original 20 sessions/19 boundaries/7 checkpoints"
+  ],
+  "primary_comparisons": [
+    [
+      "gu_learned",
+      "u_only"
+    ],
+    [
+      "gu_learned",
+      "g_only"
+    ],
+    [
+      "gu_learned",
+      "gu_parent"
+    ],
+    [
+      "gu_learned",
+      "think_u"
+    ]
+  ],
+  "secondary_learning_comparisons": [
+    [
+      "rsi_g_only",
+      "gu_parent"
+    ],
+    [
+      "rsi_u_only",
+      "gu_parent"
+    ]
+  ],
+  "rules": [
+    "No method changes during this registered cycle",
+    "Manual parent design is not RSI; only traced model-generated accepted edits count",
+    "Equal physical seeds, initial states, context/storage/output caps and request cap across arms",
+    "Think control has the same advisor schema, public inputs and one extra call per decision; observed tokens are reported",
+    "Identical exported policies are aliases of one run, never additional independent evidence",
+    "Keep method/decision/physical failures. No outcome-dependent retry or stopping",
+    "Infrastructure failure pauses dispatch and requires root-cause repair, never an auxiliary experiment tree"
+  ],
+  "analysis": {
+    "primary": "full-episode success out of all 48 planned per distinct arm",
+    "pairing": "same history, initial state and kitchen variant",
+    "dependence": "12 mission-history blocks; four conditions within each block; shared physical tasks limit generalization",
+    "uncertainty": "report paired discordances, effect size, history-cluster bootstrap intervals with fixed seed; Holm adjustment for four primary comparisons",
+    "robustness": "report every history and leave-one-history-out differences; one net case is not robust superiority",
+    "secondary": "seven checkpoints are nested endpoints, not 336 independent trials; report calls/tokens/latency and failure classes"
+  },
+  "scope": "LIBERO-based long-horizon multi-session missions using selected official tasks, not official whole-suite LIBERO. Physical states had historical exposure; final combinations are separated from this cycle learning. Casa 47/48 vs46/48 is prior development evidence only.",
+  "administrative_amendments": [
+    {
+      "time": 1792750490.3866243,
+      "previous_registration_sha256": "534f4b42620f150e4f30fe478130d016104c11aa9bed1b26bdaf2434e88287dc",
+      "reason": "GPU 3 occupied by unrelated actworld perf_worker PID 2183861; never stop unrelated jobs",
+      "previous_gpus": [
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "gpus": [
+        2,
+        4,
+        6,
+        7
+      ],
+      "physical_cases_started": 0,
+      "model_method_scoring_data_budget_changed": false,
+      "code_changes": {
+        "code/pipeline.py": {
+          "old_sha256": "38e740bfb9b4c343edc654a7389527f6f67623a3a2c9d95ecf53fafffac83dbd",
+          "new_sha256": "8e0a65989eca420fe881428c93bea01c21a0a001b12d896bca5ae6f48032a61b",
+          "old": "m['gpus'][len(jobs)%5]",
+          "new": "m['gpus'][len(jobs)%len(m['gpus'])]"
+        },
+        "code/launch.py": {
+          "old_sha256": "dff2be4e15e413a135edd5bace09e9f082c6723f814aed51fab5aa4f34ffdf9b",
+          "new_sha256": "bd182e2449c11865563cab830006fe3af4f74cdb0d009255e5bbbcc514549618",
+          "old": "len(states)==5",
+          "new": "len(states)==len(m['gpus'])"
+        }
+      },
+      "previous_registration": "/media/disks/disk1/share/ext_songzhiying/PAOS-LIBERO-RSI-20261023/registration-history/1792750490380754090/registration.json"
+    },
+    {
+      "time": 1792751721.4331882,
+      "reason": "User explicitly requests a new attempt on GPU 6 and 7 only after account-wide interruption",
+      "previous_root": "/media/disks/disk1/share/ext_songzhiying/PAOS-LIBERO-RSI-20261023",
+      "previous_registration_sha256": "d64750d5bb38d964d66a7a4ffd82454655b6534ecdb33c90342480486728cc95",
+      "previous_complete_episodes": 0,
+      "previous_interrupted_development_cases": 4,
+      "previous_outputs_preserved": true,
+      "method_data_scoring_budgets_changed": false,
+      "gpus": [
+        6,
+        7
+      ],
+      "learning_process_lane": 6,
+      "automatic_retry": false
+    },
+    {
+      "time": 1792758941.1133425,
+      "reason": "User authorized deployment on new DCU hosts",
+      "root": "/data/songziying/paos-libero-20261023/study",
+      "gpus": [
+        7
+      ],
+      "hardware_block": "DCU PyTorch, separate from CUDA JAX",
+      "old_results_reused": false
+    },
+    {
+      "time": 1792769144.9342601,
+      "kind": "transport_reliability_only",
+      "old_learner_sha256": "880e56b545593ab51994b1bc05027ecb7502c245ff11038cb1b43efc8e0c8df0",
+      "new_learner_sha256": "82853729f50905aa86372c1b80ec414fbea2e77a0568c4cdb2098dded2760058",
+      "reason": "Single-wire learner override bypassed existing network waiting; observed buffered 502 ConnectionError terminated validation. Restore identical-request wait/retry and exclude outage duration from active replay timeout.",
+      "model_policy_changed": false,
+      "old_results_preserved": true,
+      "old_failed_experiments_automatically_retried": false
+    },
+    {
+      "time": 1792769181.5512164,
+      "kind": "transport_reliability_only",
+      "old_learner_sha256": "82853729f50905aa86372c1b80ec414fbea2e77a0568c4cdb2098dded2760058",
+      "new_learner_sha256": "82853729f50905aa86372c1b80ec414fbea2e77a0568c4cdb2098dded2760058",
+      "reason": "Single-wire learner override bypassed existing network waiting; observed buffered 502 ConnectionError and explicit gateway_busy admission refusal terminated validation. Restore identical-request wait/retry and exclude outage duration from active replay timeout.",
+      "model_policy_changed": false,
+      "old_results_preserved": true,
+      "old_failed_experiments_automatically_retried": false
+    },
+    {
+      "reason": "User requested reuse of historically qualified physical implementation and correction of G scope mapping",
+      "manual_parent_revision": true,
+      "not_RSI_result": true,
+      "prior_results": "/data/songziying/paos-libero-20261023/study",
+      "fair_budget_all_arms": true,
+      "no_heldout_inputs_used": true
+    }
+  ],
+  "deployment_backend": {
+    "policy": "verified original CUDA/JAX pi05_libero on original server GPU 7",
+    "physics": "LIBERO software EGL on node 108",
+    "policy_port": 20517,
+    "development_only": true
+  }
+}

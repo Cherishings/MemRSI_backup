@@ -1,0 +1,441 @@
+{
+  "created_at": 1792941742.3120944,
+  "study": "study-feedback-v2-physical-pilot",
+  "completed": 16,
+  "node_audits": [
+    {
+      "node": "107",
+      "selection_registration_sha256": "fc5bd0b62d6778ab17aeb9a3ce194329d9607603a5a330ce3bc9e31daa29c7a6",
+      "rows": [
+        {
+          "arm": "native",
+          "result_path": "/data/songziying/paos-libero-20261023/study-feedback-v2-physical-pilot/development/hABEDC-v0-i2/native/result.json",
+          "result_sha256": "5032b19592ce056f25895ea57c7633395e211cb60e416f484d4ae690a0023b36",
+          "raw_status": "decision_failure",
+          "classification": "decision_failure",
+          "verified_complete_success": false,
+          "correct_checkpoints": 0,
+          "logical_calls": {
+            "calls": 37,
+            "limit": 480,
+            "transport_retries": 0,
+            "wire_attempts": 37,
+            "format_repairs": 1,
+            "budget_unit": "logical requests; all wire attempts and unknown costs retained"
+          },
+          "model_trace_records": 37,
+          "policy_file_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "applied_policy_verified": false,
+          "model_input_tokens": 129278,
+          "model_output_tokens": 10578,
+          "cost_complete": true,
+          "unknown_requests": 0
+        },
+        {
+          "arm": "g_only",
+          "result_path": "/data/songziying/paos-libero-20261023/study-feedback-v2-physical-pilot/development/hABEDC-v0-i2/g_only/result.json",
+          "result_sha256": "7a0d74d4d61a2bc311acf2f86035c1de63d6f0ec2d6f60fefc1b38c3751eae35",
+          "raw_status": "infrastructure_failure",
+          "classification": "method_archive_output_limit",
+          "verified_complete_success": false,
+          "correct_checkpoints": 0,
+          "logical_calls": {
+            "calls": 26,
+            "limit": 480,
+            "transport_retries": 1,
+            "wire_attempts": 27,
+            "format_repairs": 0,
+            "budget_unit": "logical requests; all wire attempts and unknown costs retained"
+          },
+          "model_trace_records": 25,
+          "policy_file_sha256": "c989d4056668f6ff2ed218fdb905329219959f975990405226fd1988fbb168c1",
+          "applied_policy_verified": true,
+          "model_input_tokens": 94959,
+          "model_output_tokens": 13341,
+          "cost_complete": false,
+          "unknown_requests": 1
+        },
+        {
+          "arm": "u_only",
+          "result_path": "/data/songziying/paos-libero-20261023/study-feedback-v2-physical-pilot/development/hABEDC-v0-i2/u_only/result.json",
+          "result_sha256": "a7c66ce91b892ab587c94c6f333871a178a0339f99e7e7570446f5eaca441e67",
+          "raw_status": "decision_failure",
+          "classification": "decision_failure",
+          "verified_complete_success": false,
+          "correct_checkpoints": 0,
+          "logical_calls": {
+            "calls": 34,
+            "limit": 480,
+            "transport_retries": 0,
+            "wire_attempts": 34,
+            "format_repairs": 1,
+            "budget_unit": "logical requests; all wire attempts and unknown costs retained"
+          },
+          "model_trace_records": 34,
+          "policy_file_sha256": "3d037a7ab50a5f6ef3728d2684ed7e6b74eb71c4a6403c9858123d90452fcb7b",
+          "applied_policy_verified": true,
+          "model_input_tokens": 132763,
+          "model_output_tokens": 6419,
+          "cost_complete": true,
+          "unknown_requests": 0
+        },
+        {
+          "arm": "gu_parent",
+          "result_path": "/data/songziying/paos-libero-20261023/study-feedback-v2-physical-pilot/development/hABEDC-v0-i2/gu_parent/result.json",
+          "result_sha256": "fc12fcd6b54995bc69d74607d82c71cc3cef601c13da5c3d28c62474c2295573",
+          "raw_status": "decision_failure",
+          "classification": "decision_failure",
+          "verified_complete_success": false,
+          "correct_checkpoints": 2,
+          "logical_calls": {
+            "calls": 62,
+            "limit": 480,
+            "transport_retries": 0,
+            "wire_attempts": 62,
+            "format_repairs": 0,
+            "budget_unit": "logical requests; all wire attempts and unknown costs retained"
+          },
+          "model_trace_records": 62,
+          "policy_file_sha256": "350d3aa06b53fd2e75c7ce35e24e32f133c05059782e82b64a1a33ae76d02225",
+          "applied_policy_verified": true,
+          "model_input_tokens": 261230,
+          "model_output_tokens": 12981,
+          "cost_complete": true,
+          "unknown_requests": 0
+        },
+        {
+          "arm": "gu_learned",
+          "result_path": "/data/songziying/paos-libero-20261023/study-feedback-v2-physical-pilot/development/hABEDC-v0-i2/gu_learned/result.json",
+          "result_sha256": "b0da2695f653a368828857c90d59b1349199662abfe20b951e1a8e44d24ec6ef",
+          "raw_status": "protocol_failure",
+          "classification": "protocol_failure",
+          "verified_complete_success": false,
+          "correct_checkpoints": 0,
+          "logical_calls": {
+            "calls": 34,
+            "limit": 480,
+            "transport_retries": 0,
+            "wire_attempts": 34,
+            "format_repairs": 0,
+            "budget_unit": "logical requests; all wire attempts and unknown costs retained"
+          },
+          "model_trace_records": 34,
+          "policy_file_sha256": "054fdcf44b11ea1115d70e1125b409fa235c17b02b7b2c588657abbd50c5158b",
+          "applied_policy_verified": true,
+          "model_input_tokens": 138748,
+          "model_output_tokens": 6362,
+          "cost_complete": true,
+          "unknown_requests": 0
+        },
+        {
+          "arm": "rsi_g_only",
+          "result_path": "/data/songziying/paos-libero-20261023/study-feedback-v2-physical-pilot/development/hABEDC-v0-i2/rsi_g_only/result.json",
+          "result_sha256": "80e9949c9727ac9eb8f2cc8eb724853c753b9fbefd1f9169ea1653f37aff5efb",
+          "raw_status": "protocol_failure",
+          "classification": "protocol_failure",
+          "verified_complete_success": false,
+          "correct_checkpoints": 0,
+          "logical_calls": {
+            "calls": 26,
+            "limit": 480,
+            "transport_retries": 0,
+            "wire_attempts": 26,
+            "format_repairs": 0,
+            "budget_unit": "logical requests; all wire attempts and unknown costs retained"
+          },
+          "model_trace_records": 26,
+          "policy_file_sha256": "f9094c43e415ac7c8383ee279fd33b7eee5d1a4f6579b403f3014a8af8034e3e",
+          "applied_policy_verified": true,
+          "model_input_tokens": 106063,
+          "model_output_tokens": 4859,
+          "cost_complete": true,
+          "unknown_requests": 0
+        },
+        {
+          "arm": "rsi_u_only",
+          "result_path": "/data/songziying/paos-libero-20261023/study-feedback-v2-physical-pilot/development/hABEDC-v0-i2/rsi_u_only/result.json",
+          "result_sha256": "bf2f8cb7c468d53f4448cb36ac1abb0aa1dcfc752ab428c780c638dbc6e26019",
+          "raw_status": "decision_failure",
+          "classification": "decision_failure",
+          "verified_complete_success": false,
+          "correct_checkpoints": 0,
+          "logical_calls": {
+            "calls": 15,
+            "limit": 480,
+            "transport_retries": 0,
+            "wire_attempts": 15,
+            "format_repairs": 0,
+            "budget_unit": "logical requests; all wire attempts and unknown costs retained"
+          },
+          "model_trace_records": 15,
+          "policy_file_sha256": "c97a5ee63aefc8cb8e431273929845602dc00f52820d06d4264517192e0d429e",
+          "applied_policy_verified": true,
+          "model_input_tokens": 64237,
+          "model_output_tokens": 2340,
+          "cost_complete": true,
+          "unknown_requests": 0
+        },
+        {
+          "arm": "think_u",
+          "result_path": "/data/songziying/paos-libero-20261023/study-feedback-v2-physical-pilot/development/hABEDC-v0-i2/think_u/result.json",
+          "result_sha256": "90b7d93da2271de7b62044acff538bc4ba9f7e1a108b7220a9e6a4e3d2e1969e",
+          "raw_status": "success",
+          "classification": "success",
+          "verified_complete_success": true,
+          "correct_checkpoints": 7,
+          "logical_calls": {
+            "calls": 86,
+            "limit": 480,
+            "transport_retries": 2,
+            "wire_attempts": 88,
+            "format_repairs": 0,
+            "budget_unit": "logical requests; all wire attempts and unknown costs retained"
+          },
+          "model_trace_records": 86,
+          "policy_file_sha256": "38220d1e5da5b0e84457b94025b5bee3af36a2cb256782b2d1a45d60676caf45",
+          "applied_policy_verified": true,
+          "model_input_tokens": 360835,
+          "model_output_tokens": 16730,
+          "cost_complete": false,
+          "unknown_requests": 2
+        }
+      ]
+    },
+    {
+      "node": "108",
+      "selection_registration_sha256": "77fb97c2bda4b14c96be6a370599b15107de187af3bc14e4588845a205bc334f",
+      "rows": [
+        {
+          "arm": "g_only",
+          "result_path": "/data/songziying/paos-libero-20261023/study-feedback-v2-physical-pilot/development/hACBDE-v1-i2/g_only/result.json",
+          "result_sha256": "d663f385d9a5d3ccbc5b5c7ce9cdcccda132576029ef171ca7d90c0dfa485bd7",
+          "raw_status": "protocol_failure",
+          "classification": "protocol_failure",
+          "verified_complete_success": false,
+          "correct_checkpoints": 0,
+          "logical_calls": {
+            "calls": 45,
+            "limit": 480,
+            "transport_retries": 0,
+            "wire_attempts": 45,
+            "format_repairs": 0,
+            "budget_unit": "logical requests; all wire attempts and unknown costs retained"
+          },
+          "model_trace_records": 44,
+          "policy_file_sha256": "c989d4056668f6ff2ed218fdb905329219959f975990405226fd1988fbb168c1",
+          "applied_policy_verified": true,
+          "model_input_tokens": 164829,
+          "model_output_tokens": 19750,
+          "cost_complete": true,
+          "unknown_requests": 0
+        },
+        {
+          "arm": "u_only",
+          "result_path": "/data/songziying/paos-libero-20261023/study-feedback-v2-physical-pilot/development/hACBDE-v1-i2/u_only/result.json",
+          "result_sha256": "caae8c14cd6cb5a903401137ad4cb7ec4ed0c64d17e8ef4852f0b561072da5a7",
+          "raw_status": "decision_failure",
+          "classification": "decision_failure",
+          "verified_complete_success": false,
+          "correct_checkpoints": 2,
+          "logical_calls": {
+            "calls": 48,
+            "limit": 480,
+            "transport_retries": 0,
+            "wire_attempts": 48,
+            "format_repairs": 1,
+            "budget_unit": "logical requests; all wire attempts and unknown costs retained"
+          },
+          "model_trace_records": 48,
+          "policy_file_sha256": "3d037a7ab50a5f6ef3728d2684ed7e6b74eb71c4a6403c9858123d90452fcb7b",
+          "applied_policy_verified": true,
+          "model_input_tokens": 181994,
+          "model_output_tokens": 9806,
+          "cost_complete": true,
+          "unknown_requests": 0
+        },
+        {
+          "arm": "gu_parent",
+          "result_path": "/data/songziying/paos-libero-20261023/study-feedback-v2-physical-pilot/development/hACBDE-v1-i2/gu_parent/result.json",
+          "result_sha256": "136912f44850b0465405e014b068eaaf2ba5bfdc89a2a4d4baf055b4dc16a755",
+          "raw_status": "protocol_failure",
+          "classification": "protocol_failure",
+          "verified_complete_success": false,
+          "correct_checkpoints": 0,
+          "logical_calls": {
+            "calls": 5,
+            "limit": 480,
+            "transport_retries": 0,
+            "wire_attempts": 5,
+            "format_repairs": 0,
+            "budget_unit": "logical requests; all wire attempts and unknown costs retained"
+          },
+          "model_trace_records": 5,
+          "policy_file_sha256": "350d3aa06b53fd2e75c7ce35e24e32f133c05059782e82b64a1a33ae76d02225",
+          "applied_policy_verified": true,
+          "model_input_tokens": 19789,
+          "model_output_tokens": 794,
+          "cost_complete": true,
+          "unknown_requests": 0
+        },
+        {
+          "arm": "gu_learned",
+          "result_path": "/data/songziying/paos-libero-20261023/study-feedback-v2-physical-pilot/development/hACBDE-v1-i2/gu_learned/result.json",
+          "result_sha256": "5d723bd688a87c124d2a5b0a9d901f43bb2a7aeed889f3ca0899b8c625ad8bac",
+          "raw_status": "protocol_failure",
+          "classification": "protocol_failure",
+          "verified_complete_success": false,
+          "correct_checkpoints": 0,
+          "logical_calls": {
+            "calls": 26,
+            "limit": 480,
+            "transport_retries": 0,
+            "wire_attempts": 26,
+            "format_repairs": 0,
+            "budget_unit": "logical requests; all wire attempts and unknown costs retained"
+          },
+          "model_trace_records": 26,
+          "policy_file_sha256": "054fdcf44b11ea1115d70e1125b409fa235c17b02b7b2c588657abbd50c5158b",
+          "applied_policy_verified": true,
+          "model_input_tokens": 107253,
+          "model_output_tokens": 5191,
+          "cost_complete": true,
+          "unknown_requests": 0
+        },
+        {
+          "arm": "rsi_g_only",
+          "result_path": "/data/songziying/paos-libero-20261023/study-feedback-v2-physical-pilot/development/hACBDE-v1-i2/rsi_g_only/result.json",
+          "result_sha256": "9fb3fa62e1853edcd985fd378fd7aff9b13444c1ba9879fe54958153f88ae259",
+          "raw_status": "decision_failure",
+          "classification": "decision_failure",
+          "verified_complete_success": false,
+          "correct_checkpoints": 0,
+          "logical_calls": {
+            "calls": 7,
+            "limit": 480,
+            "transport_retries": 0,
+            "wire_attempts": 7,
+            "format_repairs": 0,
+            "budget_unit": "logical requests; all wire attempts and unknown costs retained"
+          },
+          "model_trace_records": 7,
+          "policy_file_sha256": "f9094c43e415ac7c8383ee279fd33b7eee5d1a4f6579b403f3014a8af8034e3e",
+          "applied_policy_verified": true,
+          "model_input_tokens": 29159,
+          "model_output_tokens": 792,
+          "cost_complete": true,
+          "unknown_requests": 0
+        },
+        {
+          "arm": "rsi_u_only",
+          "result_path": "/data/songziying/paos-libero-20261023/study-feedback-v2-physical-pilot/development/hACBDE-v1-i2/rsi_u_only/result.json",
+          "result_sha256": "14f96202fe9ef56ece7c6a612b014dc4083fdc435c60bf1843671aa228bc3cb1",
+          "raw_status": "decision_failure",
+          "classification": "decision_failure",
+          "verified_complete_success": false,
+          "correct_checkpoints": 4,
+          "logical_calls": {
+            "calls": 79,
+            "limit": 480,
+            "transport_retries": 1,
+            "wire_attempts": 80,
+            "format_repairs": 0,
+            "budget_unit": "logical requests; all wire attempts and unknown costs retained"
+          },
+          "model_trace_records": 79,
+          "policy_file_sha256": "c97a5ee63aefc8cb8e431273929845602dc00f52820d06d4264517192e0d429e",
+          "applied_policy_verified": true,
+          "model_input_tokens": 330891,
+          "model_output_tokens": 15403,
+          "cost_complete": false,
+          "unknown_requests": 1
+        },
+        {
+          "arm": "think_u",
+          "result_path": "/data/songziying/paos-libero-20261023/study-feedback-v2-physical-pilot/development/hACBDE-v1-i2/think_u/result.json",
+          "result_sha256": "bb5b4aa7de86b589ccde01cea69a484a0209c067d917e9f981bd3f11d335ff3e",
+          "raw_status": "success",
+          "classification": "success",
+          "verified_complete_success": true,
+          "correct_checkpoints": 7,
+          "logical_calls": {
+            "calls": 87,
+            "limit": 480,
+            "transport_retries": 2,
+            "wire_attempts": 89,
+            "format_repairs": 0,
+            "budget_unit": "logical requests; all wire attempts and unknown costs retained"
+          },
+          "model_trace_records": 87,
+          "policy_file_sha256": "38220d1e5da5b0e84457b94025b5bee3af36a2cb256782b2d1a45d60676caf45",
+          "applied_policy_verified": true,
+          "model_input_tokens": 363049,
+          "model_output_tokens": 17515,
+          "cost_complete": false,
+          "unknown_requests": 2
+        },
+        {
+          "arm": "native",
+          "result_path": "/data/songziying/paos-libero-20261023/study-feedback-v2-physical-pilot/development/hACBDE-v1-i2/native/result.json",
+          "result_sha256": "3e7f471e80afaa02fc9f2f577c03841f4c32de037ec6dfaa487679b1f5272b90",
+          "raw_status": "decision_failure",
+          "classification": "decision_failure",
+          "verified_complete_success": false,
+          "correct_checkpoints": 2,
+          "logical_calls": {
+            "calls": 53,
+            "limit": 480,
+            "transport_retries": 0,
+            "wire_attempts": 53,
+            "format_repairs": 2,
+            "budget_unit": "logical requests; all wire attempts and unknown costs retained"
+          },
+          "model_trace_records": 53,
+          "policy_file_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "applied_policy_verified": false,
+          "model_input_tokens": 178016,
+          "model_output_tokens": 14885,
+          "cost_complete": true,
+          "unknown_requests": 0
+        }
+      ]
+    }
+  ],
+  "full_success_counts": {
+    "native": 0,
+    "g_only": 0,
+    "u_only": 0,
+    "gu_parent": 0,
+    "gu_learned": 0,
+    "rsi_g_only": 0,
+    "rsi_u_only": 0,
+    "think_u": 2
+  },
+  "joint_strictly_best": false,
+  "expanded": false,
+  "final_test": false,
+  "cost_incomplete_records": [
+    {
+      "node": "107",
+      "arm": "g_only",
+      "unknown_requests": 1
+    },
+    {
+      "node": "107",
+      "arm": "think_u",
+      "unknown_requests": 2
+    },
+    {
+      "node": "108",
+      "arm": "rsi_u_only",
+      "unknown_requests": 1
+    },
+    {
+      "node": "108",
+      "arm": "think_u",
+      "unknown_requests": 2
+    }
+  ],
+  "cost_interpretation": "Reported token totals with incomplete records are lower bounds; no unknown requests dropped",
+  "result_rewrites": false,
+  "optimizer_may_use_this_report": false
+}

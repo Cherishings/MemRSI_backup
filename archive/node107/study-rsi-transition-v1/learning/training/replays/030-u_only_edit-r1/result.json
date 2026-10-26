@@ -1,0 +1,18 @@
+{
+  "source": "/data/songziying/paos-libero-20261023/study-rsi-v4-learning/import108/cases/hEDABC-v0-i1",
+  "status": "agent_failure",
+  "correct": 0,
+  "answered": 0,
+  "planned": 1,
+  "decisions": [],
+  "error_type": "RuntimeError",
+  "error_code": "generation_output_limit",
+  "failure_phase": "decision",
+  "model_input_tokens": 31866,
+  "model_output_tokens": 15200,
+  "model_cost_complete": false,
+  "model_cost_unknown_requests": 1,
+  "logical_calls": 13,
+  "automatic_retry": false,
+  "policy_sha256": "5481fd5708931ffa8ec2fd8d3b3c0c6b9ae73768f48b419047a0955384a7703b"
+}

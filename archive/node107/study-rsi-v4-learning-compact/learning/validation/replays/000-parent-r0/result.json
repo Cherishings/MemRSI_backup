@@ -1,0 +1,21 @@
+{
+  "source": "/data/songziying/paos-libero-20261023/study-rsi-v4-sources/development/hDABCE-v0-i0/gu_parent",
+  "status": "source_error_corrected",
+  "correct": 1,
+  "answered": 1,
+  "planned": 1,
+  "decisions": [
+    {
+      "event": 26,
+      "skill": "serve_A",
+      "correct": true
+    }
+  ],
+  "model_input_tokens": 44826,
+  "model_output_tokens": 7335,
+  "model_cost_complete": false,
+  "model_cost_unknown_requests": 2,
+  "logical_calls": 15,
+  "automatic_retry": false,
+  "policy_sha256": "3b661320727cca4d5321b5e8ce19398c4384214fae5422fd30b02c40907a060e"
+}

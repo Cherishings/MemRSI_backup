@@ -1,0 +1,24 @@
+{
+  "source": "/data/songziying/paos-libero-20261023/study-rsi-v4-sources/development/hABDEC-v1-i0/gu_parent",
+  "status": "agent_failure",
+  "correct": 1,
+  "answered": 1,
+  "planned": 2,
+  "decisions": [
+    {
+      "event": 26,
+      "skill": "serve_B",
+      "correct": true
+    }
+  ],
+  "error_type": "RuntimeError",
+  "error_code": "generation_output_limit",
+  "failure_phase": "decision",
+  "model_input_tokens": 50005,
+  "model_output_tokens": 16043,
+  "model_cost_complete": false,
+  "model_cost_unknown_requests": 1,
+  "logical_calls": 17,
+  "automatic_retry": false,
+  "policy_sha256": "a0e54e7c93f3d0bf0bef01323f75691e1c59a6093d149b3676d5c190be2deadb"
+}

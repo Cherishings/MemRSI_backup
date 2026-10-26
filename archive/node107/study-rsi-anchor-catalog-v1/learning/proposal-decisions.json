@@ -1,0 +1,23 @@
+{
+  "joint": {
+    "structurally_and_semantically_valid": false,
+    "rejection": {
+      "code": "critic_rejected",
+      "new_proposals_allowed": 0
+    },
+    "critic": {
+      "generic": "pass",
+      "generic_reason": "The candidate makes generic procedural refinements to output formatting and memory reconciliation without introducing a concrete task identity or benchmark-specific answer.",
+      "generic_quote": "",
+      "no_task_answers": "pass",
+      "no_task_answers_reason": "It contains no hidden evaluator access or embedded executable answer; the training rationale is explanatory text, not runtime evaluator information.",
+      "no_task_answers_quote": "",
+      "preserves_user_authority": "pass",
+      "preserves_user_authority_reason": "The candidate retains that the actor decides and explicitly says never to execute or veto; it does not fabricate user authorization or transfer execution authority.",
+      "preserves_user_authority_quote": "",
+      "preserves_advisor_interface": "fail",
+      "preserves_advisor_interface_reason": "The candidate changes the required recommendation interface by imposing an exact runtime advice schema and altering the public evidence representation, including a new basis_ids constraint and forbidding identifiers there.",
+      "preserves_advisor_interface_quote": "Use exactly the runtime advice schema: recommendation (string), basis_ids (array containing only top-level source keys allowed by the contract, at most five), and uncertainty (string)."
+    }
+  }
+}

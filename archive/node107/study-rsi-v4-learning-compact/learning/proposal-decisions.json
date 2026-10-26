@@ -1,0 +1,26 @@
+{
+  "guidance": {
+    "structurally_and_semantically_valid": true,
+    "candidate_sha256": "60dfa6e6c115f7886c9137314d5ba836ef82fe0d93ff6c3e5118d0d5b03852ef",
+    "rejection": null,
+    "critic": {
+      "generic": true,
+      "no_task_answers": true,
+      "preserves_user_authority": true,
+      "preserves_advisor_interface": true,
+      "rationale": "Semantically acceptable: the edit clarifies that an explicit continuation may activate a still-live authorization or ordering trigger, while retaining target/scope/prerequisite matching, receipt correlation, abstention, evidence citation, non-execution, and actor decision authority. It does not add evaluator access, fabricated facts, mandatory overrides, or runtime changes."
+    }
+  },
+  "update": {
+    "structurally_and_semantically_valid": true,
+    "candidate_sha256": "51b44bfa8f83b53d896d49b4bb7c6cfbf42aec06aac95ff3c22f683bd40bff65",
+    "rejection": null,
+    "critic": {
+      "generic": true,
+      "no_task_answers": true,
+      "preserves_user_authority": true,
+      "preserves_advisor_interface": true,
+      "rationale": "Acceptable generic memory-rule edit. It is native archival guidance that preserves the existing nonbinding advisor interface, actor authority, evidence requirements, abstention, and uncertainty handling. The added sentence only clarifies obligation-ledger compaction: a later receipt must not erase a still-live authorization or conditional successor until separately completed or cancelled. It introduces no concrete task answer, identity, evaluator access, mandatory override, fabricated fact, authority change, or runtime tool change."
+    }
+  }
+}

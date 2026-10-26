@@ -1,0 +1,75 @@
+{
+  "status": "fixed_policy_comparison_complete",
+  "scores": {
+    "old_joint": {
+      "candidate": "old_joint",
+      "expected_pairs": 8,
+      "valid_pairs": 8,
+      "totals": {
+        "parent": {
+          "correct": 7,
+          "answered": 10,
+          "planned": 22
+        },
+        "old_joint": {
+          "correct": 12,
+          "answered": 17,
+          "planned": 22
+        }
+      },
+      "completed": {
+        "parent": 0,
+        "old_joint": 0
+      },
+      "correct_gain": 5,
+      "persistent_regressions": [],
+      "logical_calls": {
+        "parent": 146,
+        "old_joint": 199
+      },
+      "cost_ok": true,
+      "passed": true,
+      "stage": "training",
+      "scope": "Controlled full-history memory replay, not new physical task performance."
+    },
+    "latest_joint": {
+      "candidate": "latest_joint",
+      "expected_pairs": 8,
+      "valid_pairs": 8,
+      "totals": {
+        "parent": {
+          "correct": 7,
+          "answered": 10,
+          "planned": 22
+        },
+        "latest_joint": {
+          "correct": 4,
+          "answered": 11,
+          "planned": 22
+        }
+      },
+      "completed": {
+        "parent": 0,
+        "latest_joint": 0
+      },
+      "correct_gain": -3,
+      "persistent_regressions": [],
+      "logical_calls": {
+        "parent": 146,
+        "latest_joint": 146
+      },
+      "cost_ok": true,
+      "passed": false,
+      "stage": "training",
+      "scope": "Controlled full-history memory replay, not new physical task performance."
+    }
+  },
+  "selected_for_pilot": "old_joint",
+  "ledger": {
+    "calls": 5056,
+    "limit": 24000
+  },
+  "physical_success_claimed": false,
+  "all_failures_retained": true,
+  "no_optimizer_calls": true
+}

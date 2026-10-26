@@ -1,0 +1,13 @@
+{
+  "planned": 192,
+  "first_gate_trials": 4,
+  "workers": 2,
+  "model": "gpt-5.6-luna",
+  "gpus": [
+    2,
+    3
+  ],
+  "phase4_RSI": "not started; requires independent split and freeze after development audit",
+  "phase5_generalization": "not started; asset and task acceptance required",
+  "scope": "New-hardware diagnostic replication on 48 previously viewed conditions. Not unseen generalization, not RSI. No pooling with old-hardware results."
+}

@@ -1,0 +1,62 @@
+{
+  "phase": "passed",
+  "scope": "live G/U and native archival plumbing only; no physical evaluation, no learned improvement",
+  "rows": [
+    {
+      "arm": "g0_u0",
+      "action": "finish",
+      "calls": 3,
+      "guidance_requests": 0,
+      "guidance_injections": 0,
+      "archive_requests": 1,
+      "custom_update_requests": 0,
+      "archive_completed": true,
+      "memory_changed": true,
+      "marker_retained": true,
+      "guidance_short_nonempty": false,
+      "passed": true
+    },
+    {
+      "arm": "g1_u0",
+      "action": "finish",
+      "calls": 4,
+      "guidance_requests": 1,
+      "guidance_injections": 2,
+      "archive_requests": 1,
+      "custom_update_requests": 0,
+      "archive_completed": true,
+      "memory_changed": true,
+      "marker_retained": true,
+      "guidance_short_nonempty": true,
+      "passed": true
+    },
+    {
+      "arm": "g0_u1",
+      "action": "finish",
+      "calls": 3,
+      "guidance_requests": 0,
+      "guidance_injections": 0,
+      "archive_requests": 1,
+      "custom_update_requests": 1,
+      "archive_completed": true,
+      "memory_changed": true,
+      "marker_retained": true,
+      "guidance_short_nonempty": false,
+      "passed": true
+    },
+    {
+      "arm": "g1_u1",
+      "action": "finish",
+      "calls": 4,
+      "guidance_requests": 1,
+      "guidance_injections": 2,
+      "archive_requests": 1,
+      "custom_update_requests": 1,
+      "archive_completed": true,
+      "memory_changed": true,
+      "marker_retained": true,
+      "guidance_short_nonempty": true,
+      "passed": true
+    }
+  ]
+}

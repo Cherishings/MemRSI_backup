@@ -1,0 +1,18 @@
+{
+  "source": "/media/disks/disk1/share/ext_songzhiying/PAOS-LIBERO-RSI-20261023-gpu67/development/validation/hEBCAD-v0-i1/gu_parent",
+  "status": "agent_failure",
+  "correct": 0,
+  "answered": 0,
+  "planned": 1,
+  "decisions": [],
+  "error_type": "RuntimeError",
+  "error_code": "native_session_archival_failed",
+  "failure_phase": "archive",
+  "model_input_tokens": 10451,
+  "model_output_tokens": 2675,
+  "model_cost_complete": false,
+  "model_cost_unknown_requests": 1,
+  "logical_calls": 6,
+  "automatic_retry": false,
+  "policy_sha256": "8ce2f7adcb6b62a2104281c454a7391ae8b429dc03d552ac1068a89a06a922c3"
+}

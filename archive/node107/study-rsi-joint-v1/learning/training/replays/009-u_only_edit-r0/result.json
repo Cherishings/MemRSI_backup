@@ -1,0 +1,18 @@
+{
+  "source": "/data/songziying/paos-libero-20261023/study-rsi-v4-sources/development/hDBACE-v0-i0/gu_parent",
+  "status": "agent_failure",
+  "correct": 0,
+  "answered": 0,
+  "planned": 1,
+  "decisions": [],
+  "error_type": "RuntimeError",
+  "error_code": "native_session_archival_failed",
+  "failure_phase": "archive",
+  "model_input_tokens": 23645,
+  "model_output_tokens": 13375,
+  "model_cost_complete": false,
+  "model_cost_unknown_requests": 1,
+  "logical_calls": 10,
+  "automatic_retry": false,
+  "policy_sha256": "5bff7a9848fbcf25bf69dc7dbc289eb3a3b931d9bbdd6f9f8d9809105f502b88"
+}

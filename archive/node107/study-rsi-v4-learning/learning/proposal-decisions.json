@@ -1,0 +1,22 @@
+{
+  "guidance": {
+    "structurally_and_semantically_valid": false,
+    "candidate_sha256": null,
+    "rejection": {
+      "code": "generation_output_limit",
+      "format_resubmissions": 0,
+      "new_proposals_allowed": 0
+    },
+    "critic": null
+  },
+  "update": {
+    "structurally_and_semantically_valid": false,
+    "candidate_sha256": null,
+    "rejection": {
+      "code": "optimizer_field_length_failure",
+      "format_resubmissions": 0,
+      "new_proposals_allowed": 0
+    },
+    "critic": null
+  }
+}

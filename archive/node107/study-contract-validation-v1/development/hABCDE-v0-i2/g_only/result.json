@@ -1,0 +1,222 @@
+{
+  "status": "protocol_failure",
+  "history": "ABCDE",
+  "arm": "memrsi",
+  "init": 2,
+  "variant": 0,
+  "planned_sessions": 20,
+  "planned_switches": 19,
+  "sessions_completed": 2,
+  "planned_checkpoints": 7,
+  "reached_checkpoints": 0,
+  "answered_checkpoints": 0,
+  "correct_checkpoints": 0,
+  "decisions": [
+    {
+      "session": 1,
+      "skill": "serve_A",
+      "expected_private": "serve_A",
+      "correct": true,
+      "checkpoint": false
+    },
+    {
+      "session": 2,
+      "skill": "execute_order",
+      "expected_private": "execute_order",
+      "correct": true,
+      "checkpoint": false
+    }
+  ],
+  "physical_executions": [
+    {
+      "session": 1,
+      "skill": "serve_A",
+      "result": {
+        "success": true,
+        "native_task_complete": false,
+        "stop_after_one": true,
+        "components_before": {
+          "white_mug_on_plate": false,
+          "pudding_right_of_plate": false
+        },
+        "components_after": {
+          "white_mug_on_plate": true,
+          "pudding_right_of_plate": false
+        },
+        "execution_index": 1,
+        "attempts": [
+          {
+            "attempt": 1,
+            "start_step": 10,
+            "end_step": 141,
+            "native_goal_reached": true,
+            "release_confirmation": {
+              "success": true,
+              "steps": 10,
+              "stable_steps": 10
+            },
+            "success": true
+          }
+        ],
+        "recoveries": [],
+        "instruction": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+        "after": {
+          "scene_observation": {
+            "objects": {
+              "porcelain_mug_1": {
+                "position_xyz_m": [
+                  0.1709,
+                  0.026,
+                  0.4425
+                ],
+                "held_by_gripper": false
+              },
+              "red_coffee_mug_1": {
+                "position_xyz_m": [
+                  -0.2133,
+                  -0.0059,
+                  0.4386
+                ],
+                "held_by_gripper": false
+              },
+              "plate_1": {
+                "position_xyz_m": [
+                  0.1698,
+                  0.0156,
+                  0.4393
+                ],
+                "held_by_gripper": false
+              },
+              "chocolate_pudding_1": {
+                "position_xyz_m": [
+                  -0.0616,
+                  0.1089,
+                  0.4498
+                ],
+                "held_by_gripper": false
+              }
+            }
+          },
+          "steps": 141,
+          "policy_calls": 25,
+          "reset_count": 1,
+          "simulator_horizon": 3681,
+          "max_total_action_steps": 3680,
+          "state_sha256": "778c0f6db7be5a41f1aea00830f1ef91d023423990655008a4d69c611b7fd171"
+        }
+      }
+    },
+    {
+      "session": 2,
+      "skill": "execute_order",
+      "result": {
+        "success": true,
+        "native_task_complete": true,
+        "stop_after_one": false,
+        "components_before": {},
+        "components_after": {},
+        "execution_index": 1,
+        "attempts": [
+          {
+            "attempt": 1,
+            "start_step": 10,
+            "end_step": 126,
+            "native_goal_reached": true,
+            "release_confirmation": {
+              "success": true,
+              "steps": 10,
+              "stable_steps": 10
+            },
+            "success": true
+          }
+        ],
+        "recoveries": [],
+        "instruction": "put the black bowl on the plate",
+        "after": {
+          "scene_observation": {
+            "objects": {
+              "akita_black_bowl_1": {
+                "position_xyz_m": [
+                  0.0216,
+                  0.2159,
+                  0.9077
+                ],
+                "held_by_gripper": false
+              },
+              "plate_1": {
+                "position_xyz_m": [
+                  0.016,
+                  0.2306,
+                  0.9025
+                ],
+                "held_by_gripper": false
+              }
+            }
+          },
+          "steps": 126,
+          "policy_calls": 22,
+          "reset_count": 1,
+          "simulator_horizon": 1481,
+          "max_total_action_steps": 1480,
+          "state_sha256": "85ae115b908d590800191ac191e51064fee102d544d05391fd77be929d31920e"
+        }
+      }
+    }
+  ],
+  "snapshot_checks": [
+    {
+      "session": 1,
+      "unselected_tables_unchanged": true
+    },
+    {
+      "session": 2,
+      "unselected_tables_unchanged": true
+    }
+  ],
+  "partial_successes": 1,
+  "recovery_successes": 0,
+  "scope": "reserved physical selection; frozen automatic candidate; not final test",
+  "reference_only": false,
+  "error_code": "generation_output_limit",
+  "error_type": "RuntimeError",
+  "rollovers": [
+    {
+      "index": 1,
+      "command": "/new",
+      "response": "New session started.",
+      "before_messages": 5,
+      "after_messages": 0,
+      "success": true,
+      "last_received_event": 3,
+      "memory_before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "memory_after_sha256": "020d5630889d625631e2fb76d6af0069fe222be3e5c90085286d92fbfb8e9fc3",
+      "policy_sha256": "5dd933c8c092d4c735ddb383a907cf7b8d75cb179c47f1a13a3eed699a58682b",
+      "model_calls": 4
+    },
+    {
+      "index": 2,
+      "command": "/new",
+      "response": "New session started.",
+      "before_messages": 4,
+      "after_messages": 0,
+      "success": true,
+      "last_received_event": 5,
+      "memory_before_sha256": "020d5630889d625631e2fb76d6af0069fe222be3e5c90085286d92fbfb8e9fc3",
+      "memory_after_sha256": "481199e0fc52517d971d159170c2db7d97131a9362fd7c9340b3ff5ad7101fb6",
+      "policy_sha256": "5dd933c8c092d4c735ddb383a907cf7b8d75cb179c47f1a13a3eed699a58682b",
+      "model_calls": 8
+    }
+  ],
+  "elapsed_seconds": 516.4761538505554,
+  "failure_phase": {
+    "phase": "terminal"
+  },
+  "model_input_tokens": 31019,
+  "model_output_tokens": 9590,
+  "model_cost_complete": true,
+  "model_cost_unknown_requests": 0,
+  "registered_arm": "g_only",
+  "condition_id": "hABCDE-v0-i2",
+  "registration_sha256": "b4bf944b4258d0f9909ef0f616fc14c383fed6c5ccdd432b7cd8bd4136d24e14",
+  "finished_at": 1792878117.836299
+}

@@ -1,0 +1,18 @@
+{
+  "source": "/data/songziying/paos-libero-20261023/study-rsi-v4-learning/import108/cases/hEDABC-v0-i1",
+  "status": "agent_failure",
+  "correct": 0,
+  "answered": 0,
+  "planned": 1,
+  "decisions": [],
+  "error_type": "RuntimeError",
+  "error_code": "native_session_archival_failed",
+  "failure_phase": "archive",
+  "model_input_tokens": 0,
+  "model_output_tokens": 0,
+  "model_cost_complete": false,
+  "model_cost_unknown_requests": 2,
+  "logical_calls": 1,
+  "automatic_retry": false,
+  "policy_sha256": "499432f9c037853e40f034865ffa50739c94b7945c37233d958f77cbf6ac8049"
+}

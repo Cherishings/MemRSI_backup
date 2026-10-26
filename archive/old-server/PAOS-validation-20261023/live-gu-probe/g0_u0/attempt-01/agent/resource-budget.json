@@ -1,0 +1,13 @@
+{
+  "persistent_tokens": 1024,
+  "active_input_tokens": 12288,
+  "output_tokens_per_call": 2048,
+  "native_extra_memory_policy": false,
+  "persistent_paths": [
+    "memory/MEMORY.md",
+    "memory/HISTORY.md"
+  ],
+  "common_overflow_adapter": "model_repacking_without_task_specific_rules",
+  "session_log_actor_access": false,
+  "entry_limit": null
+}

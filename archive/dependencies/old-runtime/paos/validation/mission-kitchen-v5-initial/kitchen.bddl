@@ -1,0 +1,136 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language put the butter at the back in the top drawer of the cabinet and close it)
+    (:regions
+      (wooden_cabinet_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.01 -0.31 0.01 -0.29)
+            )
+          )
+          (:yaw_rotation (
+              (3.141592653589793 3.141592653589793)
+            )
+          )
+      )
+      (akita_black_bowl_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.125 -0.025 -0.07500000000000001 0.025)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (butter_back_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.125 0.17500000000000002 -0.07500000000000001 0.225)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (butter_front_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.025 0.17500000000000002 0.025 0.225)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (chocolate_pudding_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.025 0.025 0.025 0.07500000000000001)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_side
+          (:target wooden_cabinet_1)
+      )
+      (top_region
+          (:target wooden_cabinet_1)
+      )
+      (middle_region
+          (:target wooden_cabinet_1)
+      )
+      (bottom_region
+          (:target wooden_cabinet_1)
+      )
+      (plate_left_region (:target kitchen_table)
+        (:ranges ((0.2150 -0.2650 0.2850 -0.1950)))
+        (:yaw_rotation ((0.0 0.0))))
+      (plate_right_region (:target kitchen_table)
+        (:ranges ((0.2150 0.2450 0.2850 0.3150)))
+        (:yaw_rotation ((0.0 0.0))))
+      (white_mug_region (:target kitchen_table)
+        (:ranges ((0.0850 -0.1150 0.1550 -0.0450)))
+        (:yaw_rotation ((0.0 0.0))))
+      (yellow_mug_region (:target kitchen_table)
+        (:ranges ((0.0850 0.0250 0.1550 0.0950)))
+        (:yaw_rotation ((0.0 0.0))))
+      (red_mug_region (:target kitchen_table)
+        (:ranges ((0.0850 0.1650 0.1550 0.2350)))
+        (:yaw_rotation ((0.0 0.0))))
+      (guest_service_region (:target kitchen_table)
+        (:ranges ((0.2150 0.3950 0.2850 0.4650)))
+        (:yaw_rotation ((0.0 0.0))))
+      (red_cup_service_region (:target kitchen_table)
+        (:ranges ((0.2150 0.0150 0.2850 0.0850)))
+        (:yaw_rotation ((0.0 0.0))))
+      (red_cup_storage_region (:target kitchen_table)
+        (:ranges ((0.2150 -0.1150 0.2850 -0.0450)))
+        (:yaw_rotation ((0.0 0.0))))
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    wooden_cabinet_1 - wooden_cabinet
+  )
+
+  (:objects
+    akita_black_bowl_1 - akita_black_bowl
+    butter_1 butter_2 - butter
+    chocolate_pudding_1 - chocolate_pudding
+    porcelain_mug_1 - porcelain_mug
+    white_yellow_mug_1 - white_yellow_mug
+    red_coffee_mug_1 - red_coffee_mug
+    plate_1 plate_2 - plate
+  )
+
+  (:obj_of_interest
+    butter_2
+    wooden_cabinet_1
+  )
+
+  (:init
+    (On akita_black_bowl_1 kitchen_table_akita_black_bowl_init_region)
+    (On butter_1 kitchen_table_butter_front_init_region)
+    (On butter_2 kitchen_table_butter_back_init_region)
+    (On chocolate_pudding_1 kitchen_table_chocolate_pudding_init_region)
+    (On wooden_cabinet_1 kitchen_table_wooden_cabinet_init_region)
+    (Open wooden_cabinet_1_top_region)
+    (On plate_1 kitchen_table_plate_left_region)
+    (On plate_2 kitchen_table_plate_right_region)
+    (On porcelain_mug_1 kitchen_table_white_mug_region)
+    (On white_yellow_mug_1 kitchen_table_yellow_mug_region)
+    (On red_coffee_mug_1 kitchen_table_red_mug_region)
+  )
+
+  (:goal
+    (And (In butter_2 wooden_cabinet_1_top_region) (Close wooden_cabinet_1_top_region))
+  )
+
+)

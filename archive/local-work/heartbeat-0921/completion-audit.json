@@ -1,0 +1,80 @@
+{
+  "stage": "training_only",
+  "all_32_unique_rows": true,
+  "arms": {
+    "parent": {
+      "correct": 18,
+      "planned": 22,
+      "logical_calls": 214,
+      "statuses": {
+        "source_error_corrected": 4,
+        "agent_failure": 4
+      },
+      "errors": {
+        "none": 4,
+        "generation_output_limit": 4
+      },
+      "incomplete_cost_cases": 5,
+      "unknown_requests": 6
+    },
+    "g_only_edit": {
+      "correct": 10,
+      "planned": 22,
+      "logical_calls": 166,
+      "statuses": {
+        "agent_failure": 2,
+        "source_error_corrected": 4,
+        "decision_failure": 2
+      },
+      "errors": {
+        "generation_output_limit": 1,
+        "none": 6,
+        "guidance_protocol_failure": 1
+      },
+      "incomplete_cost_cases": 1,
+      "unknown_requests": 1
+    },
+    "u_only_edit": {
+      "correct": 7,
+      "planned": 22,
+      "logical_calls": 132,
+      "statuses": {
+        "decision_failure": 2,
+        "source_error_corrected": 5,
+        "agent_failure": 1
+      },
+      "errors": {
+        "none": 7,
+        "generation_output_limit": 1
+      },
+      "incomplete_cost_cases": 2,
+      "unknown_requests": 3
+    },
+    "joint": {
+      "correct": 10,
+      "planned": 22,
+      "logical_calls": 162,
+      "statuses": {
+        "source_error_corrected": 4,
+        "agent_failure": 3,
+        "decision_failure": 1
+      },
+      "errors": {
+        "none": 5,
+        "guidance_protocol_failure": 1,
+        "generation_output_limit": 2
+      },
+      "incomplete_cost_cases": 2,
+      "unknown_requests": 2
+    }
+  },
+  "joint_training_gate_passed": false,
+  "independent_selection_eligible": false,
+  "report_status_caveat": "training_complete_pending_independent_selection is a generic terminal label; all training gates are false. Do not infer eligibility from label.",
+  "cost_caveat": "Logical call totals retained; token totals are lower bounds where model_cost_complete is false.",
+  "new_model_calls": 0,
+  "automatic_retry": false,
+  "next_step": "Use all completed training evidence to examine decision/protocol failure mechanisms before any further method change; do not enumerate the remaining catalog choices or modify critic for acceptance.",
+  "report_sha256": "b7cd9849c342650b32ca5a97e35833a76e7053f5b9b4023b1ff27a7b8b26a5e3",
+  "rows_sha256": "9e444339762792568d7828388e8ca3a0ab9adea6841ce0af122e3ba269e336e4"
+}

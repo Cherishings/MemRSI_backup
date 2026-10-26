@@ -1,0 +1,142 @@
+{
+  "status": "protocol_failure",
+  "history": "EDABC",
+  "arm": "memrsi",
+  "init": 0,
+  "variant": 1,
+  "planned_sessions": 20,
+  "planned_switches": 19,
+  "sessions_completed": 1,
+  "planned_checkpoints": 7,
+  "reached_checkpoints": 0,
+  "answered_checkpoints": 0,
+  "correct_checkpoints": 0,
+  "decisions": [
+    {
+      "session": 1,
+      "skill": "serve_A",
+      "expected_private": "serve_A",
+      "correct": true,
+      "checkpoint": false
+    }
+  ],
+  "physical_executions": [
+    {
+      "session": 1,
+      "skill": "serve_A",
+      "result": {
+        "success": true,
+        "native_task_complete": false,
+        "stop_after_one": true,
+        "components_before": {
+          "white_mug_on_plate": false,
+          "pudding_right_of_plate": false
+        },
+        "components_after": {
+          "white_mug_on_plate": true,
+          "pudding_right_of_plate": false
+        },
+        "execution_index": 1,
+        "attempts": [
+          {
+            "attempt": 1,
+            "start_step": 10,
+            "end_step": 138,
+            "native_goal_reached": true,
+            "release_confirmation": {
+              "success": true,
+              "steps": 10,
+              "stable_steps": 10
+            },
+            "success": true
+          }
+        ],
+        "recoveries": [],
+        "instruction": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+        "after": {
+          "scene_observation": {
+            "objects": {
+              "porcelain_mug_1": {
+                "position_xyz_m": [
+                  0.1605,
+                  0.0165,
+                  0.4443
+                ],
+                "held_by_gripper": false
+              },
+              "red_coffee_mug_1": {
+                "position_xyz_m": [
+                  -0.2206,
+                  0.0207,
+                  0.4386
+                ],
+                "held_by_gripper": false
+              },
+              "plate_1": {
+                "position_xyz_m": [
+                  0.149,
+                  0.0057,
+                  0.4393
+                ],
+                "held_by_gripper": false
+              },
+              "chocolate_pudding_1": {
+                "position_xyz_m": [
+                  -0.0397,
+                  0.117,
+                  0.4498
+                ],
+                "held_by_gripper": false
+              }
+            }
+          },
+          "steps": 138,
+          "policy_calls": 24,
+          "reset_count": 1,
+          "simulator_horizon": 3681,
+          "max_total_action_steps": 3680,
+          "state_sha256": "264dd82de05eec08883a0355ca4e07ca78aa09e886b5c0126fe8ce170252a71f"
+        }
+      }
+    }
+  ],
+  "snapshot_checks": [
+    {
+      "session": 1,
+      "unselected_tables_unchanged": true
+    }
+  ],
+  "partial_successes": 1,
+  "recovery_successes": 0,
+  "scope": "development only; manually improved parent, not RSI result",
+  "reference_only": false,
+  "error_code": "generation_output_limit",
+  "error_type": "RuntimeError",
+  "rollovers": [
+    {
+      "index": 1,
+      "command": "/new",
+      "response": "New session started.",
+      "before_messages": 5,
+      "after_messages": 0,
+      "success": true,
+      "last_received_event": 3,
+      "memory_before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "memory_after_sha256": "fbdfd3d405d14c09eb1ac189a19bb062f3e31ea43aa905fda998adde4a059e66",
+      "policy_sha256": "a22697ee5bcaaf6e523ac6b9306464a623c2b734047e6f7c749ba4b738c38d21",
+      "model_calls": 4
+    }
+  ],
+  "elapsed_seconds": 585.8815112113953,
+  "failure_phase": {
+    "phase": "terminal"
+  },
+  "model_input_tokens": 19492,
+  "model_output_tokens": 2671,
+  "model_cost_complete": true,
+  "model_cost_unknown_requests": 0,
+  "registered_arm": "gu_parent",
+  "condition_id": "hEDABC-v1-i0",
+  "registration_sha256": "bf9635e04235e6a10e2b3a56641aa398ef3c7f0df8fe5f11288b741486f3eb77",
+  "finished_at": 1792770424.0608726
+}

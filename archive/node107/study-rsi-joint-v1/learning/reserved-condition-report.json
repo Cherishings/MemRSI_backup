@@ -1,0 +1,113 @@
+{
+  "status": "reserved_condition_complete",
+  "joint_gate_passed": false,
+  "scores": {
+    "g_only_edit": {
+      "candidate": "g_only_edit",
+      "expected_pairs": 2,
+      "valid_pairs": 2,
+      "totals": {
+        "parent": {
+          "correct": 3,
+          "answered": 4,
+          "planned": 6
+        },
+        "g_only_edit": {
+          "correct": 1,
+          "answered": 3,
+          "planned": 6
+        }
+      },
+      "completed": {
+        "parent": 0,
+        "g_only_edit": 0
+      },
+      "correct_gain": -2,
+      "persistent_regressions": [],
+      "logical_calls": {
+        "parent": 47,
+        "g_only_edit": 40
+      },
+      "cost_ok": true,
+      "passed": false,
+      "stage": "validation",
+      "scope": "Controlled full-history memory replay, not new physical task performance."
+    },
+    "u_only_edit": {
+      "candidate": "u_only_edit",
+      "expected_pairs": 2,
+      "valid_pairs": 2,
+      "totals": {
+        "parent": {
+          "correct": 3,
+          "answered": 4,
+          "planned": 6
+        },
+        "u_only_edit": {
+          "correct": 3,
+          "answered": 3,
+          "planned": 6
+        }
+      },
+      "completed": {
+        "parent": 0,
+        "u_only_edit": 0
+      },
+      "correct_gain": 0,
+      "persistent_regressions": [],
+      "logical_calls": {
+        "parent": 47,
+        "u_only_edit": 49
+      },
+      "cost_ok": true,
+      "passed": true,
+      "stage": "validation",
+      "scope": "Controlled full-history memory replay, not new physical task performance."
+    },
+    "joint": {
+      "candidate": "joint",
+      "expected_pairs": 2,
+      "valid_pairs": 2,
+      "totals": {
+        "parent": {
+          "correct": 3,
+          "answered": 4,
+          "planned": 6
+        },
+        "joint": {
+          "correct": 1,
+          "answered": 3,
+          "planned": 6
+        }
+      },
+      "completed": {
+        "parent": 0,
+        "joint": 0
+      },
+      "correct_gain": -2,
+      "persistent_regressions": [],
+      "logical_calls": {
+        "parent": 47,
+        "joint": 40
+      },
+      "cost_ok": true,
+      "passed": false,
+      "stage": "validation",
+      "scope": "Controlled full-history memory replay, not new physical task performance."
+    }
+  },
+  "primary_candidate": "joint",
+  "candidate_hashes": {
+    "parent": "3b661320727cca4d5321b5e8ce19398c4384214fae5422fd30b02c40907a060e",
+    "g_only_edit": "f3a95f06bd3b542da500bfe023825479a1270029e415dd1c7f680386e7be7df7",
+    "u_only_edit": "5bff7a9848fbcf25bf69dc7dbc289eb3a3b931d9bbdd6f9f8d9809105f502b88",
+    "joint": "105170c88e8787a091a63df7d2f26946f9dec0b0ed8298c665d0569f91d5c79e"
+  },
+  "scope": "One previously unused condition, same history family as prior validation; not independent-history or final physical evaluation",
+  "physical_evaluation_runs": 0,
+  "test_feedback_used": false,
+  "ledger": {
+    "calls": 1977,
+    "limit": 24000
+  }
+}

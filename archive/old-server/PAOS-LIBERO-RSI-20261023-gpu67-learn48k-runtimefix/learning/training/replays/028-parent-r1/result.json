@@ -1,0 +1,21 @@
+{
+  "source": "/media/disks/disk1/share/ext_songzhiying/PAOS-LIBERO-RSI-20261023-gpu67/development/train/hDBACE-v1-i1/gu_parent",
+  "status": "source_error_corrected",
+  "correct": 1,
+  "answered": 1,
+  "planned": 1,
+  "decisions": [
+    {
+      "event": 26,
+      "skill": "serve_B",
+      "correct": true
+    }
+  ],
+  "model_input_tokens": 45009,
+  "model_output_tokens": 7702,
+  "model_cost_complete": true,
+  "model_cost_unknown_requests": 0,
+  "logical_calls": 16,
+  "automatic_retry": false,
+  "policy_sha256": "8ce2f7adcb6b62a2104281c454a7391ae8b429dc03d552ac1068a89a06a922c3"
+}

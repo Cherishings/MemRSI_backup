@@ -1,0 +1,39 @@
+{
+  "source": "/data/songziying/paos-libero-20261023/study-scope-v4/development/hEDABC-v1-i0/gu_parent",
+  "status": "agent_failure",
+  "correct": 2,
+  "answered": 2,
+  "planned": 7,
+  "decisions": [
+    {
+      "event": 26,
+      "skill": "serve_D",
+      "correct": true
+    },
+    {
+      "event": 28,
+      "skill": "execute_order",
+      "correct": true
+    },
+    {
+      "event": 30,
+      "skill": "serve_E",
+      "correct": true
+    },
+    {
+      "event": 32,
+      "skill": "execute_order",
+      "correct": true
+    }
+  ],
+  "error_type": "RuntimeError",
+  "error_code": "guidance_protocol_failure",
+  "failure_phase": "decision",
+  "model_input_tokens": 99189,
+  "model_output_tokens": 10524,
+  "model_cost_complete": true,
+  "model_cost_unknown_requests": 0,
+  "logical_calls": 30,
+  "automatic_retry": false,
+  "policy_sha256": "3b661320727cca4d5321b5e8ce19398c4384214fae5422fd30b02c40907a060e"
+}

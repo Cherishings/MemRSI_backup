@@ -1,0 +1,230 @@
+{
+  "status": "decision_failure",
+  "history": "ACBDE",
+  "arm": "memrsi",
+  "init": 2,
+  "variant": 1,
+  "planned_sessions": 20,
+  "planned_switches": 19,
+  "sessions_completed": 1,
+  "planned_checkpoints": 7,
+  "reached_checkpoints": 0,
+  "answered_checkpoints": 0,
+  "correct_checkpoints": 0,
+  "decisions": [
+    {
+      "session": 1,
+      "skill": "serve_A",
+      "expected_private": "serve_A",
+      "correct": true,
+      "checkpoint": false
+    },
+    {
+      "session": 2,
+      "skill": "serve_A",
+      "expected_private": "execute_order",
+      "correct": false,
+      "checkpoint": false
+    }
+  ],
+  "physical_executions": [
+    {
+      "session": 1,
+      "skill": "serve_A",
+      "result": {
+        "success": true,
+        "native_task_complete": false,
+        "stop_after_one": true,
+        "components_before": {
+          "white_mug_on_plate": false,
+          "pudding_right_of_plate": false
+        },
+        "components_after": {
+          "white_mug_on_plate": true,
+          "pudding_right_of_plate": false
+        },
+        "execution_index": 1,
+        "attempts": [
+          {
+            "attempt": 1,
+            "start_step": 10,
+            "end_step": 141,
+            "native_goal_reached": true,
+            "release_confirmation": {
+              "success": true,
+              "steps": 10,
+              "stable_steps": 10
+            },
+            "success": true
+          }
+        ],
+        "recoveries": [],
+        "instruction": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+        "after": {
+          "scene_observation": {
+            "objects": {
+              "porcelain_mug_1": {
+                "position_xyz_m": [
+                  0.1709,
+                  0.026,
+                  0.4425
+                ],
+                "held_by_gripper": false
+              },
+              "red_coffee_mug_1": {
+                "position_xyz_m": [
+                  -0.2133,
+                  -0.0059,
+                  0.4386
+                ],
+                "held_by_gripper": false
+              },
+              "plate_1": {
+                "position_xyz_m": [
+                  0.1698,
+                  0.0156,
+                  0.4393
+                ],
+                "held_by_gripper": false
+              },
+              "chocolate_pudding_1": {
+                "position_xyz_m": [
+                  -0.0616,
+                  0.1089,
+                  0.4498
+                ],
+                "held_by_gripper": false
+              }
+            }
+          },
+          "steps": 141,
+          "policy_calls": 25,
+          "reset_count": 1,
+          "simulator_horizon": 3681,
+          "max_total_action_steps": 3680,
+          "state_sha256": "778c0f6db7be5a41f1aea00830f1ef91d023423990655008a4d69c611b7fd171"
+        }
+      }
+    },
+    {
+      "session": 2,
+      "skill": "serve_A",
+      "result": {
+        "success": true,
+        "native_task_complete": true,
+        "stop_after_one": false,
+        "components_before": {
+          "white_mug_on_plate": true,
+          "pudding_right_of_plate": false
+        },
+        "components_after": {
+          "white_mug_on_plate": true,
+          "pudding_right_of_plate": true
+        },
+        "execution_index": 2,
+        "attempts": [
+          {
+            "attempt": 1,
+            "start_step": 141,
+            "end_step": 247,
+            "native_goal_reached": true,
+            "release_confirmation": {
+              "success": true,
+              "steps": 15,
+              "stable_steps": 10
+            },
+            "success": true
+          }
+        ],
+        "recoveries": [],
+        "instruction": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+        "after": {
+          "scene_observation": {
+            "objects": {
+              "porcelain_mug_1": {
+                "position_xyz_m": [
+                  0.1709,
+                  0.0261,
+                  0.4425
+                ],
+                "held_by_gripper": false
+              },
+              "red_coffee_mug_1": {
+                "position_xyz_m": [
+                  -0.2133,
+                  -0.0059,
+                  0.4386
+                ],
+                "held_by_gripper": false
+              },
+              "plate_1": {
+                "position_xyz_m": [
+                  0.1698,
+                  0.0156,
+                  0.4393
+                ],
+                "held_by_gripper": false
+              },
+              "chocolate_pudding_1": {
+                "position_xyz_m": [
+                  0.1164,
+                  0.1407,
+                  0.4498
+                ],
+                "held_by_gripper": false
+              }
+            }
+          },
+          "steps": 247,
+          "policy_calls": 44,
+          "reset_count": 1,
+          "simulator_horizon": 3681,
+          "max_total_action_steps": 3680,
+          "state_sha256": "30fa4855380f9bff507522de748089213f5ddbb5071033ead27b96386fa67c93"
+        }
+      }
+    }
+  ],
+  "snapshot_checks": [
+    {
+      "session": 1,
+      "unselected_tables_unchanged": true
+    },
+    {
+      "session": 2,
+      "unselected_tables_unchanged": true
+    }
+  ],
+  "partial_successes": 1,
+  "recovery_successes": 0,
+  "scope": "reserved physical selection; frozen automatic candidate; not final test",
+  "reference_only": false,
+  "failure": "wrong_task_or_order",
+  "rollovers": [
+    {
+      "index": 1,
+      "command": "/new",
+      "response": "New session started.",
+      "before_messages": 5,
+      "after_messages": 0,
+      "success": true,
+      "last_received_event": 3,
+      "memory_before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "memory_after_sha256": "4313cef97e46c3b7ec9992ca47c5fb3758a7a7711280946d04fb3b9295e84c7f",
+      "policy_sha256": "bd9588c32e8142eeb50835e80ef78db7a2152e90c6b061eba2a30eaed6cfb478",
+      "model_calls": 4
+    }
+  ],
+  "elapsed_seconds": 330.4968786239624,
+  "failure_phase": {
+    "phase": "terminal"
+  },
+  "model_input_tokens": 29159,
+  "model_output_tokens": 792,
+  "model_cost_complete": true,
+  "model_cost_unknown_requests": 0,
+  "registered_arm": "rsi_g_only",
+  "condition_id": "hACBDE-v1-i2",
+  "registration_sha256": "d6c18c92d60d6d2014fbfd19e7cf3f5ab220707ed2cc56e5780343a64aa24cdd",
+  "finished_at": 1792929224.1608875
+}

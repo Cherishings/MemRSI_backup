@@ -1,0 +1,95 @@
+{
+  "g_only_edit": {
+    "candidate": "g_only_edit",
+    "expected_pairs": 8,
+    "valid_pairs": 8,
+    "totals": {
+      "parent": {
+        "correct": 3,
+        "answered": 6,
+        "planned": 22
+      },
+      "g_only_edit": {
+        "correct": 8,
+        "answered": 12,
+        "planned": 22
+      }
+    },
+    "completed": {
+      "parent": 0,
+      "g_only_edit": 0
+    },
+    "correct_gain": 5,
+    "persistent_regressions": [],
+    "logical_calls": {
+      "parent": 119,
+      "g_only_edit": 161
+    },
+    "cost_ok": true,
+    "passed": true,
+    "stage": "training",
+    "scope": "Controlled full-history memory replay, not new physical task performance."
+  },
+  "u_only_edit": {
+    "candidate": "u_only_edit",
+    "expected_pairs": 8,
+    "valid_pairs": 8,
+    "totals": {
+      "parent": {
+        "correct": 3,
+        "answered": 6,
+        "planned": 22
+      },
+      "u_only_edit": {
+        "correct": 9,
+        "answered": 12,
+        "planned": 22
+      }
+    },
+    "completed": {
+      "parent": 0,
+      "u_only_edit": 0
+    },
+    "correct_gain": 6,
+    "persistent_regressions": [],
+    "logical_calls": {
+      "parent": 119,
+      "u_only_edit": 167
+    },
+    "cost_ok": true,
+    "passed": true,
+    "stage": "training",
+    "scope": "Controlled full-history memory replay, not new physical task performance."
+  },
+  "joint": {
+    "candidate": "joint",
+    "expected_pairs": 8,
+    "valid_pairs": 8,
+    "totals": {
+      "parent": {
+        "correct": 3,
+        "answered": 6,
+        "planned": 22
+      },
+      "joint": {
+        "correct": 5,
+        "answered": 5,
+        "planned": 22
+      }
+    },
+    "completed": {
+      "parent": 0,
+      "joint": 0
+    },
+    "correct_gain": 2,
+    "persistent_regressions": [],
+    "logical_calls": {
+      "parent": 119,
+      "joint": 124
+    },
+    "cost_ok": true,
+    "passed": true,
+    "stage": "training",
+    "scope": "Controlled full-history memory replay, not new physical task performance."
+  }
+}

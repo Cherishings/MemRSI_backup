@@ -1,0 +1,24 @@
+{
+  "version": "advisor-rsi-contract-feedback-training-v1",
+  "source": "/data/songziying/paos-libero-20261023/study-rsi-typed-process-v1/source",
+  "core": "/data/songziying/paos-libero-20261023/study/paos-core",
+  "parent_sha256": "3b661320727cca4d5321b5e8ce19398c4384214fae5422fd30b02c40907a060e",
+  "train_manifest_sha256": "57559af614d19f0efe07fd0526ca42e1eda12c285702293a969cdd86a736a6d0",
+  "validation_manifest_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "budget_sha256": "3ad17a344d8ac3e4eff20d323cf9a0e791d2f8e36655c4dd612c3b1c92b1ffba",
+  "learner_sha256": "5303033d496acb3c35b0479d91e79d975da6ae7b9b4ddb75962c8229d2112ce3",
+  "method_sha256": "b736fdbc9b9df9bdabf47c184fdd2ffc0d13f56a6c7e7463b15dc9e709c8b63a",
+  "maximum_proposals": {
+    "joint": 1
+  },
+  "maximum_critics_per_proposal": 1,
+  "maximum_training_sources": 4,
+  "maximum_validation_sources": 2,
+  "repetitions": 2,
+  "call_limit": 24000,
+  "optimizer_input_limit": 49152,
+  "optimizer_output_limit": 8192,
+  "test_inputs": [],
+  "network_retries": "identical buffered request after transport interruption; no experiment resampling",
+  "selection": "training-only; joint is primary, single edits are ablations; no validation or test selection in this version"
+}

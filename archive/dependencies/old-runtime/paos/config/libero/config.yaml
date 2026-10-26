@@ -1,0 +1,5 @@
+assets: /home/xi/stormlab/xi/openpi/third_party/libero/libero/libero/assets
+bddl_files: /home/xi/stormlab/xi/openpi/third_party/libero/libero/libero/bddl_files
+benchmark_root: /home/xi/stormlab/xi/openpi/third_party/libero/libero/libero
+datasets: /data/stormlab/xi/paos/datasets
+init_states: /home/xi/stormlab/xi/openpi/third_party/libero/libero/libero/init_files

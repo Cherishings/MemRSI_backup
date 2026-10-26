@@ -1,0 +1,21 @@
+{
+  "source": "/data/songziying/paos-libero-20261023/study-rsi-v4-learning/import108/cases/hEDABC-v0-i1",
+  "status": "decision_failure",
+  "correct": 0,
+  "answered": 1,
+  "planned": 1,
+  "decisions": [
+    {
+      "event": 26,
+      "skill": "finish",
+      "correct": false
+    }
+  ],
+  "model_input_tokens": 47764,
+  "model_output_tokens": 8466,
+  "model_cost_complete": true,
+  "model_cost_unknown_requests": 0,
+  "logical_calls": 16,
+  "automatic_retry": false,
+  "policy_sha256": "a0e54e7c93f3d0bf0bef01323f75691e1c59a6093d149b3676d5c190be2deadb"
+}

@@ -1,0 +1,39 @@
+{
+  "source": "/data/songziying/paos-libero-20261023/study-rsi-v4-learning/import108/cases/hEBCAD-v0-i1",
+  "status": "agent_failure",
+  "correct": 2,
+  "answered": 2,
+  "planned": 7,
+  "decisions": [
+    {
+      "event": 26,
+      "skill": "serve_B",
+      "correct": true
+    },
+    {
+      "event": 28,
+      "skill": "execute_order",
+      "correct": true
+    },
+    {
+      "event": 30,
+      "skill": "serve_E",
+      "correct": true
+    },
+    {
+      "event": 32,
+      "skill": "execute_order",
+      "correct": true
+    }
+  ],
+  "error_type": "RuntimeError",
+  "error_code": "generation_output_limit",
+  "failure_phase": "decision",
+  "model_input_tokens": 103042,
+  "model_output_tokens": 19569,
+  "model_cost_complete": false,
+  "model_cost_unknown_requests": 1,
+  "logical_calls": 30,
+  "automatic_retry": false,
+  "policy_sha256": "62211ac0c9931e3dccaa9e0a86e3eb9b16e08d9fa95789aa628d72efab8a28f1"
+}

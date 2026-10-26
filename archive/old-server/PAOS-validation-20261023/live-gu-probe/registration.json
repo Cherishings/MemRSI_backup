@@ -1,0 +1,15 @@
+{
+  "time": 1792745202.4761455,
+  "arms": [
+    "g0_u0",
+    "g1_u0",
+    "g0_u1",
+    "g1_u1"
+  ],
+  "model": "gpt-5.6-luna",
+  "logical_call_cap_per_arm": 24,
+  "physical_calls": 0,
+  "scope": "synthetic mechanism acceptance, not task-performance or RSI evidence",
+  "input": "Remember public marker PROBE_AMBER_23; no physical work authorized. Submit finish for this interface test.",
+  "policy_sha256": "cb4c8f6485401337dcf4368b2537c997503ff385713b6800c4af8a28a7059b77"
+}

@@ -1,0 +1,14 @@
+{
+  "status": "fixed_proposal_review_rejected",
+  "accepted": false,
+  "primary_candidate": "joint",
+  "training": {},
+  "validation": {},
+  "ledger": {
+    "calls": 1980,
+    "limit": 24000
+  },
+  "physical_evaluation_runs": 0,
+  "test_feedback_used": false,
+  "proposal_regenerated": false
+}

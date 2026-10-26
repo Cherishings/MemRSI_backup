@@ -1,0 +1,5 @@
+{
+  "schema": 1,
+  "guidance": "{\"kind\": \"procedure_guidance_v2\", \"procedure\": \"Select up to five evidence fragment IDs for the acting agent from supplied long task memory, current short context and current request. Return IDs only. The program copies those exact source fragments to the actor. Prefer task identity together with relevant status, priority, changed requirements or feedback. Neighboring fragments may belong to one record. Do not generate an action or translate tasks into tools. Empty selection is allowed. Original requests and feedback govern; remembered claims can be wrong. Focus: Select records relevant to the current request, incomplete authorized work, and recent changes.\"}",
+  "update": ""
+}

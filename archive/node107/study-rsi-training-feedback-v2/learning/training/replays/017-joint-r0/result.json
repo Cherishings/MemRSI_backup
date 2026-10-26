@@ -1,0 +1,64 @@
+{
+  "source": "/data/songziying/paos-libero-20261023/study-scope-v4/development/hEDABC-v1-i0/gu_parent",
+  "status": "agent_failure",
+  "correct": 5,
+  "answered": 5,
+  "planned": 7,
+  "decisions": [
+    {
+      "event": 26,
+      "skill": "serve_D",
+      "correct": true
+    },
+    {
+      "event": 28,
+      "skill": "execute_order",
+      "correct": true
+    },
+    {
+      "event": 30,
+      "skill": "serve_E",
+      "correct": true
+    },
+    {
+      "event": 32,
+      "skill": "execute_order",
+      "correct": true
+    },
+    {
+      "event": 34,
+      "skill": "serve_B",
+      "correct": true
+    },
+    {
+      "event": 36,
+      "skill": "execute_order",
+      "correct": true
+    },
+    {
+      "event": 38,
+      "skill": "serve_C",
+      "correct": true
+    },
+    {
+      "event": 40,
+      "skill": "execute_order",
+      "correct": true
+    },
+    {
+      "event": 42,
+      "skill": "serve_A",
+      "correct": true
+    }
+  ],
+  "error_type": "RuntimeError",
+  "error_code": "guidance_protocol_failure",
+  "failure_phase": "decision",
+  "model_input_tokens": 198389,
+  "model_output_tokens": 14334,
+  "model_cost_complete": false,
+  "model_cost_unknown_requests": 4,
+  "logical_calls": 53,
+  "automatic_retry": false,
+  "policy_sha256": "a2e1bc92a3db7fccb65fbef7928f1ce7a6bca17f4dc78a565d2d47b5fa0e810f"
+}

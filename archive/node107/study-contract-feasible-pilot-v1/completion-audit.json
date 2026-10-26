@@ -1,0 +1,201 @@
+{
+  "stage": "feasibility development pilot complete",
+  "rows": [
+    {
+      "node": 107,
+      "arm": "u_only",
+      "source_result": "/data/songziying/paos-libero-20261023/study-contract-validation-v1/development/hABCDE-v0-i2/u_only/result.json",
+      "sha256": "bd67b35fd67cda8d3d32c7b99bfbe09f34637651f2c281732bbd8bc37d01046d",
+      "reused": true,
+      "status": "infrastructure_failure",
+      "classification": "method_archive_protocol_failure",
+      "correct_checkpoints": 3,
+      "model_cost_complete": true
+    },
+    {
+      "node": 107,
+      "arm": "think_u",
+      "source_result": "/data/songziying/paos-libero-20261023/study-contract-validation-v1/development/hABCDE-v0-i2/think_u/result.json",
+      "sha256": "989ad62baabc434fee31b3bafd793d80c49b2735be4697b1724e5fcce82711f4",
+      "reused": true,
+      "status": "success",
+      "classification": "success",
+      "correct_checkpoints": 7,
+      "model_cost_complete": true
+    },
+    {
+      "node": 107,
+      "arm": "native",
+      "source_result": "/data/songziying/paos-libero-20261023/study-contract-validation-v1/development/hABCDE-v0-i2/native/result.json",
+      "sha256": "c231dabee6109e1ba1a5ca70b2dfe33311d6db3b1c2084076f0702198e29668e",
+      "reused": true,
+      "status": "decision_failure",
+      "classification": "decision_failure",
+      "correct_checkpoints": 1,
+      "model_cost_complete": true
+    },
+    {
+      "node": 107,
+      "arm": "rsi_g_only",
+      "source_result": "/data/songziying/paos-libero-20261023/study-contract-validation-v1/development/hABCDE-v0-i2/rsi_g_only/result.json",
+      "sha256": "8a92519fe15bc79c998159a9db7f4b1eac3f25958a14b9040e37c31f953d90a4",
+      "reused": true,
+      "status": "decision_failure",
+      "classification": "decision_failure",
+      "correct_checkpoints": 3,
+      "model_cost_complete": true
+    },
+    {
+      "node": 107,
+      "arm": "gu_learned",
+      "source_result": "/data/songziying/paos-libero-20261023/study-contract-validation-v1/development/hABCDE-v0-i2/gu_learned/result.json",
+      "sha256": "f6301fbd52292d9739a0deed821a30a5ea951d4f88b5e68864a963b4a664c698",
+      "reused": true,
+      "status": "decision_failure",
+      "classification": "decision_failure",
+      "correct_checkpoints": 2,
+      "model_cost_complete": true
+    },
+    {
+      "node": 107,
+      "arm": "rsi_u_only",
+      "source_result": "/data/songziying/paos-libero-20261023/study-contract-validation-v1/development/hABCDE-v0-i2/rsi_u_only/result.json",
+      "sha256": "e60c62c305085cc289f0aa8f0616b3e07049534a86c26cd44378992378d9db14",
+      "reused": true,
+      "status": "protocol_failure",
+      "classification": "protocol_failure",
+      "correct_checkpoints": 0,
+      "model_cost_complete": true
+    },
+    {
+      "node": 107,
+      "arm": "gu_parent",
+      "source_result": "/data/songziying/paos-libero-20261023/study-contract-validation-v1/development/hABCDE-v0-i2/gu_parent/result.json",
+      "sha256": "69cd772944e2f04981dc4162b9a641cd0b5614a3969536944e43f3265c0784e7",
+      "reused": true,
+      "status": "protocol_failure",
+      "classification": "protocol_failure",
+      "correct_checkpoints": 0,
+      "model_cost_complete": true
+    },
+    {
+      "node": 107,
+      "arm": "g_only",
+      "source_result": "/data/songziying/paos-libero-20261023/study-contract-validation-v1/development/hABCDE-v0-i2/g_only/result.json",
+      "sha256": "72a1d75a879a8e422a42a0f4f4a4d653603fa0a0f53ac399b230783c66df5d0f",
+      "reused": true,
+      "status": "protocol_failure",
+      "classification": "protocol_failure",
+      "correct_checkpoints": 0,
+      "model_cost_complete": true
+    },
+    {
+      "node": 108,
+      "arm": "gu_learned",
+      "source_result": "/data/songziying/paos-libero-20261023/study-contract-feasible-pilot-v1/development/hABECD-v1-i2/gu_learned/result.json",
+      "sha256": "4c0b1a2af42df40407c9358d76b984358d220021dfada35fb7afc7da4498bea9",
+      "reused": false,
+      "status": "protocol_failure",
+      "classification": "protocol_failure",
+      "correct_checkpoints": 0,
+      "model_cost_complete": true
+    },
+    {
+      "node": 108,
+      "arm": "gu_parent",
+      "source_result": "/data/songziying/paos-libero-20261023/study-contract-feasible-pilot-v1/development/hABECD-v1-i2/gu_parent/result.json",
+      "sha256": "f0ff3ae6fffb54ba1093f2d9652f3a8b56eb853079087b0bbbca58276ea638cd",
+      "reused": false,
+      "status": "protocol_failure",
+      "classification": "protocol_failure",
+      "correct_checkpoints": 0,
+      "model_cost_complete": true
+    },
+    {
+      "node": 108,
+      "arm": "native",
+      "source_result": "/data/songziying/paos-libero-20261023/study-contract-feasible-pilot-v1/development/hABECD-v1-i2/native/result.json",
+      "sha256": "06190148d30b3aa8b5224506af040501956364b5469ca65c9d2422f56a1021e8",
+      "reused": false,
+      "status": "decision_failure",
+      "classification": "decision_failure",
+      "correct_checkpoints": 0,
+      "model_cost_complete": true
+    },
+    {
+      "node": 108,
+      "arm": "rsi_g_only",
+      "source_result": "/data/songziying/paos-libero-20261023/study-contract-feasible-pilot-v1/development/hABECD-v1-i2/rsi_g_only/result.json",
+      "sha256": "e00310d12b80f11cb013907163ea8eb581a568d1dbb4e299b3d1166cc8f72095",
+      "reused": false,
+      "status": "decision_failure",
+      "classification": "decision_failure",
+      "correct_checkpoints": 5,
+      "model_cost_complete": true
+    },
+    {
+      "node": 108,
+      "arm": "u_only",
+      "source_result": "/data/songziying/paos-libero-20261023/study-contract-feasible-pilot-v1/development/hABECD-v1-i2/u_only/result.json",
+      "sha256": "d55521e8639d4ae17647e92bf812e7e9d93487fba6504af147559769e378158e",
+      "reused": false,
+      "status": "decision_failure",
+      "classification": "decision_failure",
+      "correct_checkpoints": 0,
+      "model_cost_complete": false
+    },
+    {
+      "node": 108,
+      "arm": "think_u",
+      "source_result": "/data/songziying/paos-libero-20261023/study-contract-feasible-pilot-v1/development/hABECD-v1-i2/think_u/result.json",
+      "sha256": "441f17b42638e0f111b7f3c5c985de723e0a5c5ecd17c5e5fd69e01abc2a7128",
+      "reused": false,
+      "status": "decision_failure",
+      "classification": "decision_failure",
+      "correct_checkpoints": 2,
+      "model_cost_complete": true
+    },
+    {
+      "node": 108,
+      "arm": "g_only",
+      "source_result": "/data/songziying/paos-libero-20261023/study-contract-feasible-pilot-v1/development/hABECD-v1-i2/g_only/result.json",
+      "sha256": "c7fca0f348c882e56713eb15572cf2977d709e6059efecd79e3aeaec4ecd9f37",
+      "reused": false,
+      "status": "protocol_failure",
+      "classification": "protocol_failure",
+      "correct_checkpoints": 0,
+      "model_cost_complete": true
+    },
+    {
+      "node": 108,
+      "arm": "rsi_u_only",
+      "source_result": "/data/songziying/paos-libero-20261023/study-contract-feasible-pilot-v1/development/hABECD-v1-i2/rsi_u_only/result.json",
+      "sha256": "7d7fb245558a23159db1628367ce099477a23fb56059f20b8b3fee6cd7d9b398",
+      "reused": false,
+      "status": "protocol_failure",
+      "classification": "protocol_failure",
+      "correct_checkpoints": 2,
+      "model_cost_complete": true
+    }
+  ],
+  "full_successes": {
+    "g_only": 0,
+    "gu_learned": 0,
+    "gu_parent": 0,
+    "native": 0,
+    "rsi_g_only": 0,
+    "rsi_u_only": 0,
+    "think_u": 1,
+    "u_only": 0
+  },
+  "expansion_triggered": false,
+  "old_init3_failures_retained": true,
+  "new_training_root": "study-rsi-training-feedback-v2",
+  "method_feedback_from": "study-rsi-contract-v1/learning/training only",
+  "tests": {
+    "passed": 29,
+    "initial_fixture_errors_corrected": true,
+    "network_wait_test_dependency_added_to_PYTHONPATH": true
+  },
+  "claim": "No joint RSI success established"
+}

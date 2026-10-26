@@ -1,0 +1,18 @@
+{
+  "source": "/data/songziying/paos-libero-20261023/study-rsi-v4-learning/import108/cases/hDABCE-v1-i1",
+  "status": "agent_failure",
+  "correct": 0,
+  "answered": 0,
+  "planned": 3,
+  "decisions": [],
+  "error_type": "RuntimeError",
+  "error_code": "generation_output_limit",
+  "failure_phase": "decision",
+  "model_input_tokens": 31887,
+  "model_output_tokens": 15374,
+  "model_cost_complete": false,
+  "model_cost_unknown_requests": 1,
+  "logical_calls": 13,
+  "automatic_retry": false,
+  "policy_sha256": "5bff7a9848fbcf25bf69dc7dbc289eb3a3b931d9bbdd6f9f8d9809105f502b88"
+}

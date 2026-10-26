@@ -1,0 +1,21 @@
+{
+  "source": "/media/disks/disk1/share/ext_songzhiying/PAOS-LIBERO-RSI-20261023-gpu67/development/train/hABDEC-v1-i0/gu_parent",
+  "status": "decision_failure",
+  "correct": 0,
+  "answered": 1,
+  "planned": 1,
+  "decisions": [
+    {
+      "event": 26,
+      "skill": "serve_E",
+      "correct": false
+    }
+  ],
+  "model_input_tokens": 52039,
+  "model_output_tokens": 10369,
+  "model_cost_complete": true,
+  "model_cost_unknown_requests": 0,
+  "logical_calls": 18,
+  "automatic_retry": false,
+  "policy_sha256": "9e207de61b5346d11968a6b3fcea5bc1c10a9d3b4b6fc3bc8a509cb21c7905de"
+}

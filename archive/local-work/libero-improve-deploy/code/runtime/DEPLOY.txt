@@ -1,0 +1,55 @@
+LIBERO new-server runtime wiring
+
+Deploy this whole runtime directory beside the new coordinator/worker, without
+overwriting the migration archive or its frozen source.
+
+M=/data/share/ext_songzhiying/PAOS-MemRSI-migration-20261022
+All defaults use the existing M tree. Override PAOS_MIGRATION_ROOT only if needed.
+PAOS_LIBERO_SOURCE overrides the frozen memrsi-bounded-v2_2 source directory.
+PAOS_CORE_ROOT overrides the directory containing the PhyAgentOS package.
+
+Coordinator imports:
+  from runtime_adapter import lane_env, policy_command
+  Popen(policy_command(20502), env=lane_env(2, 'policy'), ...)
+
+Equivalent policy command:
+  CUDA_VISIBLE_DEVICES=2 XLA_PYTHON_CLIENT_PREALLOCATE=false \
+    "$M/conda-envs/paos-policy/bin/python" /DEPLOY/runtime/policy_entry.py \
+    --port 20502 --checkpoint "$M/models/pi05_libero"
+
+Worker under M/conda-envs/paos-agent/bin/python:
+  import sys
+  sys.path.insert(0, '/DEPLOY/runtime')
+  import runtime_adapter
+  wiring = runtime_adapter.configure(2, 20502)
+  import feedback_workflow
+  result = await feedback_workflow.run(args)
+  # args.port must equal the lane's 20502.
+  # Root coordinator owns GPU leases, process groups, and time/stop budgets.
+
+configure(gpu, port, core_path=None) accepts a core_path containing PhyAgentOS/,
+not the workflow source path. Default is M/PhyAgentOS-core.
+
+Read-only preflight after deployment (no model loading or simulator creation):
+  "$M/conda-envs/paos-agent/bin/python" /DEPLOY/runtime/libero_runtime.py
+  "$M/conda-envs/paos-agent/bin/python" -c \
+    "import sys;sys.path.insert(0,'/DEPLOY/runtime');import runtime_adapter;runtime_adapter.configure(2,20502);import feedback_workflow;print('agent imports OK')"
+  PAOS_LANE_GPU=2 "$M/conda-envs/paos-libero-py38/bin/python" -c \
+    "import sys;sys.path.insert(0,'/DEPLOY/runtime');from libero_runtime import install_physics_runtime;install_physics_runtime();import native_world;print('physics imports OK')"
+
+What changes:
+- Correct agent/policy/physics interpreters (Python 3.11/3.11/3.8).
+- Relocated frozen source, pristine PhyAgentOS-core, official openpi example,
+  LIBERO configuration/assets and verified pi05 checkpoint paths.
+- Same local model gateway at 127.0.0.1:19099/v1 for all comparison arms.
+- Policy sees only its CUDA GPU. Physics EGL receives the physical device index,
+  with render_gpu_device_id passed into the official OffScreenRenderEnv constructor.
+
+What is preserved:
+- NativeWorld execute(), 3-attempt cap, horizon, 5-action policy cadence,
+  release/recovery, partial-task stopping, scene persistence and success criteria.
+- Exact original paired_sampling.PairedPolicy and NativeWorld audit validation;
+  sampling seed, noise, input hash and output hash are retained.
+- Original feedback_workflow; policy/framework source and weights are not edited.
+
+No CUDA/policy/physics tasks were launched while creating these files.

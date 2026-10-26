@@ -1,0 +1,20 @@
+{
+  "guidance": {
+    "structurally_and_semantically_valid": false,
+    "candidate_sha256": null,
+    "rejection": {
+      "code": "operator_length",
+      "new_proposals_allowed": 0
+    },
+    "critic": null
+  },
+  "update": {
+    "structurally_and_semantically_valid": false,
+    "candidate_sha256": null,
+    "rejection": {
+      "code": "operator_length",
+      "new_proposals_allowed": 0
+    },
+    "critic": null
+  }
+}

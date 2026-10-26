@@ -1,0 +1,20 @@
+{
+  "joint": {
+    "structurally_and_semantically_valid": true,
+    "rejection": null,
+    "critic": {
+      "generic": "pass",
+      "generic_reason": "The candidate adds generic procedures for distinguishing evidence types and preserving unresolved obligation extent; these are permissible procedural refinements and do not introduce prohibited task-specific identities or answers.",
+      "generic_quote": "",
+      "no_task_answers": "pass",
+      "no_task_answers_reason": "No hidden evaluator access, concrete benchmark answer, or task-specific executable answer is embedded in the candidate text.",
+      "no_task_answers_quote": "",
+      "preserves_user_authority": "pass",
+      "preserves_user_authority_reason": "The candidate retains the non-execution boundary and explicitly preserves actor authority; its additions do not fabricate authorization or transfer veto/execution power.",
+      "preserves_user_authority_quote": "",
+      "preserves_advisor_interface": "pass",
+      "preserves_advisor_interface_reason": "The candidate does not alter runtime tools, schemas, mandatory action requirements, evidence access, or budgets.",
+      "preserves_advisor_interface_quote": ""
+    }
+  }
+}

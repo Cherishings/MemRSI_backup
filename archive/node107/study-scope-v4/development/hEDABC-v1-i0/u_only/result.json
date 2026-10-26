@@ -1,0 +1,1921 @@
+{
+  "status": "success",
+  "history": "EDABC",
+  "arm": "memrsi",
+  "init": 0,
+  "variant": 1,
+  "planned_sessions": 20,
+  "planned_switches": 19,
+  "sessions_completed": 20,
+  "planned_checkpoints": 7,
+  "reached_checkpoints": 7,
+  "answered_checkpoints": 7,
+  "correct_checkpoints": 7,
+  "decisions": [
+    {
+      "session": 1,
+      "skill": "serve_A",
+      "expected_private": "serve_A",
+      "correct": true,
+      "checkpoint": false
+    },
+    {
+      "session": 2,
+      "skill": "execute_order",
+      "expected_private": "execute_order",
+      "correct": true,
+      "checkpoint": false
+    },
+    {
+      "session": 3,
+      "skill": "serve_B",
+      "expected_private": "serve_B",
+      "correct": true,
+      "checkpoint": false
+    },
+    {
+      "session": 4,
+      "skill": "execute_order",
+      "expected_private": "execute_order",
+      "correct": true,
+      "checkpoint": false
+    },
+    {
+      "session": 5,
+      "skill": "serve_C",
+      "expected_private": "serve_C",
+      "correct": true,
+      "checkpoint": false
+    },
+    {
+      "session": 6,
+      "skill": "execute_order",
+      "expected_private": "execute_order",
+      "correct": true,
+      "checkpoint": false
+    },
+    {
+      "session": 7,
+      "skill": "serve_D",
+      "expected_private": "serve_D",
+      "correct": true,
+      "checkpoint": false
+    },
+    {
+      "session": 8,
+      "skill": "execute_order",
+      "expected_private": "execute_order",
+      "correct": true,
+      "checkpoint": false
+    },
+    {
+      "session": 9,
+      "skill": "serve_E",
+      "expected_private": "serve_E",
+      "correct": true,
+      "checkpoint": false
+    },
+    {
+      "session": 10,
+      "skill": "execute_order",
+      "expected_private": "execute_order",
+      "correct": true,
+      "checkpoint": false
+    },
+    {
+      "session": 11,
+      "skill": "serve_D",
+      "expected_private": "serve_D",
+      "correct": true,
+      "checkpoint": true
+    },
+    {
+      "session": 12,
+      "skill": "execute_order",
+      "expected_private": "execute_order",
+      "correct": true,
+      "checkpoint": false
+    },
+    {
+      "session": 13,
+      "skill": "serve_E",
+      "expected_private": "serve_E",
+      "correct": true,
+      "checkpoint": true
+    },
+    {
+      "session": 14,
+      "skill": "execute_order",
+      "expected_private": "execute_order",
+      "correct": true,
+      "checkpoint": false
+    },
+    {
+      "session": 15,
+      "skill": "serve_B",
+      "expected_private": "serve_B",
+      "correct": true,
+      "checkpoint": true
+    },
+    {
+      "session": 16,
+      "skill": "execute_order",
+      "expected_private": "execute_order",
+      "correct": true,
+      "checkpoint": false
+    },
+    {
+      "session": 17,
+      "skill": "serve_C",
+      "expected_private": "serve_C",
+      "correct": true,
+      "checkpoint": true
+    },
+    {
+      "session": 18,
+      "skill": "execute_order",
+      "expected_private": "execute_order",
+      "correct": true,
+      "checkpoint": false
+    },
+    {
+      "session": 19,
+      "skill": "serve_A",
+      "expected_private": "serve_A",
+      "correct": true,
+      "checkpoint": true
+    },
+    {
+      "session": 20,
+      "skill": "serve_F",
+      "expected_private": "serve_F",
+      "correct": true,
+      "checkpoint": true
+    },
+    {
+      "session": 20,
+      "skill": "finish",
+      "expected_private": "finish",
+      "correct": true,
+      "checkpoint": true
+    }
+  ],
+  "physical_executions": [
+    {
+      "session": 1,
+      "skill": "serve_A",
+      "result": {
+        "success": true,
+        "native_task_complete": false,
+        "stop_after_one": true,
+        "components_before": {
+          "white_mug_on_plate": false,
+          "pudding_right_of_plate": false
+        },
+        "components_after": {
+          "white_mug_on_plate": true,
+          "pudding_right_of_plate": false
+        },
+        "execution_index": 1,
+        "attempts": [
+          {
+            "attempt": 1,
+            "start_step": 10,
+            "end_step": 138,
+            "native_goal_reached": true,
+            "release_confirmation": {
+              "success": true,
+              "steps": 10,
+              "stable_steps": 10
+            },
+            "success": true
+          }
+        ],
+        "recoveries": [],
+        "instruction": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+        "after": {
+          "scene_observation": {
+            "objects": {
+              "porcelain_mug_1": {
+                "position_xyz_m": [
+                  0.1605,
+                  0.0165,
+                  0.4443
+                ],
+                "held_by_gripper": false
+              },
+              "red_coffee_mug_1": {
+                "position_xyz_m": [
+                  -0.2206,
+                  0.0207,
+                  0.4386
+                ],
+                "held_by_gripper": false
+              },
+              "plate_1": {
+                "position_xyz_m": [
+                  0.149,
+                  0.0057,
+                  0.4393
+                ],
+                "held_by_gripper": false
+              },
+              "chocolate_pudding_1": {
+                "position_xyz_m": [
+                  -0.0397,
+                  0.117,
+                  0.4498
+                ],
+                "held_by_gripper": false
+              }
+            }
+          },
+          "steps": 138,
+          "policy_calls": 24,
+          "reset_count": 1,
+          "simulator_horizon": 3681,
+          "max_total_action_steps": 3680,
+          "state_sha256": "264dd82de05eec08883a0355ca4e07ca78aa09e886b5c0126fe8ce170252a71f"
+        }
+      }
+    },
+    {
+      "session": 2,
+      "skill": "execute_order",
+      "result": {
+        "success": true,
+        "native_task_complete": true,
+        "stop_after_one": false,
+        "components_before": {},
+        "components_after": {},
+        "execution_index": 1,
+        "attempts": [
+          {
+            "attempt": 1,
+            "start_step": 10,
+            "end_step": 269,
+            "native_goal_reached": true,
+            "release_confirmation": {
+              "success": true,
+              "steps": 17,
+              "stable_steps": 10
+            },
+            "success": true
+          }
+        ],
+        "recoveries": [],
+        "instruction": "turn on the stove and put the moka pot on it",
+        "after": {
+          "scene_observation": {
+            "objects": {
+              "chefmate_8_frypan_1": {
+                "position_xyz_m": [
+                  -0.0742,
+                  -0.2723,
+                  0.8992
+                ],
+                "held_by_gripper": false
+              },
+              "moka_pot_1": {
+                "position_xyz_m": [
+                  -0.0925,
+                  0.2166,
+                  0.9976
+                ],
+                "held_by_gripper": false
+              }
+            }
+          },
+          "steps": 269,
+          "policy_calls": 49,
+          "reset_count": 1,
+          "simulator_horizon": 1841,
+          "max_total_action_steps": 1840,
+          "state_sha256": "0ba86ddee355db71a93926342cd69be69dad0ffb6ac3b253a0ba753290aeb7ec"
+        }
+      }
+    },
+    {
+      "session": 3,
+      "skill": "serve_B",
+      "result": {
+        "success": true,
+        "native_task_complete": false,
+        "stop_after_one": true,
+        "components_before": {
+          "white_mug_on_plate": false,
+          "pudding_right_of_plate": false
+        },
+        "components_after": {
+          "white_mug_on_plate": true,
+          "pudding_right_of_plate": false
+        },
+        "execution_index": 1,
+        "attempts": [
+          {
+            "attempt": 1,
+            "start_step": 10,
+            "end_step": 138,
+            "native_goal_reached": true,
+            "release_confirmation": {
+              "success": true,
+              "steps": 10,
+              "stable_steps": 10
+            },
+            "success": true
+          }
+        ],
+        "recoveries": [],
+        "instruction": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+        "after": {
+          "scene_observation": {
+            "objects": {
+              "porcelain_mug_1": {
+                "position_xyz_m": [
+                  0.1605,
+                  0.0165,
+                  0.4443
+                ],
+                "held_by_gripper": false
+              },
+              "red_coffee_mug_1": {
+                "position_xyz_m": [
+                  -0.2206,
+                  0.0207,
+                  0.4386
+                ],
+                "held_by_gripper": false
+              },
+              "plate_1": {
+                "position_xyz_m": [
+                  0.149,
+                  0.0057,
+                  0.4393
+                ],
+                "held_by_gripper": false
+              },
+              "chocolate_pudding_1": {
+                "position_xyz_m": [
+                  -0.0397,
+                  0.117,
+                  0.4498
+                ],
+                "held_by_gripper": false
+              }
+            }
+          },
+          "steps": 138,
+          "policy_calls": 24,
+          "reset_count": 1,
+          "simulator_horizon": 3681,
+          "max_total_action_steps": 3680,
+          "state_sha256": "264dd82de05eec08883a0355ca4e07ca78aa09e886b5c0126fe8ce170252a71f"
+        }
+      }
+    },
+    {
+      "session": 4,
+      "skill": "execute_order",
+      "result": {
+        "success": true,
+        "native_task_complete": true,
+        "stop_after_one": false,
+        "components_before": {},
+        "components_after": {},
+        "execution_index": 1,
+        "attempts": [
+          {
+            "attempt": 1,
+            "start_step": 10,
+            "end_step": 238,
+            "native_goal_reached": true,
+            "release_confirmation": {
+              "success": true,
+              "steps": 10,
+              "stable_steps": 10
+            },
+            "success": true
+          }
+        ],
+        "recoveries": [],
+        "instruction": "put the black bowl in the bottom drawer of the cabinet and close it",
+        "after": {
+          "scene_observation": {
+            "objects": {
+              "akita_black_bowl_1": {
+                "position_xyz_m": [
+                  -0.0088,
+                  0.2945,
+                  0.9254
+                ],
+                "held_by_gripper": false
+              },
+              "wine_bottle_1": {
+                "position_xyz_m": [
+                  -0.1508,
+                  0.0596,
+                  0.8989
+                ],
+                "held_by_gripper": false
+              }
+            }
+          },
+          "steps": 238,
+          "policy_calls": 44,
+          "reset_count": 1,
+          "simulator_horizon": 1841,
+          "max_total_action_steps": 1840,
+          "state_sha256": "24aaac9347b811d610c1ec941b48d1f49142a31b12c2238ebcbc6b8a91f298ff"
+        }
+      }
+    },
+    {
+      "session": 5,
+      "skill": "serve_C",
+      "result": {
+        "success": true,
+        "native_task_complete": false,
+        "stop_after_one": true,
+        "components_before": {
+          "white_mug_on_plate": false,
+          "pudding_right_of_plate": false
+        },
+        "components_after": {
+          "white_mug_on_plate": true,
+          "pudding_right_of_plate": false
+        },
+        "execution_index": 1,
+        "attempts": [
+          {
+            "attempt": 1,
+            "start_step": 10,
+            "end_step": 138,
+            "native_goal_reached": true,
+            "release_confirmation": {
+              "success": true,
+              "steps": 10,
+              "stable_steps": 10
+            },
+            "success": true
+          }
+        ],
+        "recoveries": [],
+        "instruction": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+        "after": {
+          "scene_observation": {
+            "objects": {
+              "porcelain_mug_1": {
+                "position_xyz_m": [
+                  0.1605,
+                  0.0165,
+                  0.4443
+                ],
+                "held_by_gripper": false
+              },
+              "red_coffee_mug_1": {
+                "position_xyz_m": [
+                  -0.2206,
+                  0.0207,
+                  0.4386
+                ],
+                "held_by_gripper": false
+              },
+              "plate_1": {
+                "position_xyz_m": [
+                  0.149,
+                  0.0057,
+                  0.4393
+                ],
+                "held_by_gripper": false
+              },
+              "chocolate_pudding_1": {
+                "position_xyz_m": [
+                  -0.0397,
+                  0.117,
+                  0.4498
+                ],
+                "held_by_gripper": false
+              }
+            }
+          },
+          "steps": 138,
+          "policy_calls": 24,
+          "reset_count": 1,
+          "simulator_horizon": 3681,
+          "max_total_action_steps": 3680,
+          "state_sha256": "264dd82de05eec08883a0355ca4e07ca78aa09e886b5c0126fe8ce170252a71f"
+        }
+      }
+    },
+    {
+      "session": 6,
+      "skill": "execute_order",
+      "result": {
+        "success": true,
+        "native_task_complete": true,
+        "stop_after_one": false,
+        "components_before": {},
+        "components_after": {},
+        "execution_index": 1,
+        "attempts": [
+          {
+            "attempt": 1,
+            "start_step": 10,
+            "end_step": 530,
+            "native_goal_reached": false,
+            "release_confirmation": null,
+            "success": false
+          },
+          {
+            "attempt": 2,
+            "start_step": 590,
+            "end_step": 729,
+            "native_goal_reached": true,
+            "release_confirmation": {
+              "success": true,
+              "steps": 10,
+              "stable_steps": 10
+            },
+            "success": true
+          }
+        ],
+        "recoveries": [
+          {
+            "steps": 60,
+            "goal_completed": false,
+            "retreat_completed": false,
+            "reset_environment": false,
+            "lift_m": 0.025
+          }
+        ],
+        "instruction": "put the yellow and white mug in the microwave and close it",
+        "after": {
+          "scene_observation": {
+            "objects": {
+              "porcelain_mug_1": {
+                "position_xyz_m": [
+                  -0.1169,
+                  -0.2367,
+                  0.8976
+                ],
+                "held_by_gripper": false
+              },
+              "white_yellow_mug_1": {
+                "position_xyz_m": [
+                  0.0437,
+                  0.3347,
+                  0.9772
+                ],
+                "held_by_gripper": false
+              }
+            }
+          },
+          "steps": 729,
+          "policy_calls": 130,
+          "reset_count": 1,
+          "simulator_horizon": 1841,
+          "max_total_action_steps": 1840,
+          "state_sha256": "9848866aa998359a0dc5517c03f60f82c0e0abef080c6ecc332d61ae70c75dd0"
+        }
+      }
+    },
+    {
+      "session": 7,
+      "skill": "serve_D",
+      "result": {
+        "success": true,
+        "native_task_complete": false,
+        "stop_after_one": true,
+        "components_before": {
+          "white_mug_on_plate": false,
+          "pudding_right_of_plate": false
+        },
+        "components_after": {
+          "white_mug_on_plate": true,
+          "pudding_right_of_plate": false
+        },
+        "execution_index": 1,
+        "attempts": [
+          {
+            "attempt": 1,
+            "start_step": 10,
+            "end_step": 138,
+            "native_goal_reached": true,
+            "release_confirmation": {
+              "success": true,
+              "steps": 10,
+              "stable_steps": 10
+            },
+            "success": true
+          }
+        ],
+        "recoveries": [],
+        "instruction": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+        "after": {
+          "scene_observation": {
+            "objects": {
+              "porcelain_mug_1": {
+                "position_xyz_m": [
+                  0.1605,
+                  0.0165,
+                  0.4443
+                ],
+                "held_by_gripper": false
+              },
+              "red_coffee_mug_1": {
+                "position_xyz_m": [
+                  -0.2206,
+                  0.0207,
+                  0.4386
+                ],
+                "held_by_gripper": false
+              },
+              "plate_1": {
+                "position_xyz_m": [
+                  0.149,
+                  0.0057,
+                  0.4393
+                ],
+                "held_by_gripper": false
+              },
+              "chocolate_pudding_1": {
+                "position_xyz_m": [
+                  -0.0397,
+                  0.117,
+                  0.4498
+                ],
+                "held_by_gripper": false
+              }
+            }
+          },
+          "steps": 138,
+          "policy_calls": 24,
+          "reset_count": 1,
+          "simulator_horizon": 3681,
+          "max_total_action_steps": 3680,
+          "state_sha256": "264dd82de05eec08883a0355ca4e07ca78aa09e886b5c0126fe8ce170252a71f"
+        }
+      }
+    },
+    {
+      "session": 8,
+      "skill": "execute_order",
+      "result": {
+        "success": true,
+        "native_task_complete": true,
+        "stop_after_one": false,
+        "components_before": {},
+        "components_after": {},
+        "execution_index": 1,
+        "attempts": [
+          {
+            "attempt": 1,
+            "start_step": 10,
+            "end_step": 130,
+            "native_goal_reached": true,
+            "release_confirmation": {
+              "success": true,
+              "steps": 11,
+              "stable_steps": 10
+            },
+            "success": true
+          }
+        ],
+        "recoveries": [],
+        "instruction": "put the black bowl on the plate",
+        "after": {
+          "scene_observation": {
+            "objects": {
+              "akita_black_bowl_1": {
+                "position_xyz_m": [
+                  -0.0156,
+                  0.245,
+                  0.9084
+                ],
+                "held_by_gripper": false
+              },
+              "plate_1": {
+                "position_xyz_m": [
+                  -0.0143,
+                  0.2674,
+                  0.9025
+                ],
+                "held_by_gripper": false
+              }
+            }
+          },
+          "steps": 130,
+          "policy_calls": 22,
+          "reset_count": 1,
+          "simulator_horizon": 1481,
+          "max_total_action_steps": 1480,
+          "state_sha256": "495b911c27dc9550b2b4d8e03d56d30b0e4c3d8a57f6c93961eeca91cc28fa97"
+        }
+      }
+    },
+    {
+      "session": 9,
+      "skill": "serve_E",
+      "result": {
+        "success": true,
+        "native_task_complete": false,
+        "stop_after_one": true,
+        "components_before": {
+          "white_mug_on_plate": false,
+          "pudding_right_of_plate": false
+        },
+        "components_after": {
+          "white_mug_on_plate": true,
+          "pudding_right_of_plate": false
+        },
+        "execution_index": 1,
+        "attempts": [
+          {
+            "attempt": 1,
+            "start_step": 10,
+            "end_step": 138,
+            "native_goal_reached": true,
+            "release_confirmation": {
+              "success": true,
+              "steps": 10,
+              "stable_steps": 10
+            },
+            "success": true
+          }
+        ],
+        "recoveries": [],
+        "instruction": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+        "after": {
+          "scene_observation": {
+            "objects": {
+              "porcelain_mug_1": {
+                "position_xyz_m": [
+                  0.1605,
+                  0.0165,
+                  0.4443
+                ],
+                "held_by_gripper": false
+              },
+              "red_coffee_mug_1": {
+                "position_xyz_m": [
+                  -0.2206,
+                  0.0207,
+                  0.4386
+                ],
+                "held_by_gripper": false
+              },
+              "plate_1": {
+                "position_xyz_m": [
+                  0.149,
+                  0.0057,
+                  0.4393
+                ],
+                "held_by_gripper": false
+              },
+              "chocolate_pudding_1": {
+                "position_xyz_m": [
+                  -0.0397,
+                  0.117,
+                  0.4498
+                ],
+                "held_by_gripper": false
+              }
+            }
+          },
+          "steps": 138,
+          "policy_calls": 24,
+          "reset_count": 1,
+          "simulator_horizon": 3681,
+          "max_total_action_steps": 3680,
+          "state_sha256": "264dd82de05eec08883a0355ca4e07ca78aa09e886b5c0126fe8ce170252a71f"
+        }
+      }
+    },
+    {
+      "session": 10,
+      "skill": "execute_order",
+      "result": {
+        "success": true,
+        "native_task_complete": true,
+        "stop_after_one": false,
+        "components_before": {},
+        "components_after": {},
+        "execution_index": 1,
+        "attempts": [
+          {
+            "attempt": 1,
+            "start_step": 10,
+            "end_step": 269,
+            "native_goal_reached": true,
+            "release_confirmation": {
+              "success": true,
+              "steps": 17,
+              "stable_steps": 10
+            },
+            "success": true
+          }
+        ],
+        "recoveries": [],
+        "instruction": "turn on the stove and put the moka pot on it",
+        "after": {
+          "scene_observation": {
+            "objects": {
+              "chefmate_8_frypan_1": {
+                "position_xyz_m": [
+                  -0.0742,
+                  -0.2723,
+                  0.8992
+                ],
+                "held_by_gripper": false
+              },
+              "moka_pot_1": {
+                "position_xyz_m": [
+                  -0.0925,
+                  0.2166,
+                  0.9976
+                ],
+                "held_by_gripper": false
+              }
+            }
+          },
+          "steps": 269,
+          "policy_calls": 49,
+          "reset_count": 1,
+          "simulator_horizon": 1841,
+          "max_total_action_steps": 1840,
+          "state_sha256": "0ba86ddee355db71a93926342cd69be69dad0ffb6ac3b253a0ba753290aeb7ec"
+        }
+      }
+    },
+    {
+      "session": 11,
+      "skill": "serve_D",
+      "result": {
+        "success": true,
+        "native_task_complete": true,
+        "stop_after_one": false,
+        "components_before": {
+          "white_mug_on_plate": true,
+          "pudding_right_of_plate": false
+        },
+        "components_after": {
+          "white_mug_on_plate": true,
+          "pudding_right_of_plate": true
+        },
+        "execution_index": 2,
+        "attempts": [
+          {
+            "attempt": 1,
+            "start_step": 138,
+            "end_step": 228,
+            "native_goal_reached": true,
+            "release_confirmation": {
+              "success": true,
+              "steps": 15,
+              "stable_steps": 10
+            },
+            "success": true
+          }
+        ],
+        "recoveries": [],
+        "instruction": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+        "after": {
+          "scene_observation": {
+            "objects": {
+              "porcelain_mug_1": {
+                "position_xyz_m": [
+                  0.1605,
+                  0.0165,
+                  0.4428
+                ],
+                "held_by_gripper": false
+              },
+              "red_coffee_mug_1": {
+                "position_xyz_m": [
+                  -0.2206,
+                  0.0207,
+                  0.4386
+                ],
+                "held_by_gripper": false
+              },
+              "plate_1": {
+                "position_xyz_m": [
+                  0.149,
+                  0.0057,
+                  0.4393
+                ],
+                "held_by_gripper": false
+              },
+              "chocolate_pudding_1": {
+                "position_xyz_m": [
+                  0.1173,
+                  0.14,
+                  0.4498
+                ],
+                "held_by_gripper": false
+              }
+            }
+          },
+          "steps": 228,
+          "policy_calls": 39,
+          "reset_count": 1,
+          "simulator_horizon": 3681,
+          "max_total_action_steps": 3680,
+          "state_sha256": "72e576c853d3cf62c6c1973970efb424664afd3d7720d5b7884e90fc4d772f7a"
+        }
+      }
+    },
+    {
+      "session": 12,
+      "skill": "execute_order",
+      "result": {
+        "success": true,
+        "native_task_complete": true,
+        "stop_after_one": false,
+        "components_before": {},
+        "components_after": {},
+        "execution_index": 1,
+        "attempts": [
+          {
+            "attempt": 1,
+            "start_step": 10,
+            "end_step": 238,
+            "native_goal_reached": true,
+            "release_confirmation": {
+              "success": true,
+              "steps": 10,
+              "stable_steps": 10
+            },
+            "success": true
+          }
+        ],
+        "recoveries": [],
+        "instruction": "put the black bowl in the bottom drawer of the cabinet and close it",
+        "after": {
+          "scene_observation": {
+            "objects": {
+              "akita_black_bowl_1": {
+                "position_xyz_m": [
+                  -0.0088,
+                  0.2945,
+                  0.9254
+                ],
+                "held_by_gripper": false
+              },
+              "wine_bottle_1": {
+                "position_xyz_m": [
+                  -0.1508,
+                  0.0596,
+                  0.8989
+                ],
+                "held_by_gripper": false
+              }
+            }
+          },
+          "steps": 238,
+          "policy_calls": 44,
+          "reset_count": 1,
+          "simulator_horizon": 1841,
+          "max_total_action_steps": 1840,
+          "state_sha256": "24aaac9347b811d610c1ec941b48d1f49142a31b12c2238ebcbc6b8a91f298ff"
+        }
+      }
+    },
+    {
+      "session": 13,
+      "skill": "serve_E",
+      "result": {
+        "success": true,
+        "native_task_complete": true,
+        "stop_after_one": false,
+        "components_before": {
+          "white_mug_on_plate": true,
+          "pudding_right_of_plate": false
+        },
+        "components_after": {
+          "white_mug_on_plate": true,
+          "pudding_right_of_plate": true
+        },
+        "execution_index": 2,
+        "attempts": [
+          {
+            "attempt": 1,
+            "start_step": 138,
+            "end_step": 228,
+            "native_goal_reached": true,
+            "release_confirmation": {
+              "success": true,
+              "steps": 15,
+              "stable_steps": 10
+            },
+            "success": true
+          }
+        ],
+        "recoveries": [],
+        "instruction": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+        "after": {
+          "scene_observation": {
+            "objects": {
+              "porcelain_mug_1": {
+                "position_xyz_m": [
+                  0.1605,
+                  0.0165,
+                  0.4428
+                ],
+                "held_by_gripper": false
+              },
+              "red_coffee_mug_1": {
+                "position_xyz_m": [
+                  -0.2206,
+                  0.0207,
+                  0.4386
+                ],
+                "held_by_gripper": false
+              },
+              "plate_1": {
+                "position_xyz_m": [
+                  0.149,
+                  0.0057,
+                  0.4393
+                ],
+                "held_by_gripper": false
+              },
+              "chocolate_pudding_1": {
+                "position_xyz_m": [
+                  0.1173,
+                  0.14,
+                  0.4498
+                ],
+                "held_by_gripper": false
+              }
+            }
+          },
+          "steps": 228,
+          "policy_calls": 39,
+          "reset_count": 1,
+          "simulator_horizon": 3681,
+          "max_total_action_steps": 3680,
+          "state_sha256": "72e576c853d3cf62c6c1973970efb424664afd3d7720d5b7884e90fc4d772f7a"
+        }
+      }
+    },
+    {
+      "session": 14,
+      "skill": "execute_order",
+      "result": {
+        "success": true,
+        "native_task_complete": true,
+        "stop_after_one": false,
+        "components_before": {},
+        "components_after": {},
+        "execution_index": 1,
+        "attempts": [
+          {
+            "attempt": 1,
+            "start_step": 10,
+            "end_step": 530,
+            "native_goal_reached": false,
+            "release_confirmation": null,
+            "success": false
+          },
+          {
+            "attempt": 2,
+            "start_step": 590,
+            "end_step": 729,
+            "native_goal_reached": true,
+            "release_confirmation": {
+              "success": true,
+              "steps": 10,
+              "stable_steps": 10
+            },
+            "success": true
+          }
+        ],
+        "recoveries": [
+          {
+            "steps": 60,
+            "goal_completed": false,
+            "retreat_completed": false,
+            "reset_environment": false,
+            "lift_m": 0.025
+          }
+        ],
+        "instruction": "put the yellow and white mug in the microwave and close it",
+        "after": {
+          "scene_observation": {
+            "objects": {
+              "porcelain_mug_1": {
+                "position_xyz_m": [
+                  -0.1169,
+                  -0.2367,
+                  0.8976
+                ],
+                "held_by_gripper": false
+              },
+              "white_yellow_mug_1": {
+                "position_xyz_m": [
+                  0.0437,
+                  0.3347,
+                  0.9772
+                ],
+                "held_by_gripper": false
+              }
+            }
+          },
+          "steps": 729,
+          "policy_calls": 130,
+          "reset_count": 1,
+          "simulator_horizon": 1841,
+          "max_total_action_steps": 1840,
+          "state_sha256": "9848866aa998359a0dc5517c03f60f82c0e0abef080c6ecc332d61ae70c75dd0"
+        }
+      }
+    },
+    {
+      "session": 15,
+      "skill": "serve_B",
+      "result": {
+        "success": true,
+        "native_task_complete": true,
+        "stop_after_one": false,
+        "components_before": {
+          "white_mug_on_plate": true,
+          "pudding_right_of_plate": false
+        },
+        "components_after": {
+          "white_mug_on_plate": true,
+          "pudding_right_of_plate": true
+        },
+        "execution_index": 2,
+        "attempts": [
+          {
+            "attempt": 1,
+            "start_step": 138,
+            "end_step": 228,
+            "native_goal_reached": true,
+            "release_confirmation": {
+              "success": true,
+              "steps": 15,
+              "stable_steps": 10
+            },
+            "success": true
+          }
+        ],
+        "recoveries": [],
+        "instruction": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+        "after": {
+          "scene_observation": {
+            "objects": {
+              "porcelain_mug_1": {
+                "position_xyz_m": [
+                  0.1605,
+                  0.0165,
+                  0.4428
+                ],
+                "held_by_gripper": false
+              },
+              "red_coffee_mug_1": {
+                "position_xyz_m": [
+                  -0.2206,
+                  0.0207,
+                  0.4386
+                ],
+                "held_by_gripper": false
+              },
+              "plate_1": {
+                "position_xyz_m": [
+                  0.149,
+                  0.0057,
+                  0.4393
+                ],
+                "held_by_gripper": false
+              },
+              "chocolate_pudding_1": {
+                "position_xyz_m": [
+                  0.1173,
+                  0.14,
+                  0.4498
+                ],
+                "held_by_gripper": false
+              }
+            }
+          },
+          "steps": 228,
+          "policy_calls": 39,
+          "reset_count": 1,
+          "simulator_horizon": 3681,
+          "max_total_action_steps": 3680,
+          "state_sha256": "72e576c853d3cf62c6c1973970efb424664afd3d7720d5b7884e90fc4d772f7a"
+        }
+      }
+    },
+    {
+      "session": 16,
+      "skill": "execute_order",
+      "result": {
+        "success": true,
+        "native_task_complete": true,
+        "stop_after_one": false,
+        "components_before": {},
+        "components_after": {},
+        "execution_index": 1,
+        "attempts": [
+          {
+            "attempt": 1,
+            "start_step": 10,
+            "end_step": 130,
+            "native_goal_reached": true,
+            "release_confirmation": {
+              "success": true,
+              "steps": 11,
+              "stable_steps": 10
+            },
+            "success": true
+          }
+        ],
+        "recoveries": [],
+        "instruction": "put the black bowl on the plate",
+        "after": {
+          "scene_observation": {
+            "objects": {
+              "akita_black_bowl_1": {
+                "position_xyz_m": [
+                  -0.0156,
+                  0.245,
+                  0.9084
+                ],
+                "held_by_gripper": false
+              },
+              "plate_1": {
+                "position_xyz_m": [
+                  -0.0143,
+                  0.2674,
+                  0.9025
+                ],
+                "held_by_gripper": false
+              }
+            }
+          },
+          "steps": 130,
+          "policy_calls": 22,
+          "reset_count": 1,
+          "simulator_horizon": 1481,
+          "max_total_action_steps": 1480,
+          "state_sha256": "495b911c27dc9550b2b4d8e03d56d30b0e4c3d8a57f6c93961eeca91cc28fa97"
+        }
+      }
+    },
+    {
+      "session": 17,
+      "skill": "serve_C",
+      "result": {
+        "success": true,
+        "native_task_complete": true,
+        "stop_after_one": false,
+        "components_before": {
+          "white_mug_on_plate": true,
+          "pudding_right_of_plate": false
+        },
+        "components_after": {
+          "white_mug_on_plate": true,
+          "pudding_right_of_plate": true
+        },
+        "execution_index": 2,
+        "attempts": [
+          {
+            "attempt": 1,
+            "start_step": 138,
+            "end_step": 228,
+            "native_goal_reached": true,
+            "release_confirmation": {
+              "success": true,
+              "steps": 15,
+              "stable_steps": 10
+            },
+            "success": true
+          }
+        ],
+        "recoveries": [],
+        "instruction": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+        "after": {
+          "scene_observation": {
+            "objects": {
+              "porcelain_mug_1": {
+                "position_xyz_m": [
+                  0.1605,
+                  0.0165,
+                  0.4428
+                ],
+                "held_by_gripper": false
+              },
+              "red_coffee_mug_1": {
+                "position_xyz_m": [
+                  -0.2206,
+                  0.0207,
+                  0.4386
+                ],
+                "held_by_gripper": false
+              },
+              "plate_1": {
+                "position_xyz_m": [
+                  0.149,
+                  0.0057,
+                  0.4393
+                ],
+                "held_by_gripper": false
+              },
+              "chocolate_pudding_1": {
+                "position_xyz_m": [
+                  0.1173,
+                  0.14,
+                  0.4498
+                ],
+                "held_by_gripper": false
+              }
+            }
+          },
+          "steps": 228,
+          "policy_calls": 39,
+          "reset_count": 1,
+          "simulator_horizon": 3681,
+          "max_total_action_steps": 3680,
+          "state_sha256": "72e576c853d3cf62c6c1973970efb424664afd3d7720d5b7884e90fc4d772f7a"
+        }
+      }
+    },
+    {
+      "session": 18,
+      "skill": "execute_order",
+      "result": {
+        "success": true,
+        "native_task_complete": true,
+        "stop_after_one": false,
+        "components_before": {},
+        "components_after": {},
+        "execution_index": 1,
+        "attempts": [
+          {
+            "attempt": 1,
+            "start_step": 10,
+            "end_step": 269,
+            "native_goal_reached": true,
+            "release_confirmation": {
+              "success": true,
+              "steps": 17,
+              "stable_steps": 10
+            },
+            "success": true
+          }
+        ],
+        "recoveries": [],
+        "instruction": "turn on the stove and put the moka pot on it",
+        "after": {
+          "scene_observation": {
+            "objects": {
+              "chefmate_8_frypan_1": {
+                "position_xyz_m": [
+                  -0.0742,
+                  -0.2723,
+                  0.8992
+                ],
+                "held_by_gripper": false
+              },
+              "moka_pot_1": {
+                "position_xyz_m": [
+                  -0.0925,
+                  0.2166,
+                  0.9976
+                ],
+                "held_by_gripper": false
+              }
+            }
+          },
+          "steps": 269,
+          "policy_calls": 49,
+          "reset_count": 1,
+          "simulator_horizon": 1841,
+          "max_total_action_steps": 1840,
+          "state_sha256": "0ba86ddee355db71a93926342cd69be69dad0ffb6ac3b253a0ba753290aeb7ec"
+        }
+      }
+    },
+    {
+      "session": 19,
+      "skill": "serve_A",
+      "result": {
+        "success": true,
+        "native_task_complete": true,
+        "stop_after_one": false,
+        "components_before": {
+          "white_mug_on_plate": true,
+          "pudding_right_of_plate": false
+        },
+        "components_after": {
+          "white_mug_on_plate": true,
+          "pudding_right_of_plate": true
+        },
+        "execution_index": 2,
+        "attempts": [
+          {
+            "attempt": 1,
+            "start_step": 138,
+            "end_step": 228,
+            "native_goal_reached": true,
+            "release_confirmation": {
+              "success": true,
+              "steps": 15,
+              "stable_steps": 10
+            },
+            "success": true
+          }
+        ],
+        "recoveries": [],
+        "instruction": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+        "after": {
+          "scene_observation": {
+            "objects": {
+              "porcelain_mug_1": {
+                "position_xyz_m": [
+                  0.1605,
+                  0.0165,
+                  0.4428
+                ],
+                "held_by_gripper": false
+              },
+              "red_coffee_mug_1": {
+                "position_xyz_m": [
+                  -0.2206,
+                  0.0207,
+                  0.4386
+                ],
+                "held_by_gripper": false
+              },
+              "plate_1": {
+                "position_xyz_m": [
+                  0.149,
+                  0.0057,
+                  0.4393
+                ],
+                "held_by_gripper": false
+              },
+              "chocolate_pudding_1": {
+                "position_xyz_m": [
+                  0.1173,
+                  0.14,
+                  0.4498
+                ],
+                "held_by_gripper": false
+              }
+            }
+          },
+          "steps": 228,
+          "policy_calls": 39,
+          "reset_count": 1,
+          "simulator_horizon": 3681,
+          "max_total_action_steps": 3680,
+          "state_sha256": "72e576c853d3cf62c6c1973970efb424664afd3d7720d5b7884e90fc4d772f7a"
+        }
+      }
+    },
+    {
+      "session": 20,
+      "skill": "serve_F",
+      "result": {
+        "success": true,
+        "native_task_complete": true,
+        "stop_after_one": false,
+        "components_before": {},
+        "components_after": {},
+        "execution_index": 1,
+        "attempts": [
+          {
+            "attempt": 1,
+            "start_step": 10,
+            "end_step": 249,
+            "native_goal_reached": true,
+            "release_confirmation": {
+              "success": true,
+              "steps": 11,
+              "stable_steps": 10
+            },
+            "success": true
+          }
+        ],
+        "recoveries": [],
+        "instruction": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+        "after": {
+          "scene_observation": {
+            "objects": {
+              "porcelain_mug_1": {
+                "position_xyz_m": [
+                  -0.0129,
+                  -0.3041,
+                  0.4433
+                ],
+                "held_by_gripper": false
+              },
+              "red_coffee_mug_1": {
+                "position_xyz_m": [
+                  -0.2024,
+                  0.0183,
+                  0.4386
+                ],
+                "held_by_gripper": false
+              },
+              "white_yellow_mug_1": {
+                "position_xyz_m": [
+                  0.0066,
+                  0.2892,
+                  0.4455
+                ],
+                "held_by_gripper": false
+              },
+              "plate_1": {
+                "position_xyz_m": [
+                  -0.0045,
+                  -0.3232,
+                  0.4393
+                ],
+                "held_by_gripper": false
+              },
+              "plate_2": {
+                "position_xyz_m": [
+                  0.0054,
+                  0.3109,
+                  0.4393
+                ],
+                "held_by_gripper": false
+              }
+            }
+          },
+          "steps": 249,
+          "policy_calls": 46,
+          "reset_count": 1,
+          "simulator_horizon": 1841,
+          "max_total_action_steps": 1840,
+          "state_sha256": "aaf44195fad4f60a1af0fa5b291a11895e56db0194c090e9994e139577c379e1"
+        }
+      }
+    }
+  ],
+  "snapshot_checks": [
+    {
+      "session": 1,
+      "unselected_tables_unchanged": true
+    },
+    {
+      "session": 2,
+      "unselected_tables_unchanged": true
+    },
+    {
+      "session": 3,
+      "unselected_tables_unchanged": true
+    },
+    {
+      "session": 4,
+      "unselected_tables_unchanged": true
+    },
+    {
+      "session": 5,
+      "unselected_tables_unchanged": true
+    },
+    {
+      "session": 6,
+      "unselected_tables_unchanged": true
+    },
+    {
+      "session": 7,
+      "unselected_tables_unchanged": true
+    },
+    {
+      "session": 8,
+      "unselected_tables_unchanged": true
+    },
+    {
+      "session": 9,
+      "unselected_tables_unchanged": true
+    },
+    {
+      "session": 10,
+      "unselected_tables_unchanged": true
+    },
+    {
+      "session": 11,
+      "unselected_tables_unchanged": true
+    },
+    {
+      "session": 12,
+      "unselected_tables_unchanged": true
+    },
+    {
+      "session": 13,
+      "unselected_tables_unchanged": true
+    },
+    {
+      "session": 14,
+      "unselected_tables_unchanged": true
+    },
+    {
+      "session": 15,
+      "unselected_tables_unchanged": true
+    },
+    {
+      "session": 16,
+      "unselected_tables_unchanged": true
+    },
+    {
+      "session": 17,
+      "unselected_tables_unchanged": true
+    },
+    {
+      "session": 18,
+      "unselected_tables_unchanged": true
+    },
+    {
+      "session": 19,
+      "unselected_tables_unchanged": true
+    },
+    {
+      "session": 20,
+      "unselected_tables_unchanged": true
+    }
+  ],
+  "partial_successes": 5,
+  "recovery_successes": 5,
+  "scope": "development only; manually improved parent, not RSI result",
+  "reference_only": false,
+  "recovery_snapshot": {
+    "current_input_sha256": "186ee09475c03f0b9f266f37d4c4e20ef1263f09e4c1a2ccaa21f0b3358d2af4",
+    "station_state_sha256": {
+      "serve_A": "264dd82de05eec08883a0355ca4e07ca78aa09e886b5c0126fe8ce170252a71f",
+      "serve_B": "264dd82de05eec08883a0355ca4e07ca78aa09e886b5c0126fe8ce170252a71f",
+      "serve_C": "264dd82de05eec08883a0355ca4e07ca78aa09e886b5c0126fe8ce170252a71f",
+      "serve_D": "264dd82de05eec08883a0355ca4e07ca78aa09e886b5c0126fe8ce170252a71f",
+      "serve_E": "264dd82de05eec08883a0355ca4e07ca78aa09e886b5c0126fe8ce170252a71f",
+      "serve_F": "5264249b7ed5721847e5e8a55e70dc46cc003ed777eaa964f5a44b2cb7ee521c",
+      "serve_G": "5264249b7ed5721847e5e8a55e70dc46cc003ed777eaa964f5a44b2cb7ee521c"
+    },
+    "action_contract_sha256": "128a98d984e7838e7c9e31cd9b0d3172f12fbaa1b8c70b65b3381c48e46d6bcb",
+    "expected_first_private": "serve_D"
+  },
+  "failure": null,
+  "rollovers": [
+    {
+      "index": 1,
+      "command": "/new",
+      "response": "New session started.",
+      "before_messages": 5,
+      "after_messages": 0,
+      "success": true,
+      "last_received_event": 3,
+      "memory_before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "memory_after_sha256": "7f102a89abbca4f9a4dd3a8389696cc5cf59e4cb2491ad8c9acf9c218a04fe3c",
+      "policy_sha256": "7f463aa609d6b472b04d554d7716d5718ed22b342683d4ec9155a15cfead4ec1",
+      "model_calls": 3
+    },
+    {
+      "index": 2,
+      "command": "/new",
+      "response": "New session started.",
+      "before_messages": 4,
+      "after_messages": 0,
+      "success": true,
+      "last_received_event": 5,
+      "memory_before_sha256": "7f102a89abbca4f9a4dd3a8389696cc5cf59e4cb2491ad8c9acf9c218a04fe3c",
+      "memory_after_sha256": "a13ba9f1b7b6ebea7b7f6ffe8a8d3078ad6af3a51266b8624fc1c00a2d9d4d3f",
+      "policy_sha256": "7f463aa609d6b472b04d554d7716d5718ed22b342683d4ec9155a15cfead4ec1",
+      "model_calls": 6
+    },
+    {
+      "index": 3,
+      "command": "/new",
+      "response": "New session started.",
+      "before_messages": 4,
+      "after_messages": 0,
+      "success": true,
+      "last_received_event": 7,
+      "memory_before_sha256": "a13ba9f1b7b6ebea7b7f6ffe8a8d3078ad6af3a51266b8624fc1c00a2d9d4d3f",
+      "memory_after_sha256": "c5ed1c30453aef7de8c799b35bb4b9d335f3b16defa7b6fc542e9f83bc38c8ef",
+      "policy_sha256": "7f463aa609d6b472b04d554d7716d5718ed22b342683d4ec9155a15cfead4ec1",
+      "model_calls": 9
+    },
+    {
+      "index": 4,
+      "command": "/new",
+      "response": "New session started.",
+      "before_messages": 5,
+      "after_messages": 0,
+      "success": true,
+      "last_received_event": 10,
+      "memory_before_sha256": "c5ed1c30453aef7de8c799b35bb4b9d335f3b16defa7b6fc542e9f83bc38c8ef",
+      "memory_after_sha256": "ef48135743804c87b750a2f5d0324335ff1fff8bd318385fa5dbf259e112e705",
+      "policy_sha256": "7f463aa609d6b472b04d554d7716d5718ed22b342683d4ec9155a15cfead4ec1",
+      "model_calls": 13
+    },
+    {
+      "index": 5,
+      "command": "/new",
+      "response": "New session started.",
+      "before_messages": 4,
+      "after_messages": 0,
+      "success": true,
+      "last_received_event": 12,
+      "memory_before_sha256": "ef48135743804c87b750a2f5d0324335ff1fff8bd318385fa5dbf259e112e705",
+      "memory_after_sha256": "850c36b4ba69016bfee3bd8b51b50acabc374ade5c4b9a8ee10c286baa58b54b",
+      "policy_sha256": "7f463aa609d6b472b04d554d7716d5718ed22b342683d4ec9155a15cfead4ec1",
+      "model_calls": 16
+    },
+    {
+      "index": 6,
+      "command": "/new",
+      "response": "New session started.",
+      "before_messages": 5,
+      "after_messages": 0,
+      "success": true,
+      "last_received_event": 15,
+      "memory_before_sha256": "850c36b4ba69016bfee3bd8b51b50acabc374ade5c4b9a8ee10c286baa58b54b",
+      "memory_after_sha256": "8c389451e235c5c0aedcd0b66cdcbac2c3ef22d43c29a6532458c61e3c644725",
+      "policy_sha256": "7f463aa609d6b472b04d554d7716d5718ed22b342683d4ec9155a15cfead4ec1",
+      "model_calls": 19
+    },
+    {
+      "index": 7,
+      "command": "/new",
+      "response": "New session started.",
+      "before_messages": 4,
+      "after_messages": 0,
+      "success": true,
+      "last_received_event": 17,
+      "memory_before_sha256": "8c389451e235c5c0aedcd0b66cdcbac2c3ef22d43c29a6532458c61e3c644725",
+      "memory_after_sha256": "09d65b8c36759f6c656165b14b0f3385635473becc7205b7c80cf8929ae6b3ad",
+      "policy_sha256": "7f463aa609d6b472b04d554d7716d5718ed22b342683d4ec9155a15cfead4ec1",
+      "model_calls": 22
+    },
+    {
+      "index": 8,
+      "command": "/new",
+      "response": "New session started.",
+      "before_messages": 5,
+      "after_messages": 0,
+      "success": true,
+      "last_received_event": 20,
+      "memory_before_sha256": "09d65b8c36759f6c656165b14b0f3385635473becc7205b7c80cf8929ae6b3ad",
+      "memory_after_sha256": "c568414b686899cd10f84a504622460f356f30fa550d63279c361b993bcb4c6d",
+      "policy_sha256": "7f463aa609d6b472b04d554d7716d5718ed22b342683d4ec9155a15cfead4ec1",
+      "model_calls": 26
+    },
+    {
+      "index": 9,
+      "command": "/new",
+      "response": "New session started.",
+      "before_messages": 4,
+      "after_messages": 0,
+      "success": true,
+      "last_received_event": 22,
+      "memory_before_sha256": "c568414b686899cd10f84a504622460f356f30fa550d63279c361b993bcb4c6d",
+      "memory_after_sha256": "3ddf79ddd27d46982ee9318be7d62a15aa4759fc1a5b3b39b87ed9a131fc2f7a",
+      "policy_sha256": "7f463aa609d6b472b04d554d7716d5718ed22b342683d4ec9155a15cfead4ec1",
+      "model_calls": 29
+    },
+    {
+      "index": 10,
+      "command": "/new",
+      "response": "New session started.",
+      "before_messages": 5,
+      "after_messages": 0,
+      "success": true,
+      "last_received_event": 25,
+      "memory_before_sha256": "3ddf79ddd27d46982ee9318be7d62a15aa4759fc1a5b3b39b87ed9a131fc2f7a",
+      "memory_after_sha256": "d4e67d21d4b1a3d914d919a25cd92a3b6ad3fc636cfde93331901a86c804d367",
+      "policy_sha256": "7f463aa609d6b472b04d554d7716d5718ed22b342683d4ec9155a15cfead4ec1",
+      "model_calls": 32
+    },
+    {
+      "index": 11,
+      "command": "/new",
+      "response": "New session started.",
+      "before_messages": 4,
+      "after_messages": 0,
+      "success": true,
+      "last_received_event": 27,
+      "memory_before_sha256": "d4e67d21d4b1a3d914d919a25cd92a3b6ad3fc636cfde93331901a86c804d367",
+      "memory_after_sha256": "83ca15a22a31fdb7e1d07ef7343e1f3e7ec46823f7570f0a2b4f33951ad66c12",
+      "policy_sha256": "7f463aa609d6b472b04d554d7716d5718ed22b342683d4ec9155a15cfead4ec1",
+      "model_calls": 35
+    },
+    {
+      "index": 12,
+      "command": "/new",
+      "response": "New session started.",
+      "before_messages": 4,
+      "after_messages": 0,
+      "success": true,
+      "last_received_event": 29,
+      "memory_before_sha256": "83ca15a22a31fdb7e1d07ef7343e1f3e7ec46823f7570f0a2b4f33951ad66c12",
+      "memory_after_sha256": "f5f88313ac1f5dd279bbd5e4b51406dba6253e504896be1ecbda340cf511a6d6",
+      "policy_sha256": "7f463aa609d6b472b04d554d7716d5718ed22b342683d4ec9155a15cfead4ec1",
+      "model_calls": 39
+    },
+    {
+      "index": 13,
+      "command": "/new",
+      "response": "New session started.",
+      "before_messages": 4,
+      "after_messages": 0,
+      "success": true,
+      "last_received_event": 31,
+      "memory_before_sha256": "f5f88313ac1f5dd279bbd5e4b51406dba6253e504896be1ecbda340cf511a6d6",
+      "memory_after_sha256": "341de3b5bb59f63c6e0ceca2da1cc53738263000eb7bb0732c2ec87807e46a4e",
+      "policy_sha256": "7f463aa609d6b472b04d554d7716d5718ed22b342683d4ec9155a15cfead4ec1",
+      "model_calls": 42
+    },
+    {
+      "index": 14,
+      "command": "/new",
+      "response": "New session started.",
+      "before_messages": 4,
+      "after_messages": 0,
+      "success": true,
+      "last_received_event": 33,
+      "memory_before_sha256": "341de3b5bb59f63c6e0ceca2da1cc53738263000eb7bb0732c2ec87807e46a4e",
+      "memory_after_sha256": "f65ddaeebe6c0814f7ff26d5b67e6659d014c7a6981ebbb4026fa3cf8b1e7694",
+      "policy_sha256": "7f463aa609d6b472b04d554d7716d5718ed22b342683d4ec9155a15cfead4ec1",
+      "model_calls": 45
+    },
+    {
+      "index": 15,
+      "command": "/new",
+      "response": "New session started.",
+      "before_messages": 4,
+      "after_messages": 0,
+      "success": true,
+      "last_received_event": 35,
+      "memory_before_sha256": "f65ddaeebe6c0814f7ff26d5b67e6659d014c7a6981ebbb4026fa3cf8b1e7694",
+      "memory_after_sha256": "d712946ab49399502518b1fa8657b9d895e25f83cf902d79c240a461ffa01808",
+      "policy_sha256": "7f463aa609d6b472b04d554d7716d5718ed22b342683d4ec9155a15cfead4ec1",
+      "model_calls": 48
+    },
+    {
+      "index": 16,
+      "command": "/new",
+      "response": "New session started.",
+      "before_messages": 4,
+      "after_messages": 0,
+      "success": true,
+      "last_received_event": 37,
+      "memory_before_sha256": "d712946ab49399502518b1fa8657b9d895e25f83cf902d79c240a461ffa01808",
+      "memory_after_sha256": "900c65c557e47dce8a1840ed0b906940fa75a59f3c4bbd7e2d0ba0ce8ba6e46e",
+      "policy_sha256": "7f463aa609d6b472b04d554d7716d5718ed22b342683d4ec9155a15cfead4ec1",
+      "model_calls": 52
+    },
+    {
+      "index": 17,
+      "command": "/new",
+      "response": "New session started.",
+      "before_messages": 4,
+      "after_messages": 0,
+      "success": true,
+      "last_received_event": 39,
+      "memory_before_sha256": "900c65c557e47dce8a1840ed0b906940fa75a59f3c4bbd7e2d0ba0ce8ba6e46e",
+      "memory_after_sha256": "e0fd40a2d913878653b131834fa62e8c3eebc99530f64709436bcdfa9e90312c",
+      "policy_sha256": "7f463aa609d6b472b04d554d7716d5718ed22b342683d4ec9155a15cfead4ec1",
+      "model_calls": 55
+    },
+    {
+      "index": 18,
+      "command": "/new",
+      "response": "New session started.",
+      "before_messages": 4,
+      "after_messages": 0,
+      "success": true,
+      "last_received_event": 41,
+      "memory_before_sha256": "e0fd40a2d913878653b131834fa62e8c3eebc99530f64709436bcdfa9e90312c",
+      "memory_after_sha256": "0a65144d9b40609deeafeafa75ed5435f1bc11a60c0b48d94839d61c68a52410",
+      "policy_sha256": "7f463aa609d6b472b04d554d7716d5718ed22b342683d4ec9155a15cfead4ec1",
+      "model_calls": 58
+    },
+    {
+      "index": 19,
+      "command": "/new",
+      "response": "New session started.",
+      "before_messages": 4,
+      "after_messages": 0,
+      "success": true,
+      "last_received_event": 43,
+      "memory_before_sha256": "0a65144d9b40609deeafeafa75ed5435f1bc11a60c0b48d94839d61c68a52410",
+      "memory_after_sha256": "58561b7475a71f870f8f6eba976f1c02398ef15abf9427d650fa54861c025dfc",
+      "policy_sha256": "7f463aa609d6b472b04d554d7716d5718ed22b342683d4ec9155a15cfead4ec1",
+      "model_calls": 61
+    }
+  ],
+  "elapsed_seconds": 6244.726402521133,
+  "failure_phase": null,
+  "model_input_tokens": 248404,
+  "model_output_tokens": 13765,
+  "model_cost_complete": false,
+  "model_cost_unknown_requests": 1,
+  "registered_arm": "u_only",
+  "condition_id": "hEDABC-v1-i0",
+  "registration_sha256": "eb3a5456f8cc647c8181304f6caa568c62b7ddba333bdb278f3d27c6f7a99fea",
+  "finished_at": 1792816795.0916166
+}

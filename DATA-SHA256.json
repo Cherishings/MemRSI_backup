@@ -1,0 +1,18 @@
+{
+  "text-objects.tar.gz": {
+    "bytes": 29177371,
+    "sha256": "8f105aa9844100b35a126483410bf88cc4c913ca1b0f0f596812f84a89cd7971"
+  },
+  "media-objects.tar.gz": {
+    "bytes": 95591857,
+    "sha256": "be35e25396fcd19e7da9cf914eea8ae5724f12a76d1e61203f07d9ef727e9c94"
+  },
+  "file-index.jsonl.gz": {
+    "bytes": 3105998,
+    "sha256": "1757797887c23c5d8404bb84cd687cad57648b938d98f6b37c6648f905870642"
+  },
+  "omissions.jsonl.gz": {
+    "bytes": 25332,
+    "sha256": "6cab612cd249abbf217ad8df0f17582223b23e7a0d0606d134501169eff5c0dc"
+  }
+}

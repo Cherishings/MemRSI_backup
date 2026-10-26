@@ -1,0 +1,30 @@
+{
+  "snapshot_date": "2026-10-26",
+  "scope": "sanitized research export; private local backup unchanged",
+  "counts": {
+    "text_unique_files": 23963,
+    "text_unique_bytes": 287606479,
+    "github_files": 10398,
+    "github_logical_bytes": 63347730,
+    "media_unique_files": 308,
+    "media_unique_bytes": 97044261,
+    "original_path_count": 74237,
+    "omitted_path_count": 2641,
+    "credential_redacted_files": 0
+  },
+  "excluded_whole_roots": [
+    "local-control",
+    "audit process/config inventories",
+    "reconstructible dependency environments, public weights, caches and nested machine archives"
+  ],
+  "redactions": [],
+  "credentials_included": false,
+  "data_repository": "https://huggingface.co/datasets/cherishing/MemRSI_backup",
+  "github_repository": "https://github.com/Cherishings/MemRSI_backup",
+  "limitations": [
+    "Public export is intentionally smaller than the private backup.",
+    "Incomplete model weights are not uploaded.",
+    "Original experiment hashes refer to original bytes; file-index records both original and public hashes.",
+    "No validation/test feedback was used to change rules during export."
+  ]
+}

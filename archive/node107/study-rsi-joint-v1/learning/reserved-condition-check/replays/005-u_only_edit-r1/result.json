@@ -1,0 +1,41 @@
+{
+  "source": "/data/songziying/paos-libero-20261023/study-rsi-v4-learning/import108/cases/hDABCE-v1-i1",
+  "status": "source_error_corrected",
+  "correct": 3,
+  "answered": 3,
+  "planned": 3,
+  "decisions": [
+    {
+      "event": 26,
+      "skill": "serve_A",
+      "correct": true
+    },
+    {
+      "event": 28,
+      "skill": "execute_order",
+      "correct": true
+    },
+    {
+      "event": 30,
+      "skill": "serve_D",
+      "correct": true
+    },
+    {
+      "event": 32,
+      "skill": "execute_order",
+      "correct": true
+    },
+    {
+      "event": 34,
+      "skill": "serve_C",
+      "correct": true
+    }
+  ],
+  "model_input_tokens": 128995,
+  "model_output_tokens": 16263,
+  "model_cost_complete": true,
+  "model_cost_unknown_requests": 0,
+  "logical_calls": 36,
+  "automatic_retry": false,
+  "policy_sha256": "5bff7a9848fbcf25bf69dc7dbc289eb3a3b931d9bbdd6f9f8d9809105f502b88"
+}

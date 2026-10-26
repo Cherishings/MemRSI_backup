@@ -1,0 +1,25 @@
+{
+  "version": "advisor-rsi-two-proposals-v1",
+  "source": "/media/disks/disk1/share/ext_songzhiying/PAOS-LIBERO-RSI-20261023-gpu67-learn48k/source",
+  "core": "/media/disks/disk1/share/ext_songzhiying/PAOS-LIBERO-RSI-20261023-gpu67-learn48k/paos-core",
+  "parent_sha256": "8ce2f7adcb6b62a2104281c454a7391ae8b429dc03d552ac1068a89a06a922c3",
+  "train_manifest_sha256": "3e51663daadc7060048826224cfadcbe4862b9e6921126d2d14cc1a8412ec5b7",
+  "validation_manifest_sha256": "1748c5374bdfe28a0db03d67007553a9c068a59ad526417c4050846151d3f77c",
+  "budget_sha256": "cdc4a43eeb7c88f19eced59873acb63f33e0ddf57668634ce6fdb4625b95b152",
+  "learner_sha256": "04182237af7ff3d6e85ef453bac960bdea7436c7a196f1e845afc14482ab7fa7",
+  "method_sha256": "226c7bff3221cb1619c194d9569ac83b0a9d847f7fcccd3d229bfe67cb5e627a",
+  "maximum_proposals": {
+    "guidance": 1,
+    "update": 1
+  },
+  "maximum_critics_per_proposal": 1,
+  "maximum_training_sources": 4,
+  "maximum_validation_sources": 2,
+  "repetitions": 2,
+  "call_limit": 24000,
+  "optimizer_input_limit": 49152,
+  "optimizer_output_limit": 8192,
+  "test_inputs": [],
+  "network_retries": 0,
+  "selection": "larger training checkpoint gain; fewer edited operators; fewer total train+validation calls; arm name"
+}

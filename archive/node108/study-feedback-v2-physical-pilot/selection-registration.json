@@ -1,0 +1,72 @@
+{
+  "version": "feedback-v2-physical-pilot-v1",
+  "registered_at": 1792923216.5497198,
+  "node": "108",
+  "all_reserved_histories": [
+    "ABEDC",
+    "ACBDE"
+  ],
+  "prior_registered_histories": [
+    "ABCDE",
+    "ABCED",
+    "ABDCE",
+    "ABDEC",
+    "ABECD",
+    "ACEBD",
+    "BCADE",
+    "BDAEC",
+    "BECAD",
+    "CDEAB",
+    "CEABD",
+    "DABCE",
+    "DAEBC",
+    "DBACE",
+    "DEABC",
+    "EABCD",
+    "EADCB",
+    "EBACD",
+    "EBCAD",
+    "EDABC"
+  ],
+  "condition": {
+    "condition_id": "hACBDE-v1-i2",
+    "history": "ACBDE",
+    "variant": 1,
+    "init": 2
+  },
+  "arms": [
+    "native",
+    "g_only",
+    "u_only",
+    "gu_parent",
+    "gu_learned",
+    "rsi_g_only",
+    "rsi_u_only",
+    "think_u"
+  ],
+  "primary": "gu_learned",
+  "candidate_sha256": "a2e1bc92a3db7fccb65fbef7928f1ce7a6bca17f4dc78a565d2d47b5fa0e810f",
+  "parent_sha256": "3b661320727cca4d5321b5e8ce19398c4384214fae5422fd30b02c40907a060e",
+  "per_node_jobs": 8,
+  "total_jobs": 16,
+  "method_changes": false,
+  "budget_changes": false,
+  "selection_rule": "Complete all 16 paired episodes. Expand only if verified joint full success count strictly exceeds every other arm. No checkpoint substitution, no early stopping, no repeat sampling. Small-sample lead is not statistical proof",
+  "failure_policy": "No method retries; infrastructure failure pauses queue; preserve all attempts and costs",
+  "optimizer_may_read_results": false,
+  "final_test_started": false,
+  "physical_exposure_caveat": "Next two lexicographic unregistered instruction histories, init2 fixed by prior executor feasibility evidence. New comparison for candidate selection, not final test; scenes are previously exposed",
+  "training_report_sha256": "ae5c0746aa5462977900054ef9a704595aed5943b204e182a1be7331233d2f7f",
+  "prior_results_retained_at": "/data/songziying/paos-libero-20261023/study-contract-feasible-pilot-v1",
+  "init_selection_basis": "Previously registered physical feasibility only, not method ranking",
+  "policy_file_hashes": {
+    "native": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+    "g_only": "c989d4056668f6ff2ed218fdb905329219959f975990405226fd1988fbb168c1",
+    "u_only": "3d037a7ab50a5f6ef3728d2684ed7e6b74eb71c4a6403c9858123d90452fcb7b",
+    "gu_parent": "350d3aa06b53fd2e75c7ce35e24e32f133c05059782e82b64a1a33ae76d02225",
+    "gu_learned": "054fdcf44b11ea1115d70e1125b409fa235c17b02b7b2c588657abbd50c5158b",
+    "rsi_g_only": "f9094c43e415ac7c8383ee279fd33b7eee5d1a4f6579b403f3014a8af8034e3e",
+    "rsi_u_only": "c97a5ee63aefc8cb8e431273929845602dc00f52820d06d4264517192e0d429e",
+    "think_u": "38220d1e5da5b0e84457b94025b5bee3af36a2cb256782b2d1a45d60676caf45"
+  }
+}

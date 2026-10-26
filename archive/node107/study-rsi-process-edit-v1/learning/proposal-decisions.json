@@ -1,0 +1,23 @@
+{
+  "joint": {
+    "structurally_and_semantically_valid": false,
+    "rejection": {
+      "code": "critic_rejected",
+      "new_proposals_allowed": 0
+    },
+    "critic": {
+      "generic": "pass",
+      "generic_reason": "The candidate contains generic procedural refinements only; no concrete task identity or benchmark answer is embedded.",
+      "generic_quote": "",
+      "no_task_answers": "pass",
+      "no_task_answers_reason": "It does not reveal hidden evaluator information or provide executable benchmark-specific answers.",
+      "no_task_answers_quote": "",
+      "preserves_user_authority": "pass",
+      "preserves_user_authority_reason": "It repeatedly states that recommendations are nonbinding, the actor decides, and the advisor must not execute or veto.",
+      "preserves_user_authority_quote": "",
+      "preserves_advisor_interface": "fail",
+      "preserves_advisor_interface_reason": "The candidate imposes a citation restriction requiring only top-level source keys and forbidding event labels or receipt names, which changes the runtime evidence/citation interface rather than merely describing reasoning.",
+      "preserves_advisor_interface_quote": "use only the top-level source keys allowed for citations, and cite those keys rather than event labels or receipt names"
+    }
+  }
+}

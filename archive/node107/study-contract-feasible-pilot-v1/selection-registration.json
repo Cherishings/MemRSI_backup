@@ -1,0 +1,69 @@
+{
+  "version": "contract-feasible-pilot-v1",
+  "registered_at": 1792897744.8677711,
+  "node": "107",
+  "all_reserved_histories": [
+    "ABCDE",
+    "ABECD"
+  ],
+  "prior_registered_histories": [
+    "ABCDE",
+    "ABCED",
+    "ABDCE",
+    "ABDEC",
+    "ABECD",
+    "ACEBD",
+    "BCADE",
+    "BDAEC",
+    "BECAD",
+    "CDEAB",
+    "CEABD",
+    "DABCE",
+    "DAEBC",
+    "DBACE",
+    "DEABC",
+    "EABCD",
+    "EADCB",
+    "EBACD",
+    "EBCAD",
+    "EDABC"
+  ],
+  "condition": {
+    "condition_id": "hABCDE-v0-i2",
+    "history": "ABCDE",
+    "variant": 0,
+    "init": 2
+  },
+  "arms": [
+    "native",
+    "g_only",
+    "u_only",
+    "gu_parent",
+    "gu_learned",
+    "rsi_g_only",
+    "rsi_u_only",
+    "think_u"
+  ],
+  "primary": "gu_learned",
+  "candidate_sha256": "22a186de8ba897b7f2fd6f394819be1ba9a6a6c15bdf08783429ee278c3aa07c",
+  "parent_sha256": "3b661320727cca4d5321b5e8ce19398c4384214fae5422fd30b02c40907a060e",
+  "per_node_jobs": 8,
+  "total_jobs": 16,
+  "method_changes": false,
+  "budget_changes": false,
+  "selection_rule": "Complete all 16; expansion trigger is verified joint full-episode successes strictly greater than every other arm; no early stopping or repeated same-config sampling; report all results",
+  "failure_policy": "No method retries; infrastructure failure pauses queue; preserve all attempts and costs",
+  "optimizer_may_read_results": false,
+  "final_test_started": false,
+  "physical_exposure_caveat": "Exposed development histories, init2 chosen solely from physical feasibility evidence; not held-out validation or final test",
+  "policy_file_hashes": {
+    "native": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+    "g_only": "c989d4056668f6ff2ed218fdb905329219959f975990405226fd1988fbb168c1",
+    "u_only": "3d037a7ab50a5f6ef3728d2684ed7e6b74eb71c4a6403c9858123d90452fcb7b",
+    "gu_parent": "350d3aa06b53fd2e75c7ce35e24e32f133c05059782e82b64a1a33ae76d02225",
+    "gu_learned": "d34a42d3de374c88db67fbf9790a3ef194ad2b2e7b0627a7b9cf45658b88fcda",
+    "rsi_g_only": "976f871dd0566933ba7b5a72b2d83dffab3ca368e9c63e22fb210a70198e7685",
+    "rsi_u_only": "5586c82025ca30378718938b6ab3dc512cb779d86f89f91bcf3482c3be1f3aca",
+    "think_u": "b9eb5c390064e657fb784e8d3ba1cad7897e7accfd875e249682ffc96f65e4f6"
+  }
+}

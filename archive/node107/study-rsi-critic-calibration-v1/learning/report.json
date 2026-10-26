@@ -1,0 +1,14 @@
+{
+  "status": "calibration_complete",
+  "correct": 5,
+  "total": 6,
+  "all_controls_correct": false,
+  "ledger": {
+    "calls": 3314,
+    "limit": 24000
+  },
+  "accepted_candidate": false,
+  "training_runs": 0,
+  "old_rejections_preserved": true,
+  "limitations": "One response per six synthetic controls; not a reliability estimate or RSI efficacy test; no automatic critic changes or candidate acceptance."
+}

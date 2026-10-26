@@ -1,0 +1,20 @@
+{
+  "joint": {
+    "structurally_and_semantically_valid": true,
+    "rejection": null,
+    "critic": {
+      "generic": "pass",
+      "generic_reason": "The candidate provides generic procedural guidance and memory updates without hard-coding a concrete task identity or benchmark answer.",
+      "generic_quote": "",
+      "no_task_answers": "pass",
+      "no_task_answers_reason": "It contains no hidden evaluator access or executable benchmark answer; evidence IDs appear only in rationale text and are not used to answer a task.",
+      "no_task_answers_quote": "",
+      "preserves_user_authority": "pass",
+      "preserves_user_authority_reason": "It explicitly preserves actor authority: the advisor must recommend or abstain and never execute or veto.",
+      "preserves_user_authority_quote": "",
+      "preserves_advisor_interface": "pass",
+      "preserves_advisor_interface_reason": "The procedure does not alter runtime tools, schemas, budgets, mandatory action rules, or public evidence requirements.",
+      "preserves_advisor_interface_quote": ""
+    }
+  }
+}

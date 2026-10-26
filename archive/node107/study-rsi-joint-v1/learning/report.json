@@ -1,0 +1,123 @@
+{
+  "status": "training_complete_pending_independent_selection",
+  "accepted": false,
+  "selected_combination": "parent",
+  "selected_sha256": "3b661320727cca4d5321b5e8ce19398c4384214fae5422fd30b02c40907a060e",
+  "primary_candidate": "joint",
+  "training": {
+    "g_only_edit": {
+      "candidate": "g_only_edit",
+      "expected_pairs": 8,
+      "valid_pairs": 8,
+      "totals": {
+        "parent": {
+          "correct": 14,
+          "answered": 14,
+          "planned": 22
+        },
+        "g_only_edit": {
+          "correct": 16,
+          "answered": 17,
+          "planned": 22
+        }
+      },
+      "completed": {
+        "parent": 0,
+        "g_only_edit": 1
+      },
+      "correct_gain": 2,
+      "persistent_regressions": [],
+      "logical_calls": {
+        "parent": 183,
+        "g_only_edit": 190
+      },
+      "cost_ok": true,
+      "passed": true,
+      "stage": "training",
+      "scope": "Controlled full-history memory replay, not new physical task performance."
+    },
+    "u_only_edit": {
+      "candidate": "u_only_edit",
+      "expected_pairs": 8,
+      "valid_pairs": 8,
+      "totals": {
+        "parent": {
+          "correct": 14,
+          "answered": 14,
+          "planned": 22
+        },
+        "u_only_edit": {
+          "correct": 4,
+          "answered": 5,
+          "planned": 22
+        }
+      },
+      "completed": {
+        "parent": 0,
+        "u_only_edit": 0
+      },
+      "correct_gain": -10,
+      "persistent_regressions": [],
+      "logical_calls": {
+        "parent": 183,
+        "u_only_edit": 135
+      },
+      "cost_ok": true,
+      "passed": false,
+      "stage": "training",
+      "scope": "Controlled full-history memory replay, not new physical task performance."
+    },
+    "joint": {
+      "candidate": "joint",
+      "expected_pairs": 8,
+      "valid_pairs": 8,
+      "totals": {
+        "parent": {
+          "correct": 14,
+          "answered": 14,
+          "planned": 22
+        },
+        "joint": {
+          "correct": 21,
+          "answered": 22,
+          "planned": 22
+        }
+      },
+      "completed": {
+        "parent": 0,
+        "joint": 2
+      },
+      "correct_gain": 7,
+      "persistent_regressions": [],
+      "logical_calls": {
+        "parent": 183,
+        "joint": 226
+      },
+      "cost_ok": true,
+      "passed": true,
+      "stage": "training",
+      "scope": "Controlled full-history memory replay, not new physical task performance."
+    }
+  },
+  "validation": {},
+  "ledger": {
+    "calls": 1801,
+    "limit": 24000
+  },
+  "proposal_decisions": {
+    "joint": {
+      "structurally_and_semantically_valid": true,
+      "rejection": null,
+      "critic": {
+        "generic": true,
+        "no_task_answers": true,
+        "preserves_user_authority": true,
+        "preserves_advisor_interface": true,
+        "rationale": "Acceptable coordinated edits. They remain generic memory guidance rather than concrete task answers or identities; preserve actor decision authority, prohibit execution/veto and fabricated evidence, and retain public-evidence citations with abstention/uncertainty. The guidance improves exact target/operation and catalog-scope matching, receipt correlation, continuation handling, and live-obligation reconciliation without creating mandatory action overrides or evaluator access. The update remains native archival through save_memory and preserves authorization, triggers, revisions, pending extent, conditional work, conflicts, and evidence IDs while removing only on explicit cancellation or exact native completion."
+      }
+    }
+  },
+  "physical_evaluation_runs": 0,
+  "test_feedback_used": false,
+  "claim": "Joint candidate and exact component ablations evaluated on training only; no RSI success claimed."
+}

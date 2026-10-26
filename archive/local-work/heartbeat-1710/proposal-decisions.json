@@ -1,0 +1,20 @@
+{
+  "joint": {
+    "structurally_and_semantically_valid": true,
+    "rejection": null,
+    "critic": {
+      "generic": "pass",
+      "generic_reason": "The candidate makes generic procedural changes within the authorized scope: clearer output formatting, ledger fields, receipt correlation, and abstention rules. No criterion requires retaining the parent's exact wording.",
+      "generic_quote": "",
+      "no_task_answers": "pass",
+      "no_task_answers_reason": "It contains no concrete benchmark task identity, hidden evaluator result, or hard-coded answer; references to traces are confined to the edit rationale, not executable candidate text.",
+      "no_task_answers_quote": "",
+      "preserves_user_authority": "pass",
+      "preserves_user_authority_reason": "The candidate explicitly says “The actor decides” and does not fabricate user authorization or transfer execution or veto authority to the advisor.",
+      "preserves_user_authority_quote": "",
+      "preserves_advisor_interface": "pass",
+      "preserves_advisor_interface_reason": "It does not alter runtime tools, schemas, mandatory action overrides, or evidence access. The output instruction preserves the unchanged schema fields and public evidence-ID citation requirement.",
+      "preserves_advisor_interface_quote": ""
+    }
+  }
+}

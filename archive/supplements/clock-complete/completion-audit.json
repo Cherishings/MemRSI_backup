@@ -1,0 +1,178 @@
+{
+  "rows": 24,
+  "unique_paired_rows": 24,
+  "policy_bindings_and_real_calls_verified": true,
+  "report_sha256": "5021dafeaaa2260a02d62c1719ec9b444be65d05eaaf23477586d62486e92ec8",
+  "summary": {
+    "parent": {
+      "correct": 7,
+      "planned": 22,
+      "completed": 0,
+      "logical_calls": 146,
+      "input_tokens_lower_bound": 455175,
+      "output_tokens_lower_bound": 70343,
+      "cost_incomplete_cases": 4,
+      "unknown_requests": 8,
+      "statuses": {
+        "source_error_corrected": 4,
+        "agent_failure": 1,
+        "decision_failure": 3
+      }
+    },
+    "old_joint": {
+      "correct": 12,
+      "planned": 22,
+      "completed": 0,
+      "logical_calls": 199,
+      "input_tokens_lower_bound": 694629,
+      "output_tokens_lower_bound": 77989,
+      "cost_incomplete_cases": 4,
+      "unknown_requests": 16,
+      "statuses": {
+        "source_error_corrected": 3,
+        "decision_failure": 5
+      }
+    },
+    "latest_joint": {
+      "correct": 4,
+      "planned": 22,
+      "completed": 0,
+      "logical_calls": 146,
+      "input_tokens_lower_bound": 487719,
+      "output_tokens_lower_bound": 63743,
+      "cost_incomplete_cases": 3,
+      "unknown_requests": 10,
+      "statuses": {
+        "decision_failure": 7,
+        "agent_failure": 1
+      }
+    }
+  },
+  "selected_for_pilot": "old_joint",
+  "physical_success_claimed": false,
+  "old_joint_previous_reserved_failure_retained": true,
+  "no_new_proposal_replay_or_physical_run": true,
+  "next_stage_constraint": "Server deadline unknown; full eight-arm physical pilot availability cannot yet be assessed.",
+  "evidence": [
+    {
+      "output": "/data/songziying/paos-libero-20261023/study-rsi-clock-comparison-v1/learning/training/replays/000-parent-r0",
+      "result_sha256": "bf3a5c27512aa3543512902519734a6a8d825baccd7c47e54cd14e15f651e554",
+      "trace_sha256": "98de277caf3bac08811472a02074e55cf62399498b9034b57bef2c8bad3d0791"
+    },
+    {
+      "output": "/data/songziying/paos-libero-20261023/study-rsi-clock-comparison-v1/learning/training/replays/005-parent-r1",
+      "result_sha256": "13c83315ab4ade294e8c6695d6ac8e601cd1d4fbbc41af486654d91dd6d5f7f0",
+      "trace_sha256": "042a051f61efd52075985905289f38e8c149381af11f50ab909a38ea8760480c"
+    },
+    {
+      "output": "/data/songziying/paos-libero-20261023/study-rsi-clock-comparison-v1/learning/training/replays/008-parent-r0",
+      "result_sha256": "94085d2a43892283f167da58a6c876a90027c032b5c6ccba38eeeababfb6bef6",
+      "trace_sha256": "a889f88158270ba2601812dd3927aaf149b07248d02287ced180e73f8b9e47be"
+    },
+    {
+      "output": "/data/songziying/paos-libero-20261023/study-rsi-clock-comparison-v1/learning/training/replays/010-parent-r1",
+      "result_sha256": "328034fe7884112ccb4bf189a0df09c1a528b4789705e7e783771b44b7f2f6ab",
+      "trace_sha256": "08a573a91915fdeb28691b6a97d58aee22279a7f1be8b8149df9c95d2fe6707f"
+    },
+    {
+      "output": "/data/songziying/paos-libero-20261023/study-rsi-clock-comparison-v1/learning/training/replays/013-parent-r0",
+      "result_sha256": "eaff4fc8392fb7ab6a21c27e02ada3525204cfa1b3ebddc1b9320816a16c7cfb",
+      "trace_sha256": "9258bf38530e30d4d6c37717e34d317e741dc1667643e0ad55939d5b82c25a34"
+    },
+    {
+      "output": "/data/songziying/paos-libero-20261023/study-rsi-clock-comparison-v1/learning/training/replays/015-parent-r1",
+      "result_sha256": "3837c8d51aa7d8c8d9358346ca6910f11c703e929e6718450de16564fb6233bd",
+      "trace_sha256": "e8b645f46b32c55495420f7634eb2237f108dd52cf481aa9fd1e4100b17c563a"
+    },
+    {
+      "output": "/data/songziying/paos-libero-20261023/study-rsi-clock-comparison-v1/learning/training/replays/018-parent-r0",
+      "result_sha256": "7eea4dacf8155416bc98f7ead9a44c093aa180b25f89680d9b51b4cb9f9deb7e",
+      "trace_sha256": "1fc6d95e5034232e70a203e718003137eda90c43883dba501032ee525ddf0a27"
+    },
+    {
+      "output": "/data/songziying/paos-libero-20261023/study-rsi-clock-comparison-v1/learning/training/replays/023-parent-r1",
+      "result_sha256": "348753c605d08885d8a4dcf43201aad605beef3d8e4cb4c820751a0f83e4089a",
+      "trace_sha256": "2742223befd2f76d06039a76dc1b439daba09ef3fbe5738894d10dd8651e243d"
+    },
+    {
+      "output": "/data/songziying/paos-libero-20261023/study-rsi-clock-comparison-v1/learning/training/replays/001-old_joint-r0",
+      "result_sha256": "f73fcbaaa94d6bb9af5f0ff2eb777c82c0bde141d27671d5e859704d7abbc9a2",
+      "trace_sha256": "d584695615537eb00cc8bd318353b28d3d3f6e1c0e8baa8ae9e22a273d6da373"
+    },
+    {
+      "output": "/data/songziying/paos-libero-20261023/study-rsi-clock-comparison-v1/learning/training/replays/003-old_joint-r1",
+      "result_sha256": "1e7936e527f9ed730246024e84b7beee64f057494c4271d51d9275501145c6d4",
+      "trace_sha256": "685997ebee33e2327b219f8feee3f13b783f2d36f39e2ee139480f54e85a58b6"
+    },
+    {
+      "output": "/data/songziying/paos-libero-20261023/study-rsi-clock-comparison-v1/learning/training/replays/006-old_joint-r0",
+      "result_sha256": "d1fe41f6a1c88856421f9f3cbce075cf53996dc8bd494a07ead917f480892ba1",
+      "trace_sha256": "04758e2c59632cecc1d77644c2f369f03f22b72c0d442b44641dcf1589098c74"
+    },
+    {
+      "output": "/data/songziying/paos-libero-20261023/study-rsi-clock-comparison-v1/learning/training/replays/011-old_joint-r1",
+      "result_sha256": "25f6484c2e630b5a201f0701dabc49b737111e876b94e71668f59a9385df7ec7",
+      "trace_sha256": "6c83e587ba54217fc39deed05159608789e9833b1158ce7ff00b38675cfad758"
+    },
+    {
+      "output": "/data/songziying/paos-libero-20261023/study-rsi-clock-comparison-v1/learning/training/replays/014-old_joint-r0",
+      "result_sha256": "dcbc9795cd875afd210ac618f5ed47ac39dcd7b0c9cdb60675e77b8b4350cd7c",
+      "trace_sha256": "9a6b38a73b33da9415ff82600bc089cfd58c8b375c91427f756b3ba623e9b0e9"
+    },
+    {
+      "output": "/data/songziying/paos-libero-20261023/study-rsi-clock-comparison-v1/learning/training/replays/016-old_joint-r1",
+      "result_sha256": "6af598c2f1190964cdab1ffcdcdb2335162f7445824e1f7a8df53e19c81a38ce",
+      "trace_sha256": "1c25eef9d610744eb4bfb4b4f9323987124c6fa5d416ef7d434cd76b7e955cdc"
+    },
+    {
+      "output": "/data/songziying/paos-libero-20261023/study-rsi-clock-comparison-v1/learning/training/replays/019-old_joint-r0",
+      "result_sha256": "fcdf8562c0918e23c6aca0d256d984e13c5d3bccbfe75d8d6c35410c96b0e386",
+      "trace_sha256": "68ed49b967cf4d1fd56ce190d50423fb28f9e8b018fb07387a1e934e36d8ac5e"
+    },
+    {
+      "output": "/data/songziying/paos-libero-20261023/study-rsi-clock-comparison-v1/learning/training/replays/021-old_joint-r1",
+      "result_sha256": "3bf4f31ef58a3b5630b4da5d357675525a124845e4142bba794c323f42c49407",
+      "trace_sha256": "f0aefe596debda2fc97531f13bb4e1c26f6bdc1605907daf6a509ee1feb0d0de"
+    },
+    {
+      "output": "/data/songziying/paos-libero-20261023/study-rsi-clock-comparison-v1/learning/training/replays/002-latest_joint-r0",
+      "result_sha256": "f45bb54e17a8819827b7cf269eca28b774df271bcdd951c4ff9961e22f9be3ca",
+      "trace_sha256": "4859851497a9378b54bb17abbfbff8d2689b5108b31f1877772fe514982438b9"
+    },
+    {
+      "output": "/data/songziying/paos-libero-20261023/study-rsi-clock-comparison-v1/learning/training/replays/004-latest_joint-r1",
+      "result_sha256": "c69fff813b5f12625c3de6df190b92e9d9f3532263d12de0cb76bc1a596d0fc6",
+      "trace_sha256": "8fe94da056e015a624f8808a8cae49d5fbe22a11ad3f527a6968ab95a82188ec"
+    },
+    {
+      "output": "/data/songziying/paos-libero-20261023/study-rsi-clock-comparison-v1/learning/training/replays/007-latest_joint-r0",
+      "result_sha256": "3464f1fede1556c3d6c5a7091f4f270f542039c1876b8892f8d446b2e6482b1d",
+      "trace_sha256": "fa836f3049fd628223b923c328da28322285d7fe643d16740fd8bb9ef0c41c5e"
+    },
+    {
+      "output": "/data/songziying/paos-libero-20261023/study-rsi-clock-comparison-v1/learning/training/replays/009-latest_joint-r1",
+      "result_sha256": "69fa57f11d64a91690e391a9c03d572426127eeb007f215bd3c0b28dabfd92c4",
+      "trace_sha256": "fac9e0aac842b9060377aa524e1203b614d40a09825bf142ff37fb95c00a22f3"
+    },
+    {
+      "output": "/data/songziying/paos-libero-20261023/study-rsi-clock-comparison-v1/learning/training/replays/012-latest_joint-r0",
+      "result_sha256": "4606c50689087b826104fbedce5fefe8080d44d52e366a47b4eeaf1ff8acc342",
+      "trace_sha256": "f93dc5c646a979054918609711203e0fd0c27f165e16843602b557fa8b6f71d6"
+    },
+    {
+      "output": "/data/songziying/paos-libero-20261023/study-rsi-clock-comparison-v1/learning/training/replays/017-latest_joint-r1",
+      "result_sha256": "8636768df5e7b001d1145197ae67422fc94cb7de3c41a9ca13ff24e0d37e30c8",
+      "trace_sha256": "78ac901eada8c2eb83659d9e31bf273e9bceaf85056ad1996fa86bb534eb1fe4"
+    },
+    {
+      "output": "/data/songziying/paos-libero-20261023/study-rsi-clock-comparison-v1/learning/training/replays/020-latest_joint-r0",
+      "result_sha256": "44292d144a8b7f129e27d6a323dd38de138caf1855d4415a79cba5f980c02969",
+      "trace_sha256": "b02d743ce976aa0ff2a995b4341ae93021e6eee875d8f5a82b63534f9453c05e"
+    },
+    {
+      "output": "/data/songziying/paos-libero-20261023/study-rsi-clock-comparison-v1/learning/training/replays/022-latest_joint-r1",
+      "result_sha256": "30ad1b17aa4c134229e02789f86398bc834dc2e513e9bb785321e53f839873a1",
+      "trace_sha256": "448f5d373c1357fdd4f12534ba0f0bdd7f627a5d0bccb1b70e4bed9024c56875"
+    }
+  ]
+}

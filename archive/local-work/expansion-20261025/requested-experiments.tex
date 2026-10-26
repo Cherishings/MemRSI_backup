@@ -1,0 +1,431 @@
+============================================================
+% 5. EXPERIMENTS
+% Result cells and figures intentionally left empty.
+% ============================================================
+
+\section{Experiments}
+\label{sec:experiments}
+
+\subsection{Evaluation Protocol}
+
+We evaluate native PAOS, fixed memory rules, and MemRSI
+under matched execution settings.
+Table~\ref{tab:A1_protocol} lists the benchmark protocols,
+while Table~\ref{tab:A6_budget_parity} specifies
+resource and interface controls.
+
+\subsection{Cross-Benchmark Comparison}
+
+Table~\ref{tab:M1_main_results} compares task success
+across five embodied benchmarks.
+Each empty cell is reserved for the corresponding
+success rate (\%).
+
+% M1 | Main cross-benchmark results
+\begin{table*}[t]
+\centering
+\caption{\textbf{M1 | Cross-benchmark task success.}
+Columns report task success rate (\%) on five benchmarks;
+rows compare the native, fixed-rule, and MemRSI settings.}
+\label{tab:M1_main_results}
+\small
+\setlength{\tabcolsep}{8pt}
+\renewcommand{\arraystretch}{1.18}
+\begin{tabular}{@{}lccccc@{}}
+\toprule
+\rowcolor{cvprblue!8}
+\textbf{Method}
+& \textbf{LIBERO}
+& \textbf{RoboCasa}
+& \textbf{RoboTwin 2.0}
+& \textbf{ReMemBench}
+& \textbf{RMBench} \\
+\midrule
+Native PAOS & & & & & \\
+Fixed $G+U$ & & & & & \\
+\midrule
+\rowcolor{red!5}
+\textbf{MemRSI (Ours)} & & & & & \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\subsection{Component and Rule Controls}
+
+Table~\ref{tab:M2_gu_ablation} compares the contributions
+of Guidance and Update, including an inference control.
+Table~\ref{tab:M3_rsi_target_ablation} compares
+which rule is optimized during RSI.
+
+% M2 | Component ablation
+\begin{table*}[t]
+\centering
+\caption{\textbf{M2 | Guidance and Update ablations.}
+Columns show component settings and task success rates
+(\%) across three environments.}
+\label{tab:M2_gu_ablation}
+\small
+\setlength{\tabcolsep}{10pt}
+\renewcommand{\arraystretch}{1.18}
+\begin{tabular}{@{}lccccc@{}}
+\toprule
+\rowcolor{cvprblue!8}
+\textbf{Configuration}
+& \textbf{$G$}
+& \textbf{$U$}
+& \textbf{LIBERO}
+& \textbf{RoboCasa}
+& \textbf{RoboTwin 2.0} \\
+\midrule
+Native PAOS & Off & Native & & & \\
+Guidance only & On & Native & & & \\
+Update only & Off & Rule & & & \\
+Fixed $G+U$ & On & Rule & & & \\
+Generic thinking $+U$ & Control & Rule & & & \\
+\midrule
+\rowcolor{red!5}
+\textbf{MemRSI (Ours)} & On & Rule & & & \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+% M3 | Rule optimization targets
+\begin{table}[t]
+\centering
+\caption{\textbf{M3 | RSI optimization targets.}
+Compare development and held-out replay scores,
+test success, and accepted edits.}
+\label{tab:M3_rsi_target_ablation}
+\small
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.18}
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+\rowcolor{cvprblue!8}
+\textbf{Rule setting}
+& \textbf{Dev}
+& \textbf{Val}
+& \textbf{Test}
+& \textbf{Edits} \\
+\midrule
+Frozen parent & & & & \\
+Optimize $G$ & & & & \\
+Optimize $U$ & & & & \\
+\midrule
+\rowcolor{red!5}
+\textbf{Optimize $G+U$} & & & & \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Recursive Improvement Dynamics}
+
+Figure~\ref{fig:M4_rsi_dynamics} plots replay scores
+against RSI iteration and compares candidate
+and accepted rule revisions.
+
+% M4 | Empty full-width figure slot
+\begin{figure*}[t]
+\centering
+\emptyplot{0.92\textwidth}{1.55in}
+\caption{\textbf{M4 | RSI optimization dynamics.}
+Horizontal axis: RSI iteration. Vertical axes:
+development and held-out replay scores.
+Compare proposed, accepted, and rejected rule revisions.}
+\label{fig:M4_rsi_dynamics}
+\end{figure*}
+
+\subsection{Memory and Instruction Robustness}
+
+Figures~\ref{fig:M5_memory_budget}--\ref{fig:M7_dependency_gap}
+compare task success as memory capacity,
+request wording, and historical dependency gap vary.
+
+% M5 | Empty single-column figure slot
+\begin{figure}[t]
+\centering
+\emptyplot{0.96\columnwidth}{1.28in}
+\caption{\textbf{M5 | Memory-capacity sensitivity.}
+Horizontal axis: memory budget (tokens).
+Vertical axis: task success rate (\%).
+Compare native PAOS, fixed rules, and MemRSI.}
+\label{fig:M5_memory_budget}
+\end{figure}
+
+% M6 | Empty single-column figure slot
+\begin{figure}[t]
+\centering
+\emptyplot{0.96\columnwidth}{1.28in}
+\caption{\textbf{M6 | Instruction perturbations.}
+Horizontal axis: original, paraphrased, and distracting
+instructions. Vertical axis: task success rate (\%).
+Compare the three memory configurations.}
+\label{fig:M6_perturbation}
+\end{figure}
+
+% M7 | Empty single-column figure slot
+\begin{figure}[t]
+\centering
+\emptyplot{0.96\columnwidth}{1.28in}
+\caption{\textbf{M7 | Temporal dependency gap.}
+Horizontal axis: intervening task segments or sessions.
+Vertical axis: task success rate (\%).
+Compare history types and environments.}
+\label{fig:M7_dependency_gap}
+\end{figure}
+
+\subsection{Computation and Runtime}
+
+Figure~\ref{fig:M8_cost_analysis} compares online
+execution cost with offline rule-optimization cost.
+
+% M8 | Empty full-width figure slot
+\begin{figure*}[t]
+\centering
+\emptyplot{0.92\textwidth}{1.55in}
+\caption{\textbf{M8 | Runtime and optimization cost.}
+Horizontal axis: method or execution stage.
+Vertical axes: logical calls, token usage, and wall time.
+Compare online execution with offline RSI.}
+\label{fig:M8_cost_analysis}
+\end{figure*}
+
+
+% ============================================================
+% 6. CONCLUSION (reserved)
+% ============================================================
+
+\FloatBarrier
+\section{Conclusion}
+\label{sec:conclusion}
+% Reserved for the final conclusion.
+
+
+% ============================================================
+% APPENDIX
+% ============================================================
+
+\FloatBarrier
+\appendix
+\section{Supplementary Experimental Material}
+\label{sec:appendix}
+
+\subsection{Experimental Protocol and Repetition}
+
+Table~\ref{tab:A1_protocol} summarizes benchmark splits.
+Figure~\ref{fig:A2_order_sensitivity} compares task order
+and repeated execution.
+Table~\ref{tab:A3_statistics} reserves
+paired statistical comparisons.
+
+% A1 | Split and executor matrix
+\begin{table*}[t]
+\centering
+\caption{\textbf{A1 | Benchmark protocol and splits.}
+Columns list task sources, development and test splits,
+executors, and rule versions.}
+\label{tab:A1_protocol}
+\small
+\setlength{\tabcolsep}{6pt}
+\renewcommand{\arraystretch}{1.16}
+\begin{tabular}{@{}llccccl@{}}
+\toprule
+\rowcolor{cvprblue!8}
+\textbf{Benchmark}
+& \textbf{Task source}
+& \textbf{Dev}
+& \textbf{Val}
+& \textbf{Test}
+& \textbf{Repeats}
+& \textbf{Executor / rules} \\
+\midrule
+LIBERO & & & & & & \\
+RoboCasa & & & & & & \\
+RoboTwin 2.0 & & & & & & \\
+\midrule
+ReMemBench & & & & & & \\
+RMBench & & & & & & \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+% A2 | Empty full-width figure slot
+\begin{figure*}[t]
+\centering
+\emptyplot{0.92\textwidth}{1.50in}
+\caption{\textbf{A2 | Order and repetition sensitivity.}
+Horizontal axis: task-order variant or repeat index.
+Vertical axes: task success and repeat consistency.}
+\label{fig:A2_order_sensitivity}
+\end{figure*}
+
+% A3 | Statistical analysis worksheet
+\begin{table*}[t]
+\centering
+\caption{\textbf{A3 | Statistical comparisons.}
+Columns reserve effect size, confidence interval,
+statistical test, and sensitivity to incomplete runs.}
+\label{tab:A3_statistics}
+\small
+\setlength{\tabcolsep}{6pt}
+\renewcommand{\arraystretch}{1.16}
+\begin{tabular}{@{}lcccccc@{}}
+\toprule
+\rowcolor{cvprblue!8}
+\textbf{Comparison}
+& \textbf{Effect}
+& \textbf{95\% CI}
+& \textbf{Test}
+& \textbf{$p$}
+& \textbf{Adj. $p$}
+& \textbf{Missingness} \\
+\midrule
+Fixed $G+U$ vs. native & & & & & & \\
+MemRSI vs. native & & & & & & \\
+MemRSI vs. fixed $G+U$ & & & & & & \\
+Generic thinking vs. fixed & & & & & & \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\subsection{Failure Modes and Memory Evidence}
+
+Table~\ref{tab:A4_failure_taxonomy} categorizes
+failure stages. Figure~\ref{fig:A5_info_flow}
+compares successful and unsuccessful memory traces.
+
+% A4 | Failure taxonomy matrix
+\begin{table*}[t]
+\centering
+\caption{\textbf{A4 | Failure-mode taxonomy.}
+Columns compare failure counts by stage and method.}
+\label{tab:A4_failure_taxonomy}
+\small
+\setlength{\tabcolsep}{7pt}
+\renewcommand{\arraystretch}{1.16}
+\begin{tabular}{@{}lp{6.0cm}ccc@{}}
+\toprule
+\rowcolor{cvprblue!8}
+\textbf{Failure category}
+& \textbf{Evidence criterion}
+& \textbf{Native}
+& \textbf{Fixed}
+& \textbf{MemRSI} \\
+\midrule
+Observation & & & & \\
+Memory consolidation & & & & \\
+Evidence retrieval / planning & & & & \\
+Low-level execution & & & & \\
+Protocol & & & & \\
+Infrastructure & & & & \\
+Unresolved & & & & \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+% A5 | Empty full-width figure slot
+\begin{figure*}[t]
+\centering
+\emptyplot{0.92\textwidth}{1.55in}
+\caption{\textbf{A5 | Memory information-flow cases.}
+Compare successful and failed cases from request
+and archival to evidence selection, action, and receipt.}
+\label{fig:A5_info_flow}
+\end{figure*}
+
+\subsection{Resource and Rule Audits}
+
+Table~\ref{tab:A6_budget_parity} compares resource limits
+and interfaces. Table~\ref{tab:A7_rule_edit_log}
+reserves rule-edit records.
+Figure~\ref{fig:A8_physical_verification}
+compares completion claims with physical outcomes.
+
+% A6 | Resource controls
+\begin{table*}[t]
+\centering
+\caption{\textbf{A6 | Resource and interface controls.}
+Columns compare configured budgets and archival routes.}
+\label{tab:A6_budget_parity}
+\small
+\setlength{\tabcolsep}{7pt}
+\renewcommand{\arraystretch}{1.16}
+\begin{tabular}{@{}lcccccc@{}}
+\toprule
+\rowcolor{cvprblue!8}
+\textbf{Configuration}
+& \textbf{Input}
+& \textbf{Memory}
+& \textbf{Output}
+& \textbf{Calls}
+& \textbf{Exposure}
+& \textbf{Archival} \\
+\midrule
+Native PAOS & & & & & & \\
+Guidance only & & & & & & \\
+Update only & & & & & & \\
+Fixed $G+U$ & & & & & & \\
+Generic thinking $+U$ & & & & & & \\
+\midrule
+\rowcolor{red!5}
+\textbf{MemRSI (Ours)} & & & & & & \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+% A7 | Rule-edit log
+\begin{table*}[t]
+\centering
+\caption{\textbf{A7 | RSI rule-edit log.}
+Columns record edited modules, before/after rules,
+replay scores, and acceptance decisions.}
+\label{tab:A7_rule_edit_log}
+\small
+\setlength{\tabcolsep}{7pt}
+\renewcommand{\arraystretch}{1.16}
+\begin{tabular}{@{}ccllccc@{}}
+\toprule
+\rowcolor{cvprblue!8}
+\textbf{Round}
+& \textbf{Module}
+& \textbf{Before}
+& \textbf{After}
+& \textbf{$\Delta$Dev}
+& \textbf{$\Delta$Val}
+& \textbf{Decision} \\
+\midrule
+0 & & & & & & \\
+1 & & & & & & \\
+2 & & & & & & \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+% A8 | Empty figure with companion worksheet
+\begin{figure*}[t]
+\centering
+\emptyplot{0.92\textwidth}{1.55in}
+\vspace{0.6em}
+{\small
+\setlength{\tabcolsep}{8pt}
+\renewcommand{\arraystretch}{1.14}
+\begin{tabular}{@{}llllc@{}}
+\toprule
+\rowcolor{cvprblue!8}
+\textbf{Case}
+& \textbf{Method}
+& \textbf{Finish claim}
+& \textbf{Physical verdict}
+& \textbf{Match?} \\
+\midrule
+& Native PAOS & & & \\
+\rowcolor{red!5}
+& MemRSI & & & \\
+\bottomrule
+\end{tabular}
+}
+\caption{\textbf{A8 | Completion claims and physical states.}
+Compare the agent's finish declaration with the
+independently evaluated outcome of the same case.}
+\label{fig:A8_physical_verification}
+\end{figure*}
